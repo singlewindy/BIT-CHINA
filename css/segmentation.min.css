@@ -143,6 +143,10 @@
     padding: 50px 60px;
 }
 
+.section b,strong{
+    font-weight: bold;
+}
+
 .section h1 {
     font-family: Myriad Pro, Gill Sans MT, Trebuchet MS, Arial, Sans-Serif;
     font-weight: 200;
@@ -158,10 +162,10 @@
 }
 
 .section h2 {
-    font-family: proxima-nova,sans-serif;
+    font-family: Myriad Pro, Gill Sans MT, Trebuchet MS, Arial, Sans-Serif;
     letter-spacing: -0.03em;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 14px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -215,37 +219,75 @@
 }
 
 .section.hero {
-    text-align: center;
     padding-bottom: 0;
-    overflow: hidden
+    overflow: hidden;
+    text-align: center;
 }
 
+
 .section.hero h1 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .section.hero p {
-    font-size: 18px;
-    line-height: 29px;
-    width: 700px;
+    font-size: 16px;
+    line-height: 25px;
+    width: 750px;
     margin: 20px auto 30px;
+    font-family: Georgia, Serif;
+    text-align: left;
+
 }
 
-.section.hero .hero-image {
-    width: 947px;
-    height: 434px;
-    margin-top: 75px;
-    position: relative;
+.section.hero .image {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.section.hero .hero-image .dude {
+.image .com{
+    text-align: middle;
+    margin-top: 10px;
+
+}
+/*.section.hero .image .dude {
     position: absolute;
     bottom: 0;
     left: 50%;
     margin-left: -126px;
     z-index: 3;
+}*/
+
+.content .p-title{
+    background-image: url(../img/title/bg-4.png);
+    background-position: 0% 100%;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: block;
+    font-family: museo-sans, 'Museo Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    height: 43px;
+    letter-spacing: -1px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+    width: 235px;
+    float: left;
+    margin-right: 10px;
 }
 
+ .image{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Georgia, Serif;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
 .section.hero .hero-image .animation .halo {
     width: 948px;
     height: 434px;
@@ -331,8 +373,17 @@
     transform: translate3d(0,0,0) scale3d(1,1,1);
 }
 
-.section.questions-you-can-ask {
+/*.section.questions-you-can-ask {
     background: #f3f6ff;
+}*/
+
+.section.text {
+    background: #f3f6ff;
+    font-family: Georgia, Serif;
+}
+
+.section.text p {
+    font-family: Georgia, Serif;
 }
 
 .section.questions-you-can-ask h2 {
