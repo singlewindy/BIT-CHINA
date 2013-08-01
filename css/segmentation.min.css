@@ -232,7 +232,7 @@
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    height: 311px;
+    height: 250px;
     line-height: 18px;
     opacity: 1;
     position: relative;
@@ -320,7 +320,7 @@
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    height: 311px;
+    height: 250px;
     line-height: 18px;
     opacity: 1;
     position: relative;
@@ -605,9 +605,7 @@
     transform: translate3d(0,0,0) scale3d(1,1,1);
 }
 
-/*.section.questions-you-can-ask {
-    background: #f3f6ff;
-}*/
+
 
 .section.text {
     background: #f3f6ff;
@@ -695,14 +693,8 @@
     overflow: hidden;
 }
 
-.section.goodbye-sql .image .back img {
-    position: absolute;
-    right: 0;
-}
 
-.section.powerful-targeting {
-    padding: 50px 0 0 62px;
-}
+
 
 .section.powerful-targeting h2 {
     color: #a58bd6;
