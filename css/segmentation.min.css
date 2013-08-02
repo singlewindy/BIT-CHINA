@@ -202,7 +202,9 @@
     padding: 10px 15px 3px 20px;
 }
 /*---------------------------------rewrite-------------------------------------*/
-
+.name{
+    color: #DC143C;
+}
 .info_box img{
     margin: 6px;
     float: left;
@@ -214,6 +216,7 @@
     letter-spacing: 1px;
     padding: 20px;
     margin-left: 10px;
+    font-family: 'Glass Antiqua', cursive;
 }
 .group{
     font-weight: bold;

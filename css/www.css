@@ -1,0 +1,35 @@
+img{max-width:100%;width:auto 9;height:auto;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
+
+.listing-box{background:#fff;-webkit-box-shadow:0 1px 2px 0 #555;box-shadow:0 1px 2px 0 #555;}
+.listing-box:hover{-webkit-box-shadow:0 0 3px 0 #08c;box-shadow:0 0 3px 0 #08c}
+.listing-box-wide{font-size:14px;line-height:24px;height:158px;overflow:hidden;position:relative;-webkit-box-shadow:0 1px 2px 0 #ccc;box-shadow:0 1px 2px 0 #ccc;border-top:1px solid #eee;margin-bottom:24px;}
+.listing-box-wide:hover{-webkit-box-shadow:0 1px 3px #3a6e8f;box-shadow:0 1px 3px #3a6e8f}
+.listing-box-wide .listing-icon{float:left;margin-right:16px;border-right:1px solid #ccc;height:100%;width:290px;height:163px}
+.listing-box-wide .listing-meta{font-family:"sofiapro",Arial,sans-serif;float:right;width:200px;height:158px;padding-left:16px;padding-top:12px;border-left:1px solid #ccc}
+.listing-box-wide .listing-text{padding:0 12px 6px 12px;font-size:14px;color:#555;}
+.listing-box-wide .listing-text .listing-name{margin-top:0;font-size:18px;line-height:1.5em;padding-top:12px}
+.listing-box-wide .listing-text .listing-more{color:#555;padding-bottom:12px;width:700px;}
+.listing-box-wide .listing-text .listing-more .listing-instructor{font-size:14px;line-height:1.5em;color:#555;padding-bottom:6px}
+.listing-box-wide .listing-text .listing-more .listing-descrip{display:none}
+.listing-box-wide .listing-text .listing-more .listing-universities{position:absolute;bottom:12px;margin-left:280px;}
+.listing-box-wide .listing-text .listing-more .listing-universities div{margin-top:-5px;margin-bottom:-5px}
+.listing-box-wide .listing-text .listing-more .listing-university{margin:6px 6px 6px 14px;font-family:"sofiapro",Arial,sans-serif;font-size:12px;}
+.listing-box-wide .listing-text .listing-more .listing-university img{vertical-align:middle;margin-right:4px;width:16px;height:16px}
+.listing-box p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+.name{
+	color: red;
+	float: left;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+
+
+
+
+
