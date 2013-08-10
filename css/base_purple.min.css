@@ -1,6 +1,6 @@
 body {
     font-family: proxima-nova,sans-serif;
-    background: url(../img/purple_grid.png) #9d3353;
+    background: url(../img/bgground.png) fixed;
 }
 
 .clear {
@@ -100,7 +100,7 @@ input:focus,textarea:focus {
 
 #width_wrapper {
     margin-top: 30px;
-    width: 1066px;
+    width: 1196px;
     margin: 0 auto;
 }
 
