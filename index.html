@@ -1,17 +1,26 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" href="./img/favicon.png" type="image/png">
-    <link rel="stylesheet" href="css/base.min.css" type="text/css">
-
-    <link rel="stylesheet" href="css/base_purple.min.css" type="text/css">
-    <link rel="stylesheet" href="css/base_white.min.css" type="text/css">
-    <link rel="stylesheet" href="css/homepage2013.min.css" type="text/css">
+    <link rel="stylesheet" href="css/base.min.css?action=raw&ctype=text/css" type="text/css">
+    <link rel="stylesheet" href="css/base_purple.min.css?action=raw&ctype=text/css" type="text/css">
+    <link rel="stylesheet" href="css/base_white.min.css?action=raw&ctype=text/css" type="text/css">
+    <link rel="stylesheet" href="css/homepage2013.min.css?action=raw&ctype=text/css" type="text/css">
     <title>HOME | BIT-CHINA IGEM2013</title>
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/eh.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+    <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
     <script type="text/javascript" src="js/nav.js"></script>
+    <script>
+        $(function(){
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 40
+            });
+        });
+        
+    </script>
     
 </head>
 
@@ -49,11 +58,8 @@
                     <ul class="subnav">
                         <li><a href="#">Overview</a></li>
                         <li><a href="#">Human Practices</a></li>
-                        <li><a href="#">FRED</a></li>
-                        <li><a href="#">OSCAR</a></li>
-                        <li><a href="#">Synergy</a></li>
-                        <li><a href="#">References</a></li>
-                        <li><a href="#">Attributions</a></li>
+                        <li><a href="#">CTS</a></li>
+                        <li><a href="#">IQQRS</a></li>
                     </ul>
                 </li>
                 <li class="navitem4">
@@ -93,7 +99,7 @@
                 <div class="page_content" style="position:relative; z-index:1;">
                     <div class="home ready">
                         <div class="top-section">
-                            <div class="parallax">
+                            <div class="parallax" data-stellar-ratio="0.3">
                                 <div class="content arrows">
                                     <div class="arrow left">
                                         <div class="sprite arrow-left"></div>
@@ -102,127 +108,92 @@
                                         <div class="sprite arrow-right"></div>
                                     </div>
                                 </div>
-                                <div class="heroes">
-                                    <div class="hero segmentation current">
-                                        <div class="content">
-                                            <div class="text">
-                                                <h1>Actions speak louder than page views.</h1>
-                                                <p>The most advanced analytics platform ever for mobile and the web.</p>
-                                                <div class="buttons">
-                                                    <a href="https://mixpanel.com/segmentation" class="action-button purple">Learn More</a>
-                                                    <a href="https://mixpanel.com/register" class="action-button white">Try it for free</a>
+                                <div style="margin-top:60px">
+                                    <div class="heroes">
+                                        <div class="hero segmentation current">
+                                            <div class="content">
+                                                <div class="text">
+                                                    <h1>BIT-CHINA</h1>
+                                                    <p>IGEM 2013</p>
+                                                    <div class="buttons">
+                                                        <a href="./project.html" class="action-button purple">Learn More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="subtle-animation">
+                                                    <div class="bg"></div>
                                                 </div>
                                             </div>
-                                            <img class="dude" src="img/dude.png">
-                                            <div class="subtle-animation">
-                                                <div class="halo"></div>
-                                                <div class="left"></div>
-                                                <div class="right"></div>
-                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="hero funnels">
-                                        <div class="background"></div>
-                                        <div class="bar cerulean"></div>
-                                        <div class="bar violet"></div>
-                                        <div class="bar bluegray"></div>
-                                        <div class="bar teal"></div>
-                                        <div class="content">
-                                            <div class="text">
-                                                <h1>See where you lose customers with funnels.</h1>
-                                                <p>Use funnel analysis to increase conversions by showing where visitors get lost in any process.</p>
+                                        
+                                        <div class="hero notifications">
+                                            <div class="background"></div>
+                                            <div class="content">
+                                                <div class="text">
+                                                    <h1>a possibility of automatic style</h1>
+                                                    <p>for the whole ferment industry.</p>
+                                                    <a href="#" class="action-button purple">Learn More</a>
+                                                </div>
+                                                <img class="phone" src="img/phone.png"></div>
                                             </div>
-                                            <a href="https://mixpanel.com/funnels" class="action-button purple">Learn More</a>
-                                        </div>
-                                    </div>
-                                    <div class="hero retention">
-                                        <div class="background"></div>
-                                        <div class="table"></div>
-                                        <div class="content">
-                                            <div class="text">
-                                                <h1>Improve retention.</h1>
-                                                <p>See if changes to your product or marketing improves customer retention.</p>
-                                            </div>
-                                            <img class="magnify" src="img/magnify.png">
-                                            <a href="https://mixpanel.com/retention" class="action-button cyan">Learn More</a>
-                                        </div>
-                                    </div>
-                                    <div class="hero people">
-                                        <div class="background"></div>
-                                        <img class="dude front" src="img/dude-front.png">
-                                        <img class="dude back" src="img/dude-back.png">
-                                        <div class="content">
-                                            <div class="text">
-                                                <h1>Get to know your customers.</h1>
-                                                <p>Tie data to your customers so you can see who they are and what they have done in your app.</p>
-                                            </div>
-                                            <a href="https://mixpanel.com/people" class="action-button purple">Learn More</a>
-                                        </div>
-                                    </div>
-                                    <div class="hero notifications">
-                                        <div class="background"></div>
-                                        <div class="content">
-                                            <div class="text">
-                                                <h1>Keep your customers.</h1>
-                                                <p>Automatically send email or push notifications to your customers and increase engagement.</p>
-                                                <a href="https://mixpanel.com/notifications" class="action-button purple">Learn More</a>
-                                            </div>
-                                            <img class="phone" src="img/phone.png"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="case-studies">
-                                <div class="content">
-                                    <div class="sprite icon-case-studies"></div>
+
+                            <div class="workmap">
+                                <div class="title">
                                     <h2>WORKMAP</h2>
-                                    <div class="blocks">
-                                        <div class="block lavendar">
-                                            <div class="igem-logo team"></div>
-                                            <blockquote>
-                                                <div class="quote">Who are we? What did we do? Where is this Calgary place, anyway? Click here to read our team profiles!</div>
-                                                <div class="author">TEAM</div>
-                                            </blockquote>
-                                            <a class="case-study-link" href="./team.html">View Detail <div class="sprite arrow-case-study"></div></a>
-                                        </div>
-                                        <div class="block">
-                                            <div class="igem-logo project"></div>
-                                            <blockquote>
-                                                <div class="quote small">Here is a collection of our major summer work and a interesting simulation game for you to get familiar with our project, just try it!</div><div class="author">PROJECT</div>
-                                            </blockquote>
-                                            <a class="case-study-link" href="./project.html">View Detail <div class="sprite arrow-case-study"></div></a>
-                                        </div>
-                                        <div class="block orange">
-                                            <div class="igem-logo parts"></div>
-                                            <blockquote>
-                                                <div class="quote">Here is a collection of all the parts we have submitted over the course of this project.</div>
-                                                <div class="author">PARTS</div>
-                                            </blockquote>
-                                            <a class="case-study-link" href="./parts.html">View Detail <div class="sprite arrow-case-study"></div></a>
-                                        </div>
-                                        <div class="block">
-                                            <div class="igem-logo model"></div>
-                                            <blockquote>
-                                                <div class="quote">Here is a replay of our modeling work, you can experience our brain stormming by reading this section!</div>
-                                                <div class="author">modeling</div>
-                                            </blockquote>
-                                            <a class="case-study-link" href="./modeling.html">View Detail <div class="sprite arrow-case-study"></div></a>
-                                        </div>
-                                        <div class="block cyan">
-                                            <div class="igem-logo notebook"></div>
-                                            <blockquote>
-                                                <div class="quote">Here is a record of our summer's work. We also want to thank everybody who helped us along the way!</div>
-                                                <div class="author">NOTEBOOK</div>
-                                            </blockquote>
-                                            <a class="case-study-link" href="./notebook.html">View Detail <div class="sprite arrow-case-study"></div></a>
-                                        </div>
-                                        <div class="block">
-                                            <div class="igem-logo safety"></div>
-                                            <blockquote>
-                                                <div class="quote">Here are some possible safety problems, and our solvement to it.</div>
-                                                <div class="author">SAFETY</div>
-                                            </blockquote>
-                                            <a class="case-study-link" href="./safety.html">View Detail <div class="sprite arrow-case-study"></div></a>
+                                </div>
+                                <div class="modules">
+                                    <div class="content">
+                                        <div class="blocks">
+                                            <div class="block lavendar">
+                                                <div class="igem-logo team"></div>
+                                                <blockquote>
+                                                    <div class="quote">Who are we? What did we do? Where is this Calgary place, anyway? Click here to read our team profiles!</div>
+                                                    <div class="author">TEAM</div>
+                                                </blockquote>
+                                                <a class="case-study-link" href="./team.html">View Detail <div class="sprite arrow-case-study"></div></a>
+                                            </div>
+                                            <div class="block">
+                                                <div class="igem-logo project"></div>
+                                                <blockquote>
+                                                    <div class="quote small">Here is a collection of our major summer work and a interesting simulation game for you to get familiar with our project, just try it!</div><div class="author">PROJECT</div>
+                                                </blockquote>
+                                                <a class="case-study-link" href="./project.html">View Detail <div class="sprite arrow-case-study"></div></a>
+                                            </div>
+                                            <div class="block orange">
+                                                <div class="igem-logo parts"></div>
+                                                <blockquote>
+                                                    <div class="quote">Here is a collection of all the parts we have submitted over the course of this project.</div>
+                                                    <div class="author">PARTS</div>
+                                                </blockquote>
+                                                <a class="case-study-link" href="./parts.html">View Detail <div class="sprite arrow-case-study"></div></a>
+                                            </div>
+                                            <div class="block">
+                                                <div class="igem-logo model"></div>
+                                                <blockquote>
+                                                    <div class="quote">Here is a replay of our modeling work, you can experience our brain stormming by reading this section!</div>
+                                                    <div class="author">modeling</div>
+                                                </blockquote>
+                                                <a class="case-study-link" href="./modeling.html">View Detail <div class="sprite arrow-case-study"></div></a>
+                                            </div>
+                                            <div class="block cyan">
+                                                <div class="igem-logo notebook"></div>
+                                                <blockquote>
+                                                    <div class="quote">Here is a record of our summer's work. We also want to thank everybody who helped us along the way!</div>
+                                                    <div class="author">NOTEBOOK</div>
+                                                </blockquote>
+                                                <a class="case-study-link" href="./notebook.html">View Detail <div class="sprite arrow-case-study"></div></a>
+                                            </div>
+                                            <div class="block">
+                                                <div class="igem-logo safety"></div>
+                                                <blockquote>
+                                                    <div class="quote">Here are some possible safety problems, and our solvement to it.</div>
+                                                    <div class="author">SAFETY</div>
+                                                </blockquote>
+                                                <a class="case-study-link" href="./safety.html">View Detail <div class="sprite arrow-case-study"></div></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -230,8 +201,6 @@
 
                             <div class="sponsers">
                                 <div class="content">
-                                    <div class="sprite icon-tv">
-                                    </div>
                                     <h2>SPONSERS</h2>
                                 </div>
                                 <div class="companies" align="center">
@@ -248,7 +217,7 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- #width_wrapper_full_viewport.world -->
+                </div>
             </div>
             <div id="footer_bg">
                 <div id="footer">
@@ -257,16 +226,7 @@
             </div>
         </div>
 
-    <script type="text/javascript" src="js/universal.min.js"></script>
-
-    <script src="js/re_.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/homepage2013.min.js"></script>
-    <script type="text/javascript">
-        js.homepage2013.bootstrap();
-        $(window).on('load', function() {
-            js.mixpanel.track('homepage new', {mp_note: 'Came from: ' + document.referrer, version: '2013' });
-        });
-    </script>
-    <script type="text/javascript" src="./js/empty.js"></script>
+    <script type="text/javascript" src="js/empty.js"></script>
 
 </body>
+</html>

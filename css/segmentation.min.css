@@ -83,7 +83,7 @@
 
 #sidebar {
 	position: absolute;
-	width: 210px;
+	width: 300px;
 	z-index: 0;
 }
 
@@ -138,7 +138,7 @@
 }
 
 .section {
-	margin-left: 220px;
+	margin-left: 310px;
     position: relative;
     padding: 50px 60px;
 }
@@ -208,17 +208,10 @@
 
 .group{
     font-weight: bold;
-    font-family: 'Finger Paint', cursive;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
-    height: 30px;
-    color: #ffffff;
-    padding-top: 10px;
-    padding-left: 10px;
-
-
-    background-color: #5bc0de;
-    border-radius: .25em;
-    margin-bottom: 10px;
+    color: gray;
+    margin-bottom: 5px;
 
 }
 
@@ -336,7 +329,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   margin-right: 10px;
-  font-family: 'Finger Paint', cursive;
+  font-family: 'Rum Raisin', sans-serif;
   letter-spacing: 1px;
 }
 
@@ -523,9 +516,9 @@
     font-family: Georgia, Serif;
 }
 
-/*.section.text p {
+.section.text p {
     font-family: Georgia, Serif;
-}*/
+}
 
 .section.questions-you-can-ask h2 {
     color: #a58bd6;
