@@ -87,11 +87,63 @@
 	z-index: 0;
 }
 
+#sidebar .navis{
+    padding-left: 80px;
+}
+
+
+
+#sidebar .temper{
+    position: absolute;
+    width: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 800px;
+    z-index: 0;
+}
+
+#sidebar .list .temper .temp-head{
+    background: url('../img/temp-head.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    height: 70px;
+}
+
+#sidebar .list .temper .temp-body{
+    background: url('../img/temp-body.png');
+    background-repeat: repeat-y;
+    background-size: 70px;
+    height: inherit;
+}
+
+#sidebar .list .temper .temp-tail{
+    background: url('../img/temp-tail.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #sidebar .list {
 	background: #333333;
 }
 
-#sidebar .list#team {
+
+/*#sidebar .list#team {
     border-left: 10px solid #9999FF;
 }
 
@@ -105,7 +157,9 @@
 
 #sidebar .list#notebook {
     border-left: 10px solid #FFCC00;
-}
+}*/
+
+
 
 #sidebar h2 {
 	color: white;
