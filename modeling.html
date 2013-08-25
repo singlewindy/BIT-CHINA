@@ -10,6 +10,20 @@
     <title>MODELING | BIT-CHINA IGEM2013</title>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript">
+        function temper(n, des){
+         var temp = document.getElementById("mercury");
+         var height = 25 * n;
+         temp.style.height = height + 'px';
+
+         var scroll_offset = $(des).offset();  //得到pos这个div层的offset，包含两个值，top和left
+         scroll_offset.top = scroll_offset.top - 100;
+         $("body,html").animate({
+            scrollTop:scroll_offset.top  //让body的scrollTop等于pos的top，就实现了滚动
+         },1000);
+        }
+
+    </script>
 
 </head>
 
@@ -80,54 +94,64 @@
         </div>
     </div>
 </div>
-
+</div>
 <div id="width_wrapper">
 <div id="empty" class></div>
 
 <!-- sidebar -->
-<div class="section top-bar"></div>
+
     <div id="sidebar">
         <div class="list" id="modeling">
-        <h2>Modeling</h2>
+
+            <div class=temper>
+                <div class="temp-head"></div>
+                <div class="temp-body">
+                    <div id="mercury"></div>
+                </div>
+                <div class="temp-tail"></div>
+
+
+            </div>
+
+        <div class="navis">
+
+        <h2><a href="javascript:void(0);" onclick="temper(0, '#modeling')">Modeling</a></h2>
     
 <ul>
     <li>
-        <a class="drop" href="＃">Overview</a>
+        <a href="javascript:void(0);" onclick="temper(1,'#overview')">Overview</a>
         <ul>
-            <li><a href="＃">Modeling Goals</a></li>
-            <li><a href="＃">The Model</a></li>
-            <li><a href="＃">Implementation of the Model</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(2)">Modeling Goals</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(3)">The Model</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(4)">Implementation of the Model</a></li>
         </ul>
     </li>
     <li>
-        <a class="drop" href="＃">Derivations</a>
+        <a href="javascript:void(0);" onclick="temper(5)">Derivations</a>
         <ul>
-            <li><a href="＃">Documentation Preface</a></li>
-            <li><a href="＃">Experimental Data Analysis</a></li>
-            <li><a href="＃">Equilibrium Constants</a></li>
-            <li><a href="＃">Degradation</a></li>
-            <li><a href="＃">mRNA Expression</a></li>
-            <li><a href="＃">Protein Expression</a></li>
-            <li><a href="＃">Polymerase Per Second</a></li>
-            <li><a href="＃">Fitting</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(6)">Documentation Preface</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(7)">Experimental Data Analysis</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(8)">Equilibrium Constants</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(9)">Degradation</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(6)">mRNA Expression</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(6)">Protein Expression</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(6)">Polymerase Per Second</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(6)">Fitting</a></li>
         </ul>
     </li>
     <li>
-        <a class="drop" href="＃">Matlab</a>
+        <a href="javascript:void(0);" onclick="temper(6)">Matlab</a>
         <ul>
-            <li><a href="＃">Inputs</a></li>
-            <li><a href="＃">Walkthrough</a></li>
-            <li><a href="＃">Outputs</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(6)">Inputs</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(6)">Walkthrough</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(6)">Outputs</a></li>
         </ul>
     </li>
 </ul>
 
 
+        </div>
     </div>
-    <!--
-    <div id="sidebarimg">
-    </div>
-    -->
 </div>
 
             <div class="section pagetitle modeling">
@@ -219,5 +243,6 @@
 </div>
 
 <script type="text/javascript" src="./js/empty.js"></script>
+<script type="text/javascript" src="./js/sidebar.js"></script>
 
 </body>
