@@ -87,6 +87,11 @@
 	z-index: 0;
 }
 
+#sidebar.fixed {
+    position: fixed;
+    top: 65px;
+}
+
 #sidebar .navis{
     padding-left: 80px;
 }
@@ -98,8 +103,25 @@
     width: 70px;
     padding-left: 10px;
     padding-top: 10px;
-    height: 800px;
+    height: 450px;
     z-index: 0;
+}
+
+#sidebar .list .temper #mercury {
+    width: 37px;
+    margin-left: 17px;
+    margin-top: -10px;
+    background: #e0a78f;
+    background-image: -webkit-linear-gradient(top,#e0a78f,#df815a);
+    background-image: -moz-linear-gradient(top,#e0a78f,#df815a);
+    background-image: -ms-linear-gradient(top,#e0a78f,#df815a);
+    background-image: -o-linear-gradient(top,#e0a78f,#df815a);
+    background-image: linear-gradient(top,#e0a78f,#df815a);
+    -webkit-transition: height 0.4s ease-out;
+    -moz-transition: height 0.4s ease-out;
+    -ms-transition: height 0.4s ease-out;
+    -o-transition: height 0.4s ease-out;
+    transition: height 0.4s ease-out
 }
 
 #sidebar .list .temper .temp-head{
@@ -123,23 +145,8 @@
     height: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #sidebar .list {
-	background: #333333;
+	/*background: #333333;*/
 }
 
 

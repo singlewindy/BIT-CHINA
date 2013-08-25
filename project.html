@@ -11,6 +11,13 @@
     <title>PROJECT | BIT-CHINA IGEM2013</title>
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/nav.js"></script>
+    <script type="text/javascript">
+        function temper(n){
+         var temp = document.getElementById("mercury");
+         var height = 25 * n;
+         temp.style.height = height + 'px';
+        }
+    </script>
 
 </head>
 
@@ -92,9 +99,10 @@
 
 
             <div class=temper>
-                <div class="mercury"></div>
                 <div class="temp-head"></div>
-                <div class="temp-body"></div>
+                <div class="temp-body">
+                    <div id="mercury" style="height:25px"></div>
+                </div>
                 <div class="temp-tail"></div>
 
 
@@ -111,59 +119,29 @@
     
     <ul>
         <li>
-        <a class="drop" href="./index.html">Overview</a>
+        <a class="drop" href="javascript:void(0);" onclick="temper(1)">Overview</a>
         </li>
         <li>
-        <a class="drop" href="#">Human Practices</a>
+        <a class="drop" href="javascript:void(0);" onclick="temper(2)">Human Practices</a>
         <ul>
-            <li><a href="#">Initiative</a></li>
-            <li><a href="#">Interviews</a></li>
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Killswitch</a></li>
-            <ul> 
-                <li><a href="#">Regulation</a></li>
-                <li><a href="#">Kill Genes</a></li>
-            </ul>
+            <li><a href="javascript:void(0);" onclick="temper(3)">Initiative</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(4)">Interviews</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(5)">Design</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(6)">Killswitch</a></li>
         </ul>
         <li>
-        <a class="drop" href="#">CTS</a>
+        <a class="drop" href="javascript:void(0);" onclick="temper(7)">CTS</a>
         <ul>
-            <li><a href="#">RNA thermometer</a></li>
-            <ul> 
-                <li><a href="#">Results</a></li>
-                <li><a href="#">Data page</a></li>
-                <li><a href="#">Reference</a></li>
-            </ul>
-
-            <li><a href="#">Heat shock proteins(HSPs)</a></li>
-            <ul> 
-                <li><a href="#">Results</a></li>
-                <li><a href="#">Data page</a></li>
-                <li><a href="#">Reference</a></li>
-            </ul>
+            <li><a href="javascript:void(0);" onclick="temper(8)">RNA thermometer</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(9)">HSPs</a></li>
         </ul>
         </li>
         <li>
-            <a class="drop" href="#fred">IQQRS</a>
+            <a class="drop" href="javascript:void(0);" onclick="temper(10)">IQQRS</a>
             <ul>
-                <li><a href="#">Quorum-sensing device</a></li>
-                <ul> 
-                    <li><a href="#">Results</a></li>
-                    <li><a href="#">Data page</a></li>
-                    <li><a href="#">Reference</a></li>
-                </ul>
-                <li><a href="#">Independent variable frequency oscillator</a></li>
-                <ul> 
-                    <li><a href="#">Results</a></li>
-                    <li><a href="#">Data page</a></li>
-                    <li><a href="#">Reference</a></li>
-                </ul>
-                <li><a href="#">PCD device</a></li>
-                <ul> 
-                    <li><a href="#">Results</a></li>
-                    <li><a href="#">Data page</a></li>
-                    <li><a href="#">Reference</a></li>
-                </ul>
+                <li><a href="javascript:void(0);" onclick="temper(12)">Quorum-sensing device</a></li>
+                <li><a href="javascript:void(0);" onclick="temper(14)">Independent variable frequency oscillator</a></li>
+                <li><a href="javascript:void(0);" onclick="temper(16)">PCD device</a></li>
             </ul>
         </li>
     </ul>
@@ -240,21 +218,6 @@ But the temperature is sill going up with density. Too crowded! There must be a 
 
 
 <!--  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             <div class="layer-title">Human practice</div>
             <p>Our design is a self-control system. It not only enlarge the temperature tolerance maximum, but also set a limit on density and released heat, so that the manufacture progress can be kept on the best condition. The idea can not only decrease the consumption of energy, but also bring an evolution of bio-manufacture industry. In a word, although our work is far from perfect, but it provide a possibility of automatic style for the whole ferment industry.</p>
