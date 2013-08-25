@@ -2,8 +2,7 @@
         var $w = $(window);
         var $nav = $("#navigation");
         var $emp = $('#empty');
-        var $sid = $('#sidebar')
-        
+        var $sid = $('#sidebar');
 
         $w.scroll(function() {
             $nav[$w.scrollTop() > 106 ? "addClass" : "removeClass"]("fixed");
