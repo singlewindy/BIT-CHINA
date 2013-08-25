@@ -103,8 +103,20 @@
     width: 70px;
     padding-left: 10px;
     padding-top: 10px;
-    height: 450px;
     z-index: 0;
+}
+
+#sidebar .temper .team_height{
+    height: 250px;
+}
+#sidebar .temper .project_height{
+    height: 450px;
+}
+#sidebar .temper .notebook_height{
+    height: 330px;
+}
+#sidebar .temper .model_height{
+    height: 450px;
 }
 
 #sidebar .list .temper #mercury {
@@ -145,26 +157,6 @@
     height: 40px;
 }
 
-#sidebar .list {
-	/*background: #333333;*/
-}
-
-
-/*#sidebar .list#team {
-    border-left: 10px solid #9999FF;
-}
-
-#sidebar .list#project {
-    border-left: 10px solid #0099FF;
-}
-
-#sidebar .list#modeling {
-    border-left: 10px solid #99CC33;
-}
-
-#sidebar .list#notebook {
-    border-left: 10px solid #FFCC00;
-}*/
 
 
 
