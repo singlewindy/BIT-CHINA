@@ -1,12 +1,12 @@
 (function() {
         var $w = $(window);
-		var project = $("#project").offset().top;
+		var modeling = $("#modeling").offset().top;
 		var overview = $("#overview").offset().top - 110;
         var human_practice = $('#human_practice').offset().top - 110;
 		var temp = document.getElementById("mercury");
 
         $w.scroll(function() {
-        	if($w.scrollTop() > project)
+        	if($w.scrollTop() > modeling)
 		        temp.style.height = '0px';
         	if($w.scrollTop() > overview)
 		        temp.style.height = '25px';
