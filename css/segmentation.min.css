@@ -118,6 +118,9 @@
 #sidebar .temper .model_height{
     height: 450px;
 }
+#sidebar .temper .sponser_height{
+    height: 400px;
+}
 
 #sidebar .list .temper #mercury {
     width: 37px;
@@ -146,12 +149,12 @@
     background-image: linear-gradient(top,#FFCC00,#8B6508);
 }
 #sidebar .list .temper .color-project #mercury{
-    background: #9999FF;
-    background-image: -webkit-linear-gradient(top,#9999FF,#551A8B);
-    background-image: -moz-linear-gradient(top,#9999FF,#551A8B);
-    background-image: -ms-linear-gradient(top,#9999FF,#551A8B);
-    background-image: -o-linear-gradient(top,#9999FF,#551A8B);
-    background-image: linear-gradient(top,#9999FF,#551A8B);
+    background: #0099FF;
+    background-image: -webkit-linear-gradient(top,#0099FF,#008B8B);
+    background-image: -moz-linear-gradient(top,#0099FF,#008B8B);
+    background-image: -ms-linear-gradient(top,#0099FF,#008B8B);
+    background-image: -o-linear-gradient(top,#0099FF,#008B8B);
+    background-image: linear-gradient(top,#0099FF,#008B8B);
 }
 #sidebar .list .temper .color-modeling #mercury{
     background: #99CC33;
@@ -199,6 +202,12 @@
 }
 #sidebar .list .temper  .temp-head-notebook{
     background: url('../img/temp-head-notebook.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    height: 70px;
+}
+#sidebar .list .temper  .temp-head-sponser{
+    background: url('../img/temp-head-sponser.png');
     background-repeat: no-repeat;
     background-size: 70px;
     height: 70px;
@@ -370,6 +379,9 @@
 
 .section.pagetitle.modeling {
     background: #99CC33;
+}
+.section.pagetitle.sponser {
+    background: #EE00EE;
 }
 
 .section.pagetitle.project {
