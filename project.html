@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/base_white.min.css" type="text/css">
     <link rel="stylesheet" href="css/landing_common.min.css" type="text/css">
     <link rel="stylesheet" href="css/segmentation.min.css" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Rum+Raisin' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Port+Lligat+Slab' rel='stylesheet' type='text/css'>
     <title>PROJECT | BIT-CHINA IGEM2013</title>
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/nav.js"></script>
@@ -129,29 +130,34 @@
         <li>
         <a href="javascript:void(0);" onclick="temper(1, '#overview')">Overview</a>
         </li>
+        
         <li>
-        <a href="javascript:void(0);" onclick="temper(2, '#human_practice')">Human Practices</a>
+        <a href="javascript:void(0);" onclick="temper(2)">HRS</a>
         <ul>
-            <li><a href="javascript:void(0);" onclick="temper(3)">Initiative</a></li>
-            <li><a href="javascript:void(0);" onclick="temper(4)">Interviews</a></li>
-            <li><a href="javascript:void(0);" onclick="temper(5)">Design</a></li>
-            <li><a href="javascript:void(0);" onclick="temper(6)">Killswitch</a></li>
-        </ul>
-        <li>
-        <a href="javascript:void(0);" onclick="temper(7)">CTS</a>
-        <ul>
-            <li><a href="javascript:void(0);" onclick="temper(8)">RNA thermometer</a></li>
-            <li><a href="javascript:void(0);" onclick="temper(9)">HSPs</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(3)">RNA thermometer</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(4)">HSPs</a></li>
         </ul>
         </li>
         <li>
-            <a href="javascript:void(0);" onclick="temper(10)">IQQRS</a>
+            <a href="javascript:void(0);" onclick="temper(5)">QCS</a>
             <ul>
-                <li><a href="javascript:void(0);" onclick="temper(12)">Quorum-sensing device</a></li>
-                <li><a href="javascript:void(0);" onclick="temper(14)">Independent variable frequency oscillator</a></li>
-                <li><a href="javascript:void(0);" onclick="temper(16)">PCD device</a></li>
+                <li><a href="javascript:void(0);" onclick="temper(6)">Quorum-sensing device</a></li>
+                <li><a href="javascript:void(0);" onclick="temper(7)">Independent variable frequency oscillator</a></li>
+                <li><a href="javascript:void(0);" onclick="temper(8)">PCD device</a></li>
             </ul>
         </li>
+        <li>
+        <a href="javascript:void(0);" onclick="temper(9)">Parts</a>
+        </li>
+        <li>
+        <a href="javascript:void(0);" onclick="temper(10)">Safety</a>
+        <ul>
+                <li><a href="javascript:void(0);" onclick="temper(11)">Organism & Experiment safety</a></li>
+                <li><a href="javascript:void(0);" onclick="temper(12)">Safety training</a></li>
+                <li><a href="javascript:void(0);" onclick="temper(13)">Public & Environment safety</a></li>
+            </ul>
+        </li>
+
     </ul>
     </div>
 
@@ -163,7 +169,7 @@
             </div>
             <div class="section hero">
                 <div class="content">
-                    <div class="layer-title">Motivation and Background</div><p>
+                    <div class="title"><img src="./img/project/project_title_1.png" alt="title" /></div><p>
                 As we all know, the role of biotechnology have been more and more important in modern manufacturing. We believe that, the bio-manufacture industry will replace the traditional chemical producing progress and become the most important progress. Optimizing the pathway in manufacture have shown its importance. 
 <p>Fermentor, as the important tools in biomanufacture, should be considered as a complex rather than a simple machine. During contemporary industrial fermentation, a lot of heat are released. Without control, it may even rise to 50 ℃(not good for most engineering bacteria)We always use the cooling water to control the elevated temperature,which result in consumption of energy.By the way, the maximum of microorganism density is not always the best for production efficiency. Under this circumstance, improving the ability of engineering bacteria to resist hot environment and controlling their density in an appropriate area is necessary. Let’s set Escherichia.coli as an example . </p>
 
@@ -184,44 +190,75 @@ But the temperature is sill going up with density. Too crowded! There must be a 
             </div>
     <div class="section text">
         <div class="content">
-                    <div class="layer-title">FAQ</div><br /><br /><br /><br /><br />
-                    <h4>How to “lead” the E.Coli fight with heat?</h4>
-                    <p> <img src="img/project/UCalgary2012_FRED_and_OSCAR_HP.png" style="float: right; width: 200px; padding: 10px;"></img>
+                    <div style="margin-bottom: 40px;"><img src="./img/project/project_title_2.png" alt="title" />
+                    </div> 
+                    <div class="component">
+                    <div class="items">1</div>
+                    <div class="left">
+                    <h3>How to “lead” the E.Coli fight with heat?</h3>
+
+                    <p> 
  There is a protein family called HSP. They can help cells to fix the damage caused by heat by  restoring the protein back to normal condition. In our design, HSP are controlled by a kind of RNA switch. The special mRNA have a stem-circle structure, which can prevent the code in the mRNA from being translated. Once the temperature reaches the level we set, the stem-circle will transform to normal condition, which means that the switch will open automatically. As a result, Ecoli can keep their producing ability, ignoring the relatively hot environment.  That is the weapon we give to E.coli to fight with heat. This device is our forth device.
                     </p>
-        <p></p>
-
-
- 
-    <h4>How can the E.coli sacrifice themselves?</h4>
+                    </div>
+                    <div class="right"><img src="img/project/UCalgary2012_FRED_and_OSCAR_HP.png" /></div>
+            </div>
+         <div class="component">
+                <div class="items">2</div>
+                    <div class="left">
+            <h3>How can the E.coli sacrifice themselves?</h3>
     <p> Maybe many people think bacteria are selfish creatures, but that is not totally true. MazEF, is a widely used system among wide bacteria. With this system, many bacteria will sacrifice themselves, and leave nutrition to the left ones when facing threats from dangerous environment, such as heat, lack of food and so on. MazF , which has RNA cleavage activity, is a kind of toxin. MazE, on the other hand, is the antidote of MazF. When MazE can combine with MazF, the cell will not be harmed. But once we inhibit the production of MazE, the cell step into programmed cell death(PCD). In our design, we add our MazEF into E.coli, so once the pathway was open, E.coli will be ready for sacrifice. That is our third device. </p>
             
-            <div class="image" style="width:602px;"><img alt="" src="img/project/Calgary_FredandOscarDef.jpg" >
-                <div class="com">Figure 2: Introducing our dynamic duo FRED and OSCAR! This biosensor/bioreactor team is ready to detect and remediate toxins in the environment. Not only can OSCAR break down toxic carboxylic acid containing compounds such as naphthenic acids, but we also demonstrated that he can turn them into functional hydrocarbons!
-                </div>
+           
             </div>
-            <p></p>
+            <div class="right"><img src="img/project/UCalgary2012_FRED_and_OSCAR_Interviews_Low-Res.png" alt="" /></div>
+           
+    </div>  
+</div>
+        <div class="component">
+                <div class="items">3</div>
+                    <div class="left">
         
-
-        
-        <h4>How can you ensure the “sacrifice” will not become group suicide? In other words, how can you control the number of E.coli who sacrifice?</h4>
+        <h3>How can you ensure the “sacrifice” will not become group suicide? In other words, how can you control the number of E.coli who sacrifice?</h4>
         <p>Actually our inhibition on the production of MazE will not last long. We set a oscillating pathway to control the inhibition to ensure the MazE is much enough to keep most E.coli in a normal condition. The inhibition will be intermittent, not continuous. That is our second device. The simple description is A inhibit B, B inhibit C, and C inhibit A, they become a cycle.</p>  
-       
-    
+                    </div>
+                    <div class="right"><img src="img/project/UCalgary2012_FRED_and_OSCAR_Interviews_Low-Res.png" alt="" /></div>
+        </div>
+        
+        <div class="component">
+                <div class="items">4</div>
+                    <div class="left">
    
-            <h4>How can E.Coli know it is time to sacrifice?In other words, what contribute to the open of whole pathway?</h4>
+            <h3>How can E.Coli know it is time to sacrifice?In other words, what contribute to the open of whole pathway?</h3>
             <p>The whole pathway begin from AHL, which is linear connected to the cell density. The AHL will combine with a protein called LuxR, and form a complex. When the complex reaches a level, it will activate the intermittent pathway, which is the second device. This AHL part is our first device, the beginning of our whole pathway.</p>
         </div>
+        <div class="right"><img src="img/project/UCalgary2012_FRED_and_OSCAR_HP.png" /></div>
     </div>
-
+</div>
+<div class="section pagetitle project" >
+                <h1>Safety</h1>
+            </div>
     <div class="section hero">
+
         <div class="content">
-            <div id="human_practice"></div>
-            <div class="layer-title">Human practice</div>
-            <p>Our design is a self-control system. It not only enlarge the temperature tolerance maximum, but also set a limit on density and released heat, so that the manufacture progress can be kept on the best condition. The idea can not only decrease the consumption of energy, but also bring an evolution of bio-manufacture industry. In a word, although our work is far from perfect, but it provide a possibility of automatic style for the whole ferment industry.</p>
-            <p>Our design is a self-control system. It not only enlarge the temperature tolerance maximum, but also set a limit on density and released heat, so that the manufacture progress can be kept on the best condition. The idea can not only decrease the consumption of energy, but also bring an evolution of bio-manufacture industry. In a word, although our work is far from perfect, but it provide a possibility of automatic style for the whole ferment industry.</p>
-            <p>Our design is a self-control system. It not only enlarge the temperature tolerance maximum, but also set a limit on density and released heat, so that the manufacture progress can be kept on the best condition. The idea can not only decrease the consumption of energy, but also bring an evolution of bio-manufacture industry. In a word, although our work is far from perfect, but it provide a possibility of automatic style for the whole ferment industry.</p>
-            <br /><br /><br />
+            
+            <p>Organism & Experiment safety
+The organisms used in our experiment conclude:
+Escherichia coli BL21(DE3)
+Escherichia coli K12
+Although all of the organisms are in line with biosafety level 1 (BSL), we have treated it as a potential affection source and created following rules to minimize the danger:
+1.  Wearing appropriate protective equipment like gloves and lab coats. 
+2.  Don’t eat any food or store it in the lab.
+3.  Avoid wearing shorts or shoes that make your legs or toes exposed.
+4.  Washing hands before leaving the laboratory.
+
+</p>
+            <p>Safety training
+There is no Biosafety Committee at our university, only a bio-safety officer. Nevertheless, we have iGEM instructors, Dr. Chun Li and Dr. Shuyuan Guo, who trained us about the project progress regularly and is responsible for the bio-safety of our project. The general rule at our university is that every student has to take part in specific safety training before their first experiment. Further, once a year, every member of the lab is required to take a refreshment course in lab safety, bio safety, fire safety, waste management, handling gas cylinders and working with hazardous materials. All of these treatments ensure our lab safety.
+</p>
+            <p>OPublic & Environment safety
+The model organisms used in our project are non-virulent strains which are commonly used in microbiology laboratories. The organism has been provided various resistance of antibiotics such as chloramphenicol, ampicillin and kanamycin. Without the circumstance which contained specific antibiotic, our organism has no advantage in the competition with the wild one. Besides, although we have improve its resistance of higher temperature(42~45℃), it can still be denatured via heat. In a word, it can work well in laboratory environment and will be eliminated through competition when exposing in the wild.
+</p>
         </div>
     </div>  
        

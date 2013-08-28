@@ -99,8 +99,6 @@ input:focus,textarea:focus {
 }
 
 #width_wrapper {
-    margin-top: 30px;
-    width: 1196px;
     margin: 0 auto;
 }
 
@@ -292,7 +290,7 @@ input:focus,textarea:focus {
 }
 
 .section {
-    background-color: #fff;
+    background-image: url(../img/bk2.png);
     padding: 50px 60px;
 }
 
