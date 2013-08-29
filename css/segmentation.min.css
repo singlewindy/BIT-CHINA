@@ -741,6 +741,7 @@
     height: 33px;
     background: url('../img/updown_arrows.gif') no-repeat;
     text-indent: -9999px;
+    opacity: 0.5;
 }
 
 #nav-arrow li a.up, #nav-arrow li a.up:visited {
@@ -749,4 +750,8 @@
 
 #nav-arrow li a.down, #nav-arrow li a.down:visited {
     background-position: -34px -33px;
+}
+
+#nav-arrow li a:hover{
+    opacity: 1;
 }
