@@ -171,10 +171,13 @@
     height: 400px;
 }
 
+<<<<<<< HEAD
 #sidebar .list {
     margin-top: -30px;
 }
 
+=======
+>>>>>>> 27214b1c5ad810ee251ddc8d8f8c6251e348c6a8
 #sidebar .list .temper #mercury {
     width: 37px;
     margin-left: 17px;
@@ -219,6 +222,8 @@
 }
 
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -230,11 +235,26 @@
 
 
 
+>>>>>>> 27214b1c5ad810ee251ddc8d8f8c6251e348c6a8
 
 
 
 
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+=======
+>>>>>>> 27214b1c5ad810ee251ddc8d8f8c6251e348c6a8
 #sidebar .list .temper .temp-head-team{
     background: url('../img/temp-head-team.png');
     background-repeat: no-repeat;
@@ -431,6 +451,7 @@
 
 }
 
+<<<<<<< HEAD
 
 .image .com{
     text-align: middle;
@@ -439,6 +460,16 @@
 }
 
 
+=======
+
+.image .com{
+    text-align: middle;
+    margin-top: 10px;
+
+}
+
+
+>>>>>>> 27214b1c5ad810ee251ddc8d8f8c6251e348c6a8
 .section .items {
     margin: 0;
     padding: 0;
