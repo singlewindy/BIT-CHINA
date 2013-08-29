@@ -112,13 +112,22 @@
     -ms-transition:all 0.5s linear;
     -o-transition:all 0.5s linear;
     transition:all 0.5s linear;
+
 }
 
 #sidebar #leftarrow img {
     margin-top: 5%;
     margin-left: 80%;
+    opacity: 0.5;
+
 }
 
+#sidebar #leftarrow img:hover{
+    opacity: 1;
+}
+#sidebar #rightarrow img:hover{
+    opacity: 1;
+}
 #sidebar #rightarrow {
     height: 30px;
     position: relative;
@@ -132,6 +141,7 @@
 #sidebar #rightarrow img {
     margin-top: -5%;
     margin-left: 105%;
+    opacity: 0.5;
 }
 
 #sidebar.fixed {
