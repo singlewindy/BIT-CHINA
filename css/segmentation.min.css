@@ -373,10 +373,10 @@
 /*---------------------------------rewrite-------------------------------------*/
 
 .section.pagetitle.modeling {
-    background: #99CC33;
+    background-image: url(../img/bg_1.jpg) ;
 }
 .section.pagetitle.sponser {
-    background: #EE00EE;
+    background-image: url(../img/bg_1.jpg) ;
 }
 
 .section.pagetitle.project {
@@ -384,11 +384,11 @@
 }
 
 .section.pagetitle.team {
-    background: #9999FF;
+    background-image: url(../img/bg_1.jpg) ;
 }
 
-.sectiobenn.pagetitle.notebook {
-    background: #FFCC00;
+.section.pagetitle.notebook {
+    background-image: url(../img/bg_1.jpg) ;
 }
 
 .section.hero {
@@ -545,78 +545,6 @@
     padding: 50px 0 0 0;
 }
 
-.section.case-studies h2 {
-    color: #2ec6c8;
-}
-
-.section.case-studies h3 {
-    margin-top: 16px;
-}
-
-.section.case-studies .content {
-    margin-top: 36px;
-}
-
-.section.case-studies .content .questions {
-    display: inline-block;
-    margin: 50px auto 53px;
-}
-
-.section.case-studies .content .questions .question {
-    float: left;
-    width: 279px;
-    height: 133px;
-    background: url(../img/questions.png) no-repeat;
-    margin-left: 47px;
-}
-
-.section.case-studies .content .questions .question:first-child {
-    margin-left: 0;
-}
-
-.section.case-studies .content .questions .question:hover {
-    cursor: pointer;
-}
-
-.section.case-studies .content .questions .question#question-1.active {
-    background-position: 0 -133px;
-}
-
-.section.case-studies .content .questions .question#question-2 {
-    background-position: -279px 0;
-}
-
-.section.case-studies .content .questions .question#question-2.active {
-    background-position: -279px -133px;
-}
-
-.section.case-studies .content .questions .question#question-3 {
-    background-position: -558px 0;
-}
-
-.section.case-studies .content .questions .question#question-3.active {
-    background-position: -558px -133px;
-}
-
-.section.case-studies .image {
-    width: 100%;
-    height: 573px;
-    overflow: hidden;
-    position: relative;
-}
-
-.section.case-studies .image img {
-    position: absolute;
-    left: 43px;
-}
-
-.section.case-studies .image img#case-study-2 {
-    left: -2000px;
-}
-
-.section.case-studies .image img#case-study-3 {
-    left: -2000px;
-}
 
 .section.bottom {
     background: url(../img/bg_blue.png) #7f8caa;

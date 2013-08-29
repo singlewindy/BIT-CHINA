@@ -16,3 +16,24 @@
         });
 
 })();
+
+function flipup(){
+            var $w = $(window);
+            var project = $("#project").offset().top;
+            var overview = $("#overview").offset().top - 110;
+            var safety = $('#safety').offset().top - 110;
+
+            if($w.scrollTop() > safety) {
+                scrollToElement('safety', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > overview) {
+                scrollToElement('overview', 'normal', 115);
+                return;
+            }
+            else {
+                $("body,html").animate({
+                    scrollTop:0  //让body的scrollTop等于pos的top，就实现了滚动
+                 },1000);
+            }         
+         }
