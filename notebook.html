@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="css/base.min.css" type="text/css">
@@ -7,12 +7,25 @@
     <link rel="stylesheet" href="css/base_white.min.css" type="text/css">
     <link rel="stylesheet" href="css/landing_common.min.css" type="text/css">
     <link rel="stylesheet" href="css/segmentation.min.css" type="text/css">
-    <link rel="stylesheet" href="css/www.css" type="text/css">
     <link rel="stylesheet" href="css/component.css" type="text/css">
     <title>NOTEBOOK | BIT-CHINA IGEM2013</title>
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/nav.js"></script>
     <script type="text/javascript" src="./js/modernizr.custom.js"></script>
+    <script type="text/javascript">
+        function temper(n, des){
+         var temp = document.getElementById("mercury");
+         var height = 25 * n;
+         temp.style.height = height + 'px';
+
+         var scroll_offset = $(des).offset();  //得到pos这个div层的offset，包含两个值，top和left
+         scroll_offset.top = scroll_offset.top - 100;
+         $("body,html").animate({
+            scrollTop:scroll_offset.top  //让body的scrollTop等于pos的top，就实现了滚动
+         },1000);
+        }
+
+    </script>
 
 </head>
 
@@ -23,106 +36,121 @@
                 <a href="./index.html"><img src="img/logo.png" alt="logo"></a>
             </div>
 
-<div id="navigation" class>
-    <div class="navigation">
-        <div class="centering">
-            <ul class="topnav" id="topnav">
-                <li class="navitem1">
-                    <a href="./index.html">HOME</a>
-                </li>
-                <li class="navitem2">
-                    <a href="./team.html">TEAM</a>
-                    <ul class="subnav">
-                        <ul>
-                            <li><a href="#">Members</a></li>
-                            <li><a href="#">Official Profile</a></li>
-                            <li><a href="#">The University</a></li>
-                            <li><a href="#">Outtakes</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </ul>
-                </li>
-                <li class="navitem3">
-                    <a href="./project.html">PROJECT</a>
-                    <ul class="subnav">
-                        <li><a href="#">Overview</a></li>
-                        <li><a href="#">Human Practices</a></li>
-                        <li><a href="#">CTS</a></li>
-                        <li><a href="#">IQQRS</a></li>
-                    </ul>
-                </li>
-                <li class="navitem4">
-                    <a href="./parts.html">PARTS</a>
-                </li>
-                <li class="navitem5">
-                    <a href="./modeling.html">MODELING</a>
-                    <ul class="subnav">
-                        <ul>
+<div id="navigation">
+        <div class="navigation">
+            <div class="centering">
+                <ul class="topnav" id="topnav">
+                    <li class="navitem1">
+                        <a href="./index.html">HOME</a>
+                    </li>
+                    <li class="navitem2">
+                        <a href="./project.html">PROJECT</a>
+                        <ul class="subnav">
                             <li><a href="#">Overview</a></li>
-                            <li><a href="#">Derivations</a></li>
-                            <li><a href="#">Matlab</a></li>
+                            <li><a href="#">Heat-resistant system</a></li>
+                            <li><a href="#">Quorum-control system</a></li>
+                            <li><a href="./parts.html">Parts</a></li>
+                            <li><a href="./safety.html">Safety</a></li>
                         </ul>
-                    </ul>
-                </li>
-                <li class="navitem6">
-                    <a href="./notebook.html">NOTEBOOK</a>
-                    <ul class="subnav">
-                        <ul>
-                            <li><a href="#">Journal</a></li>
-                            <li><a href="#">Protocols</a></li>
+                    </li>
+                    <li class="navitem3">
+                        <a href="./team.html">TEAM</a>
+                        <ul class="subnav">
+                            <ul>
+                                <li><a href="#">Members</a></li>
+                                <li><a href="#">Official Profile</a></li>
+                                <li><a href="#">About the University</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
                         </ul>
-                    </ul>
-                </li>
-                <li class="navitem7">
-                    <a href="./safety.html">SAFETY</a>
-                </li>
-                <li class="navitem8">
-                    <a href="http://2013.igem.org">IGEM</a>
-                </li>
-            </ul>
+                    </li>
+                    
+                    
+                    <li class="navitem4">
+                        <a href="./modeling.html">MODELING</a>
+                        <ul class="subnav">
+                            <ul>
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Derivations</a></li>
+                                <li><a href="#">Matlab</a></li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="navitem5">
+                        <a href="./humanpractice.html">HUMAN PRACTICE</a>
+                    </li>
+                    <li class="navitem6">
+                        <a href="./notebook.html">NOTEBOOK</a>
+                        <ul class="subnav">
+                            <ul>
+                                <li><a href="#">Journal</a></li>
+                                <li><a href="#">Protocols</a></li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="navitem7">
+                        <a href="./sponser.html">SPONSER</a>
+                    </li>
+                    <li class="navitem8">
+                        <a href="http://2013.igem.org">IGEM</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
-
 <div id="width_wrapper">
 <div id="empty" class></div>
 
-<!-- sidebar -->
-<div class="section top-bar"></div>
     <div id="sidebar">
         <div class="list" id="notebook">
-        <h2>Notebook</h2>
+
+            <div class="temper">
+                <div class="notebook_height">
+                    <div class="temp-head-notebook"></div>
+                    <div class="temp-body">
+                        <div class="color-notebook">
+                        <div id="mercury"></div>
+                        </div>
+                    </div>
+                    <div class="temp-tail"></div>
+                </div>
+
+            </div>
+
+        <div class="navis">
+
+
+        <h2><a href="javascript:void(0);" onclick="temper(0, '#notebook')">Notebook</a></h2>
     
 <ul>
     <li>
-        <a class="drop" href="＃">Journal</a>
+        <a href="javascript:void(0);" onclick="temper(1,'#journal')">Journal</a>
         <ul>
-            <li><a href="＃">Killswitch</a></li>
-            <li><a href="＃">Promoter Screen</a></li>
-            <li><a href="＃">Electrochemistry</a></li>
-            <li><a href="＃">Biosensor</a></li>
-            <li><a href="＃">Decarboxylation</a></li>
-            <li><a href="＃">Desulfurization</a></li>
-            <li><a href="＃">Denitrogenation</a></li>
-            <li><a href="＃">Catechol</a></li>
-            <li><a href="＃">Bioreactor</a></li>
-            <li><a href="＃">Flux Analysis</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(2)">Killswitch</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(3)">Promoter Screen</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(4)">Electrochemistry</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(5)">Biosensor</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(6)">Decarboxylation</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(7)">Desulfurization</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(8)">Denitrogenation</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(9)">Catechol</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(4)">Bioreactor</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(4)">Flux Analysis</a></li>
         </ul>
     </li>
     <li>
-        <a class="drop" href="＃">Protocols</a>
+        <a href="javascript:void(0);" onclick="temper(4)">Protocols</a>
     </li>
 </ul>
 
 
     </div>
-    <!--
-    <div id="sidebarimg">
     </div>
-    -->
 </div>
 
             <div class="section pagetitle notebook">
+                <div id="journal"></div>
                 <h1>Journal</h1>
             </div>
             <div class="section hero">
@@ -240,5 +268,7 @@
     </div>
 
 <script type="text/javascript" src="./js/empty.js"></script>
+<script type="text/javascript" src="./js/notebook_sidebar.js"></script>
 </body>
 
+</html>
