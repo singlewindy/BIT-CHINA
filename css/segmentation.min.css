@@ -178,6 +178,9 @@
 #sidebar .temper .sponser_height{
     height: 400px;
 }
+#sidebar .temper .humanpractice_height{
+    height: 400px;
+}
 
 #sidebar .list {
     margin-top: -30px;
@@ -194,12 +197,12 @@
     transition: height 0.4s ease-out
 }
 #sidebar .list .temper .color-team #mercury{
-    background: #9999FF;
-    background-image: -webkit-linear-gradient(top,#9999FF,#551A8B);
-    background-image: -moz-linear-gradient(top,#9999FF,#551A8B);
-    background-image: -ms-linear-gradient(top,#9999FF,#551A8B);
-    background-image: -o-linear-gradient(top,#9999FF,#551A8B);
-    background-image: linear-gradient(top,#9999FF,#551A8B);
+    background: #0099FF;
+    background-image: -webkit-linear-gradient(top,#0099FF,#551A8B);
+    background-image: -moz-linear-gradient(top,#0099FF,#551A8B);
+    background-image: -ms-linear-gradient(top,#0099FF,#551A8B);
+    background-image: -o-linear-gradient(top,#0099FF,#551A8B);
+    background-image: linear-gradient(top,#0099FF,#551A8B);
 }
 #sidebar .list .temper .color-notebook #mercury{
     background: #FFCC00;
@@ -210,20 +213,37 @@
     background-image: linear-gradient(top,#FFCC00,#8B6508);
 }
 #sidebar .list .temper .color-project #mercury{
-    background: #0099FF;
-    background-image: -webkit-linear-gradient(top,#0099FF,#008B8B);
-    background-image: -moz-linear-gradient(top,#0099FF,#008B8B);
-    background-image: -ms-linear-gradient(top,#0099FF,#008B8B);
-    background-image: -o-linear-gradient(top,#0099FF,#008B8B);
-    background-image: linear-gradient(top,#0099FF,#008B8B);
+    background: #9999FF;
+    background-image: -webkit-linear-gradient(top,#9999FF,#8B8386);
+    background-image: -moz-linear-gradient(top,#9999FF,#8B8386);
+    background-image: -ms-linear-gradient(top,#9999FF,#8B8386);
+    background-image: -o-linear-gradient(top,#9999FF,#8B8386);
+    background-image: linear-gradient(top,#9999FF,#8B8386);
 }
 #sidebar .list .temper .color-modeling #mercury{
+    background: #44CCFF;
+    background-image: -webkit-linear-gradient(top,#44CCFF,#528B8B);
+    background-image: -moz-linear-gradient(top,#44CCFF,#528B8B);
+    background-image: -ms-linear-gradient(top,#44CCFF,#528B8B);
+    background-image: -o-linear-gradient(top,#44CCFF,#528B8B);
+    background-image: linear-gradient(top,#44CCFF,#528B8B);
+}
+
+#sidebar .list .temper .color-humanpractice #mercury{
     background: #99CC33;
-    background-image: -webkit-linear-gradient(top,#99CC33,#006400);
-    background-image: -moz-linear-gradient(top,#99CC33,#006400);
-    background-image: -ms-linear-gradient(top,#99CC33,#006400);
-    background-image: -o-linear-gradient(top,#99CC33,#006400);
-    background-image: linear-gradient(top,#99CC33,#006400);
+    background-image: -webkit-linear-gradient(top,#99CC33,#6B8E23);
+    background-image: -moz-linear-gradient(top,#99CC33,#6B8E23);
+    background-image: -ms-linear-gradient(top,#99CC33,#6B8E23);
+    background-image: -o-linear-gradient(top,#99CC33,#6B8E23);
+    background-image: linear-gradient(top,#99CC33,#6B8E23);
+}
+#sidebar .list .temper .color-sponser #mercury{
+    background: #EE00EE;
+    background-image: -webkit-linear-gradient(top,#EE00EE,#8B008B);
+    background-image: -moz-linear-gradient(top,#EE00EE,#8B008B);
+    background-image: -ms-linear-gradient(top,#EE00EE,#8B008B);
+    background-image: -o-linear-gradient(top,#EE00EE,#8B008B);
+    background-image: linear-gradient(top,#EE00EE,#8B008B);
 }
 
 #sidebar .list .temper .temp-head-team{
@@ -257,19 +277,93 @@
     height: 70px;
 }
 
-#sidebar .list .temper .temp-body{
-    background: url('../img/temp-body.PNG');
+#sidebar .list .temper  .temp-head-human{
+    background: url('../img/temp-head-human.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    height: 70px;
+}
+
+#sidebar .list .temper .temp-body-human{
+    background: url('../img/temp-body-human.PNG');
+    background-repeat: repeat-y;
+    background-size: 70px;
+    height: inherit;
+}
+#sidebar .list .temper .temp-body-team{
+    background: url('../img/temp-body-team.PNG');
+    background-repeat: repeat-y;
+    background-size: 70px;
+    height: inherit;
+}
+#sidebar .list .temper .temp-body-project{
+    background: url('../img/temp-body-project.PNG');
+    background-repeat: repeat-y;
+    background-size: 70px;
+    height: inherit;
+}
+#sidebar .list .temper .temp-body-notebook{
+    background: url('../img/temp-body-notebook.PNG');
+    background-repeat: repeat-y;
+    background-size: 70px;
+    height: inherit;
+}
+#sidebar .list .temper .temp-body-sponser{
+    background: url('../img/temp-body-sponser.PNG');
+    background-repeat: repeat-y;
+    background-size: 70px;
+    height: inherit;
+}
+#sidebar .list .temper .temp-body-modeling{
+    background: url('../img/temp-body-modeling.PNG');
     background-repeat: repeat-y;
     background-size: 70px;
     height: inherit;
 }
 
-#sidebar .list .temper .temp-tail{
-    background: url('../img/temp-tail.png');
+
+
+#sidebar .list .temper .temp-tail-human{
+    background: url('../img/temp-tail-human.png');
     background-repeat: no-repeat;
     background-size: 70px;
     height: 40px;
 }
+#sidebar .list .temper .temp-tail-team{
+    background: url('../img/temp-tail-team.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    height: 40px;
+}
+
+#sidebar .list .temper .temp-tail-sponser{
+    background: url('../img/temp-tail-sponser.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    height: 40px;
+}
+
+#sidebar .list .temper .temp-tail-project{
+    background: url('../img/temp-tail-project.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    height: 40px;
+}
+
+#sidebar .list .temper .temp-tail-notebook{
+    background: url('../img/temp-tail-notebook.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    height: 40px;
+}
+
+#sidebar .list .temper .temp-tail-modeling{
+    background: url('../img/temp-tail-modeling.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    height: 40px;
+}
+
 
 
 
