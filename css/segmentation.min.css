@@ -115,9 +115,8 @@
 }
 
 #sidebar #leftarrow img {
-    margin-top: 35px;
-    zoom: 60%;
-    margin-left: 230px;
+    margin-top: 5%;
+    margin-left: 80%;
 }
 
 #sidebar #rightarrow {
@@ -131,9 +130,8 @@
 }
 
 #sidebar #rightarrow img {
-    margin-top: 10px;
-    zoom: 60%;
-    margin-left: 310px;
+    margin-top: -5%;
+    margin-left: 105%;
 }
 
 #sidebar.fixed {
