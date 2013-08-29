@@ -117,7 +117,7 @@
 #sidebar #leftarrow img {
     margin-top: 35px;
     zoom: 60%;
-    margin-left: 400px;
+    margin-left: 230px;
 }
 
 #sidebar #rightarrow {
@@ -131,9 +131,9 @@
 }
 
 #sidebar #rightarrow img {
-    margin-top: -14px;
+    margin-top: 10px;
     zoom: 60%;
-    margin-left: 510px;
+    margin-left: 310px;
 }
 
 #sidebar.fixed {
@@ -396,7 +396,7 @@
     background: #9999FF;
 }
 
-.section.pagetitle.notebook {
+.sectiobenn.pagetitle.notebook {
     background: #FFCC00;
 }
 
