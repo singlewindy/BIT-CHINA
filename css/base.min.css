@@ -101,11 +101,11 @@ a {
 }
 
 #empty {
-    height: 30px;
+    height: 5px;
 }
 
 #empty.fixed {
-    height: 69px;
+    height: 45px;
 }
 
 li.navitem1 > a, li.navitem1 > span {
