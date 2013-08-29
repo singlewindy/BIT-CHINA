@@ -14,20 +14,7 @@
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/nav.js"></script>
     <script type="text/javascript" src="./js/team.js"></script>
-    <script type="text/javascript">
-        function temper(n, des){
-         var temp = document.getElementById("mercury");
-         var height = 25 * n;
-         temp.style.height = height + 'px';
-
-         var scroll_offset = $(des).offset();  //得到pos这个div层的offset，包含两个值，top和left
-         scroll_offset.top = scroll_offset.top - 100;
-         $("body,html").animate({
-            scrollTop:scroll_offset.top  //让body的scrollTop等于pos的top，就实现了滚动
-         },1000);
-        }
-
-    </script>
+    <script type="text/javascript" src="./js/hidden_scroll.js"></script>
     
 
 </head>
@@ -108,7 +95,18 @@
 
 <!-- sidebar -->
 
-    <div id="sidebar">
+    <div id="sidebar" style="left: 0px">
+        <div id="leftarrow">
+            <a href="javascript:void(0);" onclick="fold()">
+                <img src='./img/left_arrow.png'/>
+            </a>
+        </div>
+        <div id="rightarrow" style="visibility:hidden;opacity:0;">
+            <a href="javascript:void(0);" onclick="unfold()">
+                <img src='./img/right_arrow.png'/>
+            </a>
+        </div>
+        
         <div class="list" id="team">
 
             <div class="temper">
@@ -380,12 +378,15 @@ I'm responsible for designing the gene network,di and the improvement of existin
             
         
 </div>
-</div>
-    <div id="footer_bg">
-        <div id="footer">
+        <div class="section hero" >
+        <div id="footer_bg">
+         <div id="footer">
             © Copyright BIT iGEM Team 2013, All Rights Reserved.
         </div>
-    </div>
+        </div>       
+        </div>
+</div>
+    
 <script type="text/javascript" src="./js/empty.js"></script>
 <script type="text/javascript" src="./js/team_sidebar.js"></script>
 </body>

@@ -10,20 +10,7 @@
     <title>SPONSERSHIP | BIT-CHINA IGEM2013</title>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/nav.js"></script>
-    <script type="text/javascript">
-        function temper(n, des){
-         var temp = document.getElementById("mercury");
-         var height = 25 * n;
-         temp.style.height = height + 'px';
-
-         var scroll_offset = $(des).offset();  //得到pos这个div层的offset，包含两个值，top和left
-         scroll_offset.top = scroll_offset.top - 100;
-         $("body,html").animate({
-            scrollTop:scroll_offset.top  //让body的scrollTop等于pos的top，就实现了滚动
-         },1000);
-        }
-
-    </script>
+    <script type="text/javascript" src="./js/hidden_scroll.js"></script>
 
 </head>
 
