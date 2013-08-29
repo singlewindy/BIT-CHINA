@@ -226,23 +226,6 @@
     background-image: linear-gradient(top,#99CC33,#006400);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #sidebar .list .temper .temp-head-team{
     background: url('../img/temp-head-team.png');
     background-repeat: no-repeat;
@@ -685,4 +668,63 @@
 
 .section.bottom .get_started_button:hover {
     color: inherit;
+}
+
+#widget {
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: 325px;
+    text-align: left;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -ms-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+}
+
+#updown {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#nav-arrow {
+    position: absolute;
+    top: 375px;
+    right: -145px;
+    display: block;
+    width: 34px;
+    height: 76px;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-arrow li {
+    display: block;
+    width: 34px;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-arrow li.last {
+    margin-top: 12px;
+}
+
+#nav-arrow li a, #nav-arrow li a:visited {
+    display: block;
+    width: 34px;
+    height: 33px;
+    background: url('../img/updown_arrows.gif') no-repeat;
+    text-indent: -9999px;
+}
+
+#nav-arrow li a.up, #nav-arrow li a.up:visited {
+    background-position: -34px 0px;
+}
+
+#nav-arrow li a.down, #nav-arrow li a.down:visited {
+    background-position: -34px -33px;
 }
