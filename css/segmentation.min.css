@@ -1,17 +1,3 @@
-.button {
-    background-image: url(../img/gray_inactive2.png);
-    background-size: 34px 34px;
-}
-
-.button:hover {
-    background-image: url(../img/gray_hover2.png);
-    box-shadow: inset 0 1px rgba(255,255,255,0.22),0 1px 3px rgba(0,0,0,0.4);
-}
-
-.button:after {
-    display: none;
-    content: url(../img/gray_hover2.png);
-}
 
 .purple_button {
     cursor: pointer;
@@ -577,7 +563,7 @@
 }
 .section .component .left p {
     margin: 0;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     color: #4f4f4f;
     font-size: 16px;
     line-height: 24px
@@ -598,6 +584,36 @@
     display: block
 }
 
+.section .component ul {
+    margin: 0 auto;
+    padding: 0;
+    display: block;;
+    padding: 10px 0 0 0;
+}
+
+.section .component ul li {
+    margin: 0;
+    padding: 0 0 10px 10px;
+    position: relative;
+    color: #555555;
+    font-size: 16px;
+}
+.section .component ul li span {
+    margin: 0;
+    margin-right: 3px;
+    padding-left: 0px;
+    height: 12px;
+    width: 15px;
+    background-position: -363px 0;
+    position: absolute;
+    top: 0px;
+    left: 4px
+}
+
+.section .component-sprite {
+    display: block;
+    background: url(../img/component-sprite.png)
+}
 
 .section.text {
     background: #f3f6ff;
