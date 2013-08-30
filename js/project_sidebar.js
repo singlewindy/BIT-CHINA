@@ -37,3 +37,24 @@ function flipup(){
                  },1000);
             }         
          }
+
+
+function flipdown(){
+            var $w = $(window);
+            var project = $("#project").offset().top;
+            var overview = $("#overview").offset().top - 110;
+            var safety = $('#safety').offset().top - 110;
+
+            if($w.scrollTop() < overview) {
+                scrollToElement('overview', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < safety) {
+                scrollToElement('safety', 'normal', 105);
+                return;
+            }      
+            else {
+                scrollToElement('footer', 'normal', 110);
+                return;
+            }   
+         }
