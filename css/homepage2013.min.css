@@ -177,11 +177,7 @@ body {
     border-color: #e0e3ec;
 }
 
-/*#header {
-    position: fixed;
-    left: 50%;
-    margin-left: -533px;
-}*/
+
 
 .home.ready {
     background-attachment: fixed;
@@ -1196,7 +1192,7 @@ body > section > .wrap h2 {
     overflow: hidden;
     position: relative;
     width: 321px;
-    z-index: 0
+    z-index: 0;
 }
 
 #sitemap section * {
