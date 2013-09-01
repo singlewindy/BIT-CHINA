@@ -1213,9 +1213,9 @@ body > section > .wrap h2 {
 }
 
 #sitemap section div {
-    background: rgba(21, 39, 50, 0.75);
+    /*background: rgba(21, 39, 50, 0.75);*/
     height: 100%;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     width: 100%;
 }
@@ -1282,6 +1282,20 @@ body > section > .wrap h2 {
 
 #project h1 a {
     color: #75dc73
+}
+
+#project .icon-project {
+    color: #fff;
+    left: 20%;
+    margin-left: -64px;
+    margin-top: -64px;
+    top: 35%;
+    position: absolute;
+    z-index: 5;
+}
+
+#project .icon-project img{
+    zoom: 20%;
 }
 
 #team {
