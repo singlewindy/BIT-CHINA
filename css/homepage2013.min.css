@@ -1444,5 +1444,36 @@ section p {
     position: absolute;
     background-repeat: no-repeat;
 }
-#footer_bg .img-float img{
+#footer_bg .foot-1 img{
+    z-index: 5;
+    float: left;
+    -webkit-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    transition-duration: 2s;
+}
+#footer_bg .foot-2 img{
+    z-index: 5;
+    float: left;
+    -webkit-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    transition-duration: 2s;
+
+}
+#footer_bg .foot-3 img{
+    z-index: 5;
+    float: right;
+    -webkit-transition-duration: 6s;
+    -o-transition-duration: 6s;
+    -moz-transition-duration: 6s;
+    transition-duration: 6s;
+}
+#footer_bg .foot-4 img{
+    z-index: 5;
+    float: right;
+    -webkit-transition-duration: 10s;
+    -o-transition-duration: 10s;
+    -moz-transition-duration: 10s;
+    transition-duration: 10s;
 }
