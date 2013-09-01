@@ -1285,18 +1285,15 @@ body > section > .wrap h2 {
 }
 
 #project .icon-project {
-    color: #fff;
-    left: 20%;
-    margin-left: -64px;
-    margin-top: -64px;
-    top: 35%;
-    position: absolute;
     z-index: 5;
 }
-
-#project .icon-project img{
-    zoom: 20%;
+#project .icon-project img:hover{
+    opacity: 0;
 }
+
+
+
+
 
 #team {
     opacity: 0;
@@ -1312,7 +1309,13 @@ body > section > .wrap h2 {
 #team h1 a {
     color: #32b5b7
 }
+#team .icon-team img:hover{
+    opacity: 0;
+}
 
+#team .icon-team {
+    z-index: 5;
+}
 #modeling {
     opacity: 0;
     z-index: -1;
@@ -1333,6 +1336,13 @@ body > section > .wrap h2 {
     margin-left: -127px !important;
     margin-top: -120px !important
 }
+#modeling .icon-modeling img:hover{
+    opacity: 0;
+}
+#modeling .icon-modeling{
+    z-index: 5;
+    margin-top: 35px;
+}
 
 #human-practice {
     opacity: 0;
@@ -1352,6 +1362,15 @@ body > section > .wrap h2 {
 #human-practice i {
     margin-left: -85px !important
 }
+#human-practice .icon-human-practice img:hover{
+    opacity: 0;
+}
+#human-practice .icon-human-practice{
+    z-index: 5;
+    margin-top: 30px;
+}
+
+
 
 #notebook {
     opacity: 0;
@@ -1371,6 +1390,15 @@ body > section > .wrap h2 {
 #notebook i {
     margin-left: -105px !important
 }
+#notebook .icon-notebook img:hover{
+    opacity: 0;
+}
+#notebook .icon-notebook{
+    z-index: 5;
+    margin-top: 30px;
+}
+
+
 
 #sponser {
     opacity: 0;
@@ -1390,7 +1418,12 @@ body > section > .wrap h2 {
 #sponser i {
     margin-left: -75px !important
 }
-
+#sponser .icon-sponser img:hover{
+    opacity: 0;
+}
+#sponser .icon-sponser{
+    z-index: 5;
+}
 section h1 {
     color: #fff;
     margin-left: 10px;
