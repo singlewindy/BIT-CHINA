@@ -1286,6 +1286,7 @@ body > section > .wrap h2 {
 
 #project .icon-project {
     z-index: 5;
+    padding-top: 70px;
 }
 #project .icon-project img:hover{
     opacity: 0;
@@ -1315,6 +1316,7 @@ body > section > .wrap h2 {
 
 #team .icon-team {
     z-index: 5;
+    padding-top: 70px;
 }
 #modeling {
     opacity: 0;
@@ -1341,7 +1343,7 @@ body > section > .wrap h2 {
 }
 #modeling .icon-modeling{
     z-index: 5;
-    margin-top: 35px;
+    padding-top: 75px;
 }
 
 #human-practice {
@@ -1367,7 +1369,7 @@ body > section > .wrap h2 {
 }
 #human-practice .icon-human-practice{
     z-index: 5;
-    margin-top: 30px;
+    padding-top: 70px;
 }
 
 
@@ -1395,7 +1397,7 @@ body > section > .wrap h2 {
 }
 #notebook .icon-notebook{
     z-index: 5;
-    margin-top: 30px;
+    padding-top: 75px;
 }
 
 
@@ -1423,6 +1425,7 @@ body > section > .wrap h2 {
 }
 #sponser .icon-sponser{
     z-index: 5;
+    padding-top: 70px;
 }
 section h1 {
     color: #fff;
