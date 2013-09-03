@@ -1119,7 +1119,7 @@ body {
     text-align: center;
     overflow-x: hidden;
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 1160px;
 }
 
 body > section > .wrap {
@@ -1442,10 +1442,8 @@ section p {
 }
 
 #about {
-    background: url("http://maps.googleapis.com/maps/api/staticmap?size=12800x8100&maptype=roadmap\&markers=color:red%7CBeijing+Institute+Of+Technology&sensor=false&zoom=10&language=en-US");
-    margin: 0;
-    padding: 0;
-    height: 100%;
+    background: #ffffdd;
+    min-height: 1300px !important;
 }
 
 #about .header-icon div {
@@ -1540,14 +1538,14 @@ section p {
 #about aside {
     background: rgba(0, 0, 0, 0.75);
     border-radius: 5px;
-    float: right;
+    float: left;
     margin: 0 auto;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-left: 10px;
     margin-top: 110px;
     padding: 20px;
     position: relative;
-    width: 320px;
+    width: 350px;
     z-index: 2;
 }
 
@@ -1584,9 +1582,9 @@ section p {
         0px 10px 0px 10px rgba(0, 0, 0, 0.75);
     content: ' ';
     display: block;
-    float: right;
+    float: left;
     height: 50px;
-    margin-left: 746px;
+    margin-left: 150px;
     margin-top: 390px;
     position: absolute;
     width: 50px;
