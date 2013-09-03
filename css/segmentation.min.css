@@ -453,28 +453,22 @@
 /*---------------------------------rewrite-------------------------------------*/
 
 .section.pagetitle.modeling {
-    background-image: url(../img/BIT.jpg);
-    background-size: cover;
-
+    background-image: url(../img/bg_1.jpg) ;
 }
 .section.pagetitle.sponser {
-    background-image: url(../img/BIT.jpg) ;
-    background-size: cover;
+    background-image: url(../img/bg_1.jpg) ;
 }
 
 .section.pagetitle.project {
-    background-image: url(../img/BIT.jpg) ;
-    background-size: cover;
+    background-image: url(../img/bk_1.jpg) ;
 }
 
 .section.pagetitle.team {
-    background-image: url(../img/BIT.jpg) ;
-    background-size: cover;
+    background-image: url(../img/bg_1.jpg) ;
 }
 
 .section.pagetitle.notebook {
-    background-image: url(../img/BIT.jpg) ;
-    background-size: cover;
+    background-image: url(../img/bg_1.jpg) ;
 }
 
 .section.hero {
