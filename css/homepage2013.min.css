@@ -1086,7 +1086,6 @@ body {
 }
 
 .header-icon .icon-sitemap {
-    background: url(../img/sponsers/BIT.png);
     transition: all 0s ease; 
     -webkit-transition: all 0s ease; 
     height: 128px; 
@@ -1136,7 +1135,7 @@ body > section > .wrap h2 {
 
 #sitemap {
     background: #152732;
-    min-height: 1100px !important
+    min-height: 1300px !important
 }
 
 #sitemap .header-icon div {
@@ -1272,7 +1271,7 @@ body > section > .wrap h2 {
 #project {
     opacity: 0;
     z-index: -1;
-    background: #75dc73;
+    background: #ccccff;
     -webkit-transition:all 0.35s linear;
     -moz-transition:all 0.35s linear;
     -ms-transition:all 0.35s linear;
@@ -1299,7 +1298,7 @@ body > section > .wrap h2 {
 #team {
     opacity: 0;
     z-index: -1;
-    background: #32b5b7;
+    background: #99ccff;
     -webkit-transition:all 0.35s linear;
     -moz-transition:all 0.35s linear;
     -ms-transition:all 0.35s linear;
@@ -1321,7 +1320,7 @@ body > section > .wrap h2 {
 #modeling {
     opacity: 0;
     z-index: -1;
-    background: #51a591;
+    background: #66cccc;
     -webkit-transition:all 0.35s linear;
     -moz-transition:all 0.35s linear;
     -ms-transition:all 0.35s linear;
@@ -1349,7 +1348,7 @@ body > section > .wrap h2 {
 #human-practice {
     opacity: 0;
     z-index: -1;
-    background: #ea3a3a;
+    background: #99cc66;
     -webkit-transition:all 0.35s linear;
     -moz-transition:all 0.35s linear;
     -ms-transition:all 0.35s linear;
@@ -1377,7 +1376,7 @@ body > section > .wrap h2 {
 #notebook {
     opacity: 0;
     z-index: -1;
-    background: #fe6f00;
+    background: #ffdd22;
     -webkit-transition:all 0.35s linear;
     -moz-transition:all 0.35s linear;
     -ms-transition:all 0.35s linear;
@@ -1405,7 +1404,7 @@ body > section > .wrap h2 {
 #sponser {
     opacity: 0;
     z-index: -1;
-    background: #f5d344;
+    background: #ff99cc;
     -webkit-transition:all 0.35s linear;
     -moz-transition:all 0.35s linear;
     -ms-transition:all 0.35s linear;
@@ -1442,3 +1441,171 @@ section p {
     text-align: left;
 }
 
+#about {
+    background: url("http://maps.googleapis.com/maps/api/staticmap?size=12800x8100&maptype=roadmap\&markers=color:red%7CBeijing+Institute+Of+Technology&sensor=false&zoom=10&language=en-US");
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#about .header-icon div {
+    background: #ea3a3a;
+    box-shadow:
+        40px 30px 0px -15px #ea3a3a,
+        -60px 40px 0px -30px #ea3a3a,
+        -100px 0px 0px -50px #ea3a3a,
+        100px 0px 0px -50px #ea3a3a
+}
+
+#about .header-icon:before {
+    background: #ea3a3a
+}
+
+#about h1 {
+    color: #000
+}
+
+#about h2 {
+    color: #ea3a3a
+}
+
+#map {
+    background: #fafafa;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+}
+
+#map > div {
+    height: 100% !important;
+    padding-top: 250px !important;
+    width: 100%;
+}
+
+#about .icon-dolox {
+    color: #ea5455;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+#about p {
+    display: block;
+    margin-top: 100px;
+    padding: 5px;
+    width: 930px
+}
+
+#about p,
+#about p strong,
+#about p em {
+    color: #111;
+    font-size: 28px;
+    letter-spacing: -1px;
+    line-height: 47px
+}
+
+#about p .placeholder {
+    display: none;
+    float: right;
+    height: 296px;
+    padding: 20px;
+    width: 353px
+}
+
+#about .icon-heart {
+    color: #e93839;
+    height: 24px;
+    font-size: 28px;
+    margin-top: 8px;
+    position: relative;
+    width: 28px;
+}
+
+#about p strong {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#about p em {
+    color: #999
+}
+
+#about p strong {
+    background: #e93839;
+    color: #fafafa
+}
+
+#about aside {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    float: right;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 110px;
+    padding: 20px;
+    position: relative;
+    width: 320px;
+    z-index: 2;
+}
+
+#about aside:after {
+    content: ' ';
+    border: solid transparent;
+    border-top-color: rgba(0, 0, 0, 0.75);
+    border-width: 20px;
+    display: block;
+    height: 0px;
+    margin-left: 130px;
+    margin-top: 20px;
+    position: absolute;
+    width: 0px;
+}
+
+#about aside:before {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    content: ' ';
+    display: block;
+    height: 20px;
+    right: 20px;
+    position: absolute;
+    width: 20px;
+}
+
+#point {
+    background: #ea3a3a;
+    border-radius: 50px;
+    box-shadow:
+        inset 0px 0px 25px rgba(0, 0, 0, 0.25),
+        0px 5px 0px 3px rgba(255, 25, 25, 0.75),
+        0px 10px 0px 10px rgba(0, 0, 0, 0.75);
+    content: ' ';
+    display: block;
+    float: right;
+    height: 50px;
+    margin-left: 746px;
+    margin-top: 390px;
+    position: absolute;
+    width: 50px;
+}
+
+#about aside dt {
+    color: #ccc;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+
+#about aside dd {
+    color: #fafafa;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-align: left;
+    width: 200px;
+}
