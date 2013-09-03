@@ -453,28 +453,39 @@
 /*---------------------------------rewrite-------------------------------------*/
 
 .section.pagetitle.modeling {
-    background-image: url(../img/BIT.jpg);
+    background-image: url(../img/BIT.png);
     background-size: cover;
+    background-color: #66CCCC;
 
 }
 .section.pagetitle.sponser {
-    background-image: url(../img/BIT.jpg) ;
+    background-image: url(../img/BIT.png) ;
     background-size: cover;
+    background-color: #FF99CC;
 }
 
 .section.pagetitle.project {
-    background-image: url(../img/BIT.jpg) ;
+    background-image: url(../img/BIT.png);
     background-size: cover;
+    background-color: #ccccff;
 }
 
 .section.pagetitle.team {
-    background-image: url(../img/BIT.jpg) ;
+    background-image: url(../img/BIT.png) ;
     background-size: cover;
+    background-color: #99CCFF;
 }
 
 .section.pagetitle.notebook {
-    background-image: url(../img/BIT.jpg) ;
+    background-image: url(../img/BIT.png) ;
     background-size: cover;
+    background-color: #FFDD22;
+}
+
+.section.pagetitle.huamnpracitce {
+    background-image: url(../img/BIT.png) ;
+    background-size: cover;
+    background-color: #99CC66;
 }
 
 .section.hero {
