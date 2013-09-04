@@ -11,8 +11,8 @@
 		        temp.style.height = '0px';
         	if($w.scrollTop() > overview)
 		        temp.style.height = '25px';
-                if($w.scrollTop() > safety)
-                                temp.style.height = '325px';
+            if($w.scrollTop() > safety)
+                temp.style.height = '325px';
         });
 
 })();

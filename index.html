@@ -14,6 +14,8 @@
     <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
     <script type="text/javascript" src="js/nav.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=en-US"></script>
+    <script type="text/javascript" src="js/infobox_packed.js"></script>
 
     <script>
         $(function(){
@@ -23,6 +25,89 @@
             });
         });
         
+    </script>
+
+    <script>
+        var map;
+        var marker;
+        var n = 0;
+
+        function isInfoBoxOpen(infoBox){
+            var map = infoBox.getMap();
+            return (map === null || typeof map === "undefined");
+        }
+
+        function initialize() {
+          var myLatlng = new google.maps.LatLng(39.959758,116.31615);
+
+          var mapOptions = {
+            zoom: 11,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+
+          map = new google.maps.Map(document.getElementById('googlemap'),
+              mapOptions);
+
+        var boxText = document.createElement("div");
+        boxText.innerHTML = "<aside class='hatch'>" +
+                            "<div class='icon-BIT'><img src='./img/sponsers/BIT.png' width='100'/></div>" +
+                            "<dl>" + 
+                            "<dt>School</dt>" + "<dd>Beijing Institute Of Technology</dd>" + 
+                            "<dt>Postcode</dt>" + "<dd>100081</dd>" + 
+                            "<dt>Address</dt>" + "<dd>5 South Zhongguancun Street, Haidian District, Beijing</dd>" + 
+                            "<dt>Email</dt>" + "<dd>singlewindy@gmail.com</dd>" + 
+                            "</dl>" + "</aside>";
+
+        var myOptions = {
+                 content: boxText
+                ,disableAutoPan: false
+                ,maxWidth: 0
+                ,pixelOffset: new google.maps.Size(-140, 0)
+                ,zIndex: null
+                ,boxStyle: { 
+                 }
+                ,infoBoxClearance: new google.maps.Size(1, 1)
+                ,closeBoxURL:""
+                ,isHidden: false
+                ,pane: "floatPane"
+                ,enableEventPropagation: false
+        };
+
+        var ib = new InfoBox(myOptions);
+
+        marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          draggable:true,
+          animation: google.maps.Animation.DROP
+        });
+
+        ib.open(map, marker);
+        google.maps.event.addListener(marker, 'click', toggleBounce);
+        google.maps.event.addListener(marker, 'click', function() {
+            if (!isInfoBoxOpen(ib)) {
+                ib.close(map, marker);
+            } else {
+                ib.open(map, marker);
+            }
+            n = n + 1;
+        });
+    }
+
+        function toggleBounce() {
+
+          if (marker.getAnimation() != null) {
+            marker.setAnimation(null);
+          } else {
+            marker.setAnimation(google.maps.Animation.BOUNCE);
+            for (var i = 0; i <= 1000; i++);
+            marker.setAnimation(null);
+          }
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
     </script>
     
 </head>
@@ -102,6 +187,7 @@
 </div><!-- .white_header -->
                 </div><!-- .header_bar -->
                 <div class="page_content" style="position:relative; z-index:1;">
+
                     <div class="home ready">
                         <div class="top-section"></div>
 
@@ -189,29 +275,7 @@
 
                 <div id="point" class="radar"></div>
 
-                <aside class="hatch">
-                    <i class="icon icon-64 icon-dolox"></i>
-
-                    <dl>
-                        <dt>Company</dt>
-                        <dd>Dolox Inc.</dd>
-
-                        <dt>Email</dt>
-                        <dd>hello@dolox.com</dd>
-
-                        <dt>Phone</dt>
-                        <dd>(347) 687-3656</dd>
-
-                        <dt>Established</dt>
-                        <dd>January 2005</dd>
-
-                        <dt>Location</dt>
-                        <dd>New York, NY</dd>
-
-                        <dt>Category</dt>
-                        <dd>Software Engineering</dd>
-                    </dl>
-                </aside>
+                <div id="googlemap"></div>
 
             </div>
             
@@ -226,7 +290,7 @@
         </div>
 
     <script type="text/javascript" src="js/empty.js"></script>
-    <script src="./js/plugins.min.js"></script>
+ 
 
 </body>
 </html>
