@@ -4,9 +4,8 @@ body {
 }
 
 .page_content {
-    background: url(http://2013.igem.org/wiki/images/0/0b/BIT-China_DNA.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background: url(../img/homepage/bg01.jpg);
+    background-position: center -500px;
 }
 
 .sprite {
@@ -287,9 +286,8 @@ body {
 }
 
 .home .top-section {
-    /*background: white;*/
     padding-top: 60px;
-    /*overflow: hidden;*/
+    overflow: hidden;
     height: 658px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -851,17 +849,6 @@ body {
     font-size: 19px;
 }
 
-.home .workmap .block blockquote .quote:before {
-    content: "\201C";
-    position: absolute;
-    left: 36px;
-    margin-top: -1px;
-}
-
-.home .workmap .block blockquote .quote:after {
-    content: "\201D";
-}
-
 .home .workmap .block blockquote .author {
     font-size: 18px;
     font-weight: 500;
@@ -1080,7 +1067,6 @@ body {
 
 .header-icon div {
     border-radius: 200px;
-    color: #fff;
     overflow: hidden;
     padding: 50px
 }
@@ -1097,21 +1083,6 @@ body {
 .header-icon img {
     margin-left: -20px;
     zoom: 80%;
-}
-
-.header-icon:before {
-    border-radius: 128px;
-    content: ' ';
-    display: none;
-    height: 230px;
-    margin-left: -1px;
-    margin-top: -1px;
-    position: absolute;
-    width: 230px
-}
-
-.header-icon:not(.invisible):before {
-    display: block
 }
 
 .wrap {
@@ -1145,10 +1116,6 @@ body > section > .wrap h2 {
         -60px 40px 0px -30px #7ec9ac,
         -100px 0px 0px -50px #7ec9ac,
         100px 0px 0px -50px #7ec9ac
-}
-
-#sitemap .header-icon:before {
-    background: #7ec9ac
 }
 
 #sitemap h2 {
@@ -1443,7 +1410,7 @@ section p {
 
 #about {
     background: #ffffdd;
-    min-height: 1300px !important;
+    min-height: 1000px !important;
 }
 
 #about .header-icon div {
@@ -1453,10 +1420,6 @@ section p {
         -60px 40px 0px -30px #ea3a3a,
         -100px 0px 0px -50px #ea3a3a,
         100px 0px 0px -50px #ea3a3a
-}
-
-#about .header-icon:before {
-    background: #ea3a3a
 }
 
 #about h1 {
@@ -1481,10 +1444,22 @@ section p {
     width: 100%;
 }
 
-#about .icon-dolox {
-    color: #ea5455;
-    margin-bottom: 20px;
-    opacity: 1;
+#about .icon-BIT {
+    margin-top: 10px;
+    margin-left: -10px;
+    float: left;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+#about .icon-BIT img{
+    float: left;
+}
+
+#about dl {
+    margin-top: 10px;
+    font-size: 13px;
+    min-height: 110px !important;
 }
 
 #about p {
@@ -1541,11 +1516,11 @@ section p {
     float: left;
     margin: 0 auto;
     margin-bottom: 50px;
-    margin-left: 10px;
-    margin-top: 110px;
+    margin-left: -30px;
+    margin-top: -220px;
     padding: 20px;
     position: relative;
-    width: 350px;
+    width: 380px;
     z-index: 2;
 }
 
@@ -1562,17 +1537,6 @@ section p {
     width: 0px;
 }
 
-#about aside:before {
-    background: rgba(0, 0, 0, 0.75);
-    border-radius: 20px;
-    content: ' ';
-    display: block;
-    height: 20px;
-    right: 20px;
-    position: absolute;
-    width: 20px;
-}
-
 #point {
     background: #ea3a3a;
     border-radius: 50px;
@@ -1585,7 +1549,7 @@ section p {
     float: left;
     height: 50px;
     margin-left: 150px;
-    margin-top: 390px;
+    margin-top: 550px;
     position: absolute;
     width: 50px;
 }
@@ -1606,4 +1570,25 @@ section p {
     margin-left: 20px;
     text-align: left;
     width: 200px;
+}
+
+#about #googlemap {
+    opacity: 0;
+    border-radius: 5px;
+    float: right;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-top: 110px;
+    padding: 20px;
+    position: relative;
+    width: 640px;
+    height: 480px;
+    z-index: 2;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
 }

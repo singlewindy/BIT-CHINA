@@ -2,13 +2,13 @@
         var $w = $(window);
 
         $w.scroll(function() {
-        	$('.header-icon div, .wrap > h1, .wrap > h2').each(function(index) {
+        	$('.header-icon div, .wrap > h1, .wrap > h2, #googlemap').each(function(index) {
 				var section_top = $(this).offset().top;
 
 				if ($w.scrollTop() >= section_top - 400 && $(this).hasClass('invisible')) {
 					$(this).removeClass('invisible');
 
-					if ($(this).is('div')) {
+					if ($(this).is('.header-icon div')) {
 						var self = this;
 
 						setTimeout(function() {
@@ -36,7 +36,7 @@
 				} else if ($w.scrollTop() < section_top - 400 && !$(this).hasClass('invisible')) {
 					$(this).addClass('invisible');
 
-					if ($(this).is('div')) {
+					if ($(this).is('.header-icon div')) {
 						$(this).parent().addClass('invisible');
 
 						$(this).animate({
@@ -59,37 +59,37 @@
 						});
 					}
 				}
-			});
+		});
 
 			
-			$('#sitemap section').each(function(index) {
-				var section_top_start = $(this).offset().top - 300;
-				var section_top_end = $(this).offset().top - 400;
+		$('#sitemap section').each(function(index) {
+			var section_top_start = $(this).offset().top - 300;
+			var section_top_end = $(this).offset().top - 400;
 
-				var element = $(this);
-				var animation = 'bounce';
+			var element = $(this);
+			var animation = 'bounce';
 
-				if ($w.scrollTop() >= section_top_start && !element.hasClass(animation)) {
+			if ($w.scrollTop() >= section_top_start && !element.hasClass(animation)) {
 
-					element.css({
-						opacity: 1,
-						zIndex: 3
-					}).addClass(animation);
+				element.css({
+					opacity: 1,
+					zIndex: 3
+				}).addClass(animation);
 
-				} else if ($w.scrollTop() < section_top_end && element.hasClass(animation)) {
-					element.removeClass(animation).animate({
-						opacity: 0
-					}, {
-						duration: 100,
-						queue: false,
-						
-						complete: function() {
-							$(this).css('zIndex', -1);
-						}
-					});
-				}
-			});
-	            
-	    });
+			} else if ($w.scrollTop() < section_top_end && element.hasClass(animation)) {
+				element.removeClass(animation).animate({
+					opacity: 0
+				}, {
+					duration: 100,
+					queue: false,
+					
+					complete: function() {
+						$(this).css('zIndex', -1);
+					}
+				});
+			}
+		});
+            
+    });
 
 })();
