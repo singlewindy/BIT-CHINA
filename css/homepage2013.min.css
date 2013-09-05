@@ -1592,3 +1592,9 @@ section p {
     transition: all .5s ease-in-out;
 
 }
+
+.mapborder{
+    background-color: #ffffff;
+    padding: 20px;
+
+}
