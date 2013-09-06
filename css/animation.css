@@ -1,5 +1,5 @@
 .parallax {
-	-webkit-animation: parallax2 20s linear infinite;
+	-webkit-animation: parallax 40s linear infinite;
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
 	-webkit-transform: translateX(0) translate3d(0, 0, 0);
@@ -16,7 +16,7 @@
 	}
 
 	100% {
-		transform: translateX(1400px)
+		transform: translateX(-3000px)
 	}
 }
 
@@ -26,7 +26,7 @@
 	}
 
 	100% {
-		-webkit-transform: translateX(1400px) translate3d(0, 0, 0)
+		-webkit-transform: translateX(-3000px) translate3d(0, 0, 0)
 	}
 }
 
@@ -50,7 +50,7 @@
 	}
 
 	100% {
-		transform: translateX(-1100px)
+		transform: translateX(-2500px)
 	}
 }
 
@@ -60,7 +60,7 @@
 	}
 
 	100% {
-		-webkit-transform: translateX(-1100px) translate3d(0, 0, 0)
+		-webkit-transform: translateX(-2500px) translate3d(0, 0, 0)
 	}
 }
 
