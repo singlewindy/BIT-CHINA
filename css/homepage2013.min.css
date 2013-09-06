@@ -1241,7 +1241,7 @@ body > section > .wrap h2 {
 }
 
 #project h1 a {
-    color: #75dc73
+    color: #CCCCFF;
 }
 
 #project .icon-project {
@@ -1268,7 +1268,7 @@ body > section > .wrap h2 {
 }
 
 #team h1 a {
-    color: #32b5b7
+    color: #99CCFF;
 }
 #team .icon-team:hover{
     opacity: 0;
@@ -1290,7 +1290,7 @@ body > section > .wrap h2 {
 }
 
 #modeling h1 a {
-    color: #51a591
+    color: #66CCCC;
 }
 
 #modeling i {
@@ -1318,7 +1318,7 @@ body > section > .wrap h2 {
 }
 
 #human-practice h1 a {
-    color: #ea3a3a
+    color: #99CC66;
 }
 
 #human-practice i {
@@ -1346,7 +1346,7 @@ body > section > .wrap h2 {
 }
 
 #notebook h1 a {
-    color: #fe6f00
+    color: #FFDD22;
 }
 
 #notebook i {
@@ -1374,7 +1374,7 @@ body > section > .wrap h2 {
 }
 
 #sponser h1 a {
-    color: #f5d344
+    color: #FF99CC;
 }
 
 #sponser i {
