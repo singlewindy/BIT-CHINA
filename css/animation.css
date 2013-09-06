@@ -1,5 +1,5 @@
 .parallax {
-	-webkit-animation: parallax 40s linear infinite;
+	-webkit-animation: parallax2 20s linear infinite;
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
 	-webkit-transform: translateX(0) translate3d(0, 0, 0);
