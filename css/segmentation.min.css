@@ -150,7 +150,7 @@
 }
 
 #sidebar .temper .team_height{
-    height: 250px;
+    height: 180px;
 }
 #sidebar .temper .project_height{
     height: 350px;
@@ -159,7 +159,7 @@
     height: 330px;
 }
 #sidebar .temper .model_height{
-    height: 450px;
+    height: 300px;
 }
 #sidebar .temper .sponser_height{
     height: 400px;
@@ -400,7 +400,7 @@
 }
 
 .section h1 {
-    font-family: 'Play', sans-serif;
+    font-family: 'Fascinate', cursive;
     font-weight: 200;
     font-size: 46px;
     line-height: 46px;
@@ -448,7 +448,7 @@
 .section.pagetitle { 
     background-position: center;
     background-size: 80%;
-    background-image: url(../img/homepage/contact1.png);
+/*    background-image: url(../img/homepage/contact_1.png);*/
     overflow: hidden
     font-size: 2.3em;
     line-height: 1em;
@@ -457,26 +457,32 @@
 
 .section.pagetitle.modeling {
     background-color: #66CCCC;
+    background-image: url(../img/homepage/contact_1.png);
 
 }
 .section.pagetitle.sponser {
     background-color: #FF99CC;
+    background-image: url(../img/homepage/contact_1.png);
 }
 
 .section.pagetitle.project {
     background-color: #ccccff;
+    background-image: url(../img/homepage/contact_1.png);
 }
 
 .section.pagetitle.team {
     background-color: #99CCFF;
+    background-image: url(../img/homepage/contact_1.png);
 }
 
 .section.pagetitle.notebook {
     background-color: #FFDD22;
+    background-image: url(../img/homepage/contact_1.png);
 }
 
 .section.pagetitle.huamnpracitce {
     background-color: #99CC66;
+    background-image: url(../img/homepage/contact_1.png);
 }
 
 .section.hero {

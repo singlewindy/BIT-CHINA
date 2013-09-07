@@ -1,13 +1,11 @@
 (function() {
         var $w = $(window);
-	var team = $("#team").offset().top;
-	var team_members = $("#team_members").offset().top - 110;
+    	var team = $("#team").offset().top;
+    	var team_members = $("#team_members").offset().top - 110;
         var instructors = $('#instructors').offset().top - 110;
         var advisors = $('#advisors').offset().top - 110;
         var students_members = $('#students_members').offset().top - 110;
-        var OfficialProfile = $('#OfficialProfile').offset().top - 110;
-        var AbouttheUniversity = $('#AbouttheUniversity').offset().top - 110;
-        var ContactUs = $('#ContactUs').offset().top - 110;
+        var AbouttheUniversity = $('#About_the_University').offset().top - 110;
 		var temp = document.getElementById("mercury");
 
         $w.scroll(function() {
@@ -21,12 +19,8 @@
                     temp.style.height = '75px';
             if($w.scrollTop() > students_members)
                     temp.style.height = '100px';
-            if($w.scrollTop() > OfficialProfile)
-                    temp.style.height = '125px';
             if($w.scrollTop() > AbouttheUniversity)
                     temp.style.height = '150px';
-            if($w.scrollTop() > ContactUs)
-                    temp.style.height = '175px';
         });
 
 })();
