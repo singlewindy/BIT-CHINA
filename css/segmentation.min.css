@@ -446,6 +446,9 @@
 }
 
 .section.pagetitle { 
+    background-position: center;
+    background-size: 100%;
+    background-image: url(../img/section.jpg);
     overflow: hidden
     font-size: 2.3em;
     line-height: 1em;
@@ -453,38 +456,26 @@
 /*---------------------------------rewrite-------------------------------------*/
 
 .section.pagetitle.modeling {
-    background-image: url(../img/DNA-1.png);
-    background-size: 100% 100%;
     background-color: #66CCCC;
 
 }
 .section.pagetitle.sponser {
-    background-image: url(../img/DNA-1.png) ;
-    background-size: 100% 100%;
     background-color: #FF99CC;
 }
 
 .section.pagetitle.project {
-    background-image: url(../img/DNA-1.png);
-    background-size: 100% 100%;
     background-color: #ccccff;
 }
 
 .section.pagetitle.team {
-    background-image: url(../img/DNA-1.png) ;
-    background-size: 100% 100%;
     background-color: #99CCFF;
 }
 
 .section.pagetitle.notebook {
-    background-image: url(../img/DNA-1.png) ;
-    background-size: 100% 100%;
     background-color: #FFDD22;
 }
 
 .section.pagetitle.huamnpracitce {
-    background-image: url(../img/DNA-1.png) ;
-    background-size: 100% 100%;
     background-color: #99CC66;
 }
 
