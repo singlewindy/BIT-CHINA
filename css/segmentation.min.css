@@ -105,52 +105,52 @@
 }
 #sidebar .list .temper .color-team #mercury{
     background: #99CCFF;
-    background-image: -webkit-linear-gradient(top,#99CCFF,#551A8B);
-    background-image: -moz-linear-gradient(top,#99CCFF,#551A8B);
-    background-image: -ms-linear-gradient(top,#99CCFF,#551A8B);
-    background-image: -o-linear-gradient(top,#99CCFF,#551A8B);
-    background-image: linear-gradient(top,#99CCFF,#551A8B);
+    background-image: -webkit-linear-gradient(top,#99CCFF,#66eeCC);
+    background-image: -moz-linear-gradient(top,#99CCFF,#66eeCC);
+    background-image: -ms-linear-gradient(top,#99CCFF,#66eeCC);
+    background-image: -o-linear-gradient(top,#99CCFF,#66eeCC);
+    background-image: linear-gradient(top,#99CCFF,#66eeCC);
 }
 #sidebar .list .temper .color-notebook #mercury{
     background: #FFCC00;
-    background-image: -webkit-linear-gradient(top,#FFCC00,#8B6508);
-    background-image: -moz-linear-gradient(top,#FFCC00,#8B6508);
-    background-image: -ms-linear-gradient(top,#FFCC00,#8B6508);
-    background-image: -o-linear-gradient(top,#FFCC00,#8B6508);
-    background-image: linear-gradient(top,#FFCC00,#8B6508);
+    background-image: -webkit-linear-gradient(top,#FFCC00,#EE00EE);
+    background-image: -moz-linear-gradient(top,#FFCC00,#EE00EE);
+    background-image: -ms-linear-gradient(top,#FFCC00,#EE00EE);
+    background-image: -o-linear-gradient(top,#FFCC00,#EE00EE);
+    background-image: linear-gradient(top,#FFCC00,#EE00EE);
 }
 #sidebar .list .temper .color-project #mercury{
     background: #9999FF;
-    background-image: -webkit-linear-gradient(top,#9999FF,#8B8386);
-    background-image: -moz-linear-gradient(top,#9999FF,#8B8386);
-    background-image: -ms-linear-gradient(top,#9999FF,#8B8386);
-    background-image: -o-linear-gradient(top,#9999FF,#8B8386);
-    background-image: linear-gradient(top,#9999FF,#8B8386);
+    background-image: -webkit-linear-gradient(top,#9999FF,#99CCFF);
+    background-image: -moz-linear-gradient(top,#9999FF,#99CCFF);
+    background-image: -ms-linear-gradient(top,#9999FF,#99CCFF);
+    background-image: -o-linear-gradient(top,#9999FF,#99CCFF);
+    background-image: linear-gradient(top,#9999FF,#99CCFF);
 }
 #sidebar .list .temper .color-modeling #mercury{
     background: #66eeCC;
-    background-image: -webkit-linear-gradient(top,#66eeCC,#528B8B);
-    background-image: -moz-linear-gradient(top,#66eeCC,#528B8B);
-    background-image: -ms-linear-gradient(top,#66eeCC,#528B8B);
-    background-image: -o-linear-gradient(top,#66eeCC,#528B8B);
-    background-image: linear-gradient(top,#66eeCC,#528B8B);
+    background-image: -webkit-linear-gradient(top,#66eeCC,#99CC33);
+    background-image: -moz-linear-gradient(top,#66eeCC,#99CC33);
+    background-image: -ms-linear-gradient(top,#66eeCC,#99CC33);
+    background-image: -o-linear-gradient(top,#66eeCC,#99CC33);
+    background-image: linear-gradient(top,#66eeCC,#99CC33);
 }
 
 #sidebar .list .temper .color-humanpractice #mercury{
     background: #99CC33;
-    background-image: -webkit-linear-gradient(top,#99CC33,#6B8E23);
-    background-image: -moz-linear-gradient(top,#99CC33,#6B8E23);
-    background-image: -ms-linear-gradient(top,#99CC33,#6B8E23);
-    background-image: -o-linear-gradient(top,#99CC33,#6B8E23);
-    background-image: linear-gradient(top,#99CC33,#6B8E23);
+    background-image: -webkit-linear-gradient(top,#99CC33,#FFCC00);
+    background-image: -moz-linear-gradient(top,#99CC33,#FFCC00);
+    background-image: -ms-linear-gradient(top,#99CC33,#FFCC00);
+    background-image: -o-linear-gradient(top,#99CC33,#FFCC00);
+    background-image: linear-gradient(top,#99CC33,#FFCC00);
 }
 #sidebar .list .temper .color-sponser #mercury{
     background: #EE00EE;
-    background-image: -webkit-linear-gradient(top,#EE00EE,#8B008B);
-    background-image: -moz-linear-gradient(top,#EE00EE,#8B008B);
-    background-image: -ms-linear-gradient(top,#EE00EE,#8B008B);
-    background-image: -o-linear-gradient(top,#EE00EE,#8B008B);
-    background-image: linear-gradient(top,#EE00EE,#8B008B);
+    background-image: -webkit-linear-gradient(top,#EE00EE,#FF0000);
+    background-image: -moz-linear-gradient(top,#EE00EE,#FF0000);
+    background-image: -ms-linear-gradient(top,#EE00EE,#FF0000);
+    background-image: -o-linear-gradient(top,#EE00EE,#FF0000);
+    background-image: linear-gradient(top,#EE00EE,#FF0000);
 }
 
 #sidebar .list .temper .temp-head-team{
@@ -749,4 +749,7 @@ table {
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
   background-color: #9999FF;
+}
+th {
+    font-weight: bold;
 }
