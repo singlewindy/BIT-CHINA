@@ -39,6 +39,7 @@
          var rightarrow = document.getElementById("rightarrow");
          var section = getElementsByClassName(document, "section");
          var widget = document.getElementById("widget");
+         var footer = document.getElementById("footer_bg");
          n = section.length;        
          sidebar.style.left = '-300px';
          leftarrow.style.visibility = 'hidden';
@@ -47,6 +48,7 @@
          rightarrow.style.opacity = 1;
          widget.style.visibility = 'visible';
          widget.style.opacity = 1;
+         footer.style.width = '110%';
          for (var i = 0; i < n; i++) {
             var e = section[i];
             e.style.marginLeft = '0px';
@@ -59,6 +61,7 @@
          var rightarrow = document.getElementById("rightarrow");
          var section = getElementsByClassName(document, "section");
          var widget = document.getElementById("widget");
+         var footer = document.getElementById("footer_bg");
          n = section.length;         
          sidebar.style.left = '0px';
          leftarrow.style.visibility = 'visible';
@@ -67,6 +70,7 @@
          rightarrow.style.opacity = 0;
          widget.style.visibility = 'hidden';
          widget.style.opacity = 0;
+         footer.style.width = '115%';
          for (var i = 0; i < n; i++) {
             var e = section[i];
             e.style.marginLeft = '300px';
