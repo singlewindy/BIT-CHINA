@@ -2,7 +2,14 @@
         var $w = $(window);
 		var notebook = $("#notebook").offset().top;
 		var journal = $("#journal").offset().top - 110;
-        var human_practice = $('#human_practice').offset().top - 110;
+        var feb = $('#feb').offset().top - 110;
+        var mar = $('#mar').offset().top - 110;
+        var apr = $('#apr').offset().top - 110;
+        var may = $('#may').offset().top - 110;
+        var jun = $('#jun').offset().top - 110;
+        var jul = $('#jul').offset().top - 110;
+        var aug = $('#aug').offset().top - 110;
+        var sep = $('#sep').offset().top - 110;
 		var temp = document.getElementById("mercury");
 
         $w.scroll(function() {
@@ -10,8 +17,22 @@
 		        temp.style.height = '0px';
         	if($w.scrollTop() > journal)
 		        temp.style.height = '25px';
-        	if($w.scrollTop() > human_practice)
+        	if($w.scrollTop() > feb)
 				temp.style.height = '50px';
+            if($w.scrollTop() > mar)
+                temp.style.height = '75px';
+            if($w.scrollTop() > apr)
+                temp.style.height = '100px';
+            if($w.scrollTop() > may)
+                temp.style.height = '125px';
+            if($w.scrollTop() > jun)
+                temp.style.height = '150px';
+            if($w.scrollTop() > jul)
+                temp.style.height = '175px';
+            if($w.scrollTop() > aug)
+                temp.style.height = '205px';
+            if($w.scrollTop() > sep)
+                temp.style.height = '235px';
         });
 
 })();
