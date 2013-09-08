@@ -48,7 +48,7 @@
          rightarrow.style.opacity = 1;
          widget.style.visibility = 'visible';
          widget.style.opacity = 1;
-         footer.style.width = '110%';
+         footer.style.marginLeft = '0px';
          for (var i = 0; i < n; i++) {
             var e = section[i];
             e.style.marginLeft = '0px';
@@ -70,7 +70,7 @@
          rightarrow.style.opacity = 0;
          widget.style.visibility = 'hidden';
          widget.style.opacity = 0;
-         footer.style.width = '115%';
+         footer.style.marginLeft = '300px';
          for (var i = 0; i < n; i++) {
             var e = section[i];
             e.style.marginLeft = '300px';
