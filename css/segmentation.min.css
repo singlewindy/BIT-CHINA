@@ -323,7 +323,7 @@
 .section h1 {
     font-family: 'Chela One', cursive;
     font-weight: 200;
-    font-size: 46px;
+    font-size: 66px;
     line-height: 46px;
     letter-spacing: 1px;
     color: #FFFFFF;
@@ -384,17 +384,17 @@
 /*---------------------------------rewrite-------------------------------------*/
 
 .section.pagetitle.modeling {
-    background-color: #66CCCC;
+    background-color: #5CACEE;
     background-image: url(../img/homepage/contact_1.png);
 
 }
 .section.pagetitle.sponser {
-    background-color: #FF99CC;
+    background-color: #FF3E96;
     background-image: url(../img/homepage/contact_1.png);
 }
 
 .section.pagetitle.project {
-    background-color: #ccccff;
+    background-color: #836FFF;
     background-image: url(../img/homepage/contact_1.png);
 }
 
