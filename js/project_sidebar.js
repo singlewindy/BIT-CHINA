@@ -36,11 +36,35 @@ function flipup(){
             var $w = $(window);
             var project = $("#project").offset().top;
             var overview = $("#overview").offset().top - 110;
-
+            var mab = $("#mab").offset().top - 110;
+            var faq = $("#faq").offset().top - 110;
+            var HR = $("#HR").offset().top - 110;
+            var QC = $("#QC").offset().top - 110;
+            var parts = $("#parts").offset().top - 110;
             var safety = $('#safety').offset().top - 110;
 
             if($w.scrollTop() > safety) {
                 scrollToElement('safety', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > parts) {
+                scrollToElement('parts', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > QC) {
+                scrollToElement('QC', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > HR) {
+                scrollToElement('HR', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > faq) {
+                scrollToElement('faq', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > mab) {
+                scrollToElement('mab', 'normal', 115);
                 return;
             }
             if($w.scrollTop() > overview) {
@@ -59,12 +83,41 @@ function flipdown(){
             var $w = $(window);
             var project = $("#project").offset().top;
             var overview = $("#overview").offset().top - 110;
+            var mab = $("#mab").offset().top - 110;
+            var faq = $("#faq").offset().top - 110;
+            var HR = $("#HR").offset().top - 110;
+            var QC = $("#QC").offset().top - 110;
+            var parts = $("#parts").offset().top - 110;
             var safety = $('#safety').offset().top - 110;
 
             if($w.scrollTop() < overview) {
                 scrollToElement('overview', 'normal', 105);
                 return;
             }
+            if($w.scrollTop() < mab) {
+                scrollToElement('mab', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < faq) {
+                scrollToElement('faq', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < HR) {
+                scrollToElement('HR', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < QC) {
+                scrollToElement('QC', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < parts) {
+                scrollToElement('parts', 'normal', 105);
+                return;
+            }
+            
+            
+            
+            
             if($w.scrollTop() < safety) {
                 scrollToElement('safety', 'normal', 105);
                 return;
