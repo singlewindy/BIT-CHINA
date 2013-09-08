@@ -32,20 +32,20 @@
                     <li class="navitem2">
                         <a href="./project.html">PROJECT</a>
                         <ul class="subnav">
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="#">Heat-resistant system</a></li>
-                            <li><a href="#">Quorum-control system</a></li>
-                            <li><a href="./parts.html">Parts</a></li>
-                            <li><a href="./safety.html">Safety</a></li>
+                            <li><a href="./project.html#overview">Overview</a></li>
+                            <li><a href="./project.html#HR">Heat-resistant system</a></li>
+                            <li><a href="./project.html#QC">Quorum-control system</a></li>
+                            <li><a href="./project.html#parts">Parts</a></li>
+                            <li><a href="./project.html#safety">Safety</a></li>
                         </ul>
                     </li>
                     <li class="navitem3">
                         <a href="./team.html">TEAM</a>
                         <ul class="subnav">
                             <ul>
-                                <li><a href="#">Members</a></li>
-                                <li><a href="#">Official Profile</a></li>
-                                <li><a href="#">About the University</a></li>
+                                <li><a href="./team.html#team_members">Members</a></li>
+                                <li><a href="./team.html#">Official Profile</a></li>
+                                <li><a href="./team.html#About_the_University">About the University</a></li>
                           
                             </ul>
                         </ul>
@@ -142,9 +142,9 @@
         <li>
             <a href="javascript:void(0);" onclick="temper(8,'#QC')">QC-SYSTEM</a>
             <ul>
-                <li><a href="javascript:void(0);" onclick="temper(9)">Quorum-sensing device</a></li>
+                <li><a href="javascript:void(0);" onclick="temper(9,'#QS')">Quorum-sensing device</a></li>
                 <li><a href="javascript:void(0);" onclick="temper(11)">Independent variable frequency oscillator</a></li>
-                <li><a href="javascript:void(0);" onclick="temper(14)">PCD device</a></li>
+                <li><a href="javascript:void(0);" onclick="temper(14,'#PCD')">PCD device</a></li>
             </ul>
         </li>
         <li>
@@ -244,7 +244,7 @@ But the temperature is sill going up with density. Too crowded! There must be a 
                 <h1>Heat-resistant system</h1>
             </div>
     <div class="section hero">
-        <h1>Heat shock proteins (HSPs) </h1>
+        <img src="./img/project/HSPs.png" style="float:left;margin-right:30px;">
         <p>Heat shock proteins (HSPs) are a group of proteins induced by heat shock, the most prominent members of this group are a class of functionally related proteins named chaperones which are involved in the folding and unfolding of other proteins. Their expression is increased when cells are exposed to elevated temperatures or other stress. The dramatic upregulation of the heat shock proteins is a key part of the heat shock response heat resistance. </p>
         <p>HSPs are ubiquitous in all living organisms, eapecially the HSPs of Thermophilic Archaea have important biological value. In our project, we selected five highly effective genes,including dnaK, dnaJ, ThiF, GroeL and GroeS.</p>
         <p>DnaK is one of the Hsp70 proteins expressed in prokaryotes. The bacterial molecular chaperone DnaK is an enzyme that couples cycles of ATP binding, hydrolysis, and ADP release by an N-terminal ATP-hydrolizing domain to cycles of sequestration and release of unfolded proteins by a C-terminal substrate binding domain. By binding tightly to partially synthesized peptide sequences (incomplete proteins), Hsp70 prevents them from aggregating and being rendered nonfunctional. Once the entire protein is synthesized, a nucleotide exchange factor (BAG-1 and HspBP1 are among those which have been identified) stimulates the release of ADP and binding of fresh ATP, opening the binding pocket. The protein is then free to fold on its own, or to be transferred to other chaperones for further processing. DnaK also aids in transmembrane transport of proteins, by stabilizing them in a partially folded state.</p>
@@ -260,10 +260,12 @@ But the temperature is sill going up with density. Too crowded! There must be a 
                 <h1>Quorum-control system</h1>
             </div>
     <div class="section hero">
-        <h1>Quorum sensing</h1>
+        <div id="QS"></div>
+        <img src="./img/project/QS.png" style="float:left;margin-right:30px;">
         <p>It is obvious that a part of our work aim to control the density.  For at the beginning of the fermentation progress the density needs to be improved, it is inappropriate for the density controlling system to run. This density controlling system can be opened only when the cell density is high enough. To settle this problem, we add the quorum sensing device. We use AHL as the symbol of cell density. Cells keep expressing AHL, so that the density of AHL rises with the rise of cell density. There is a kind of protein called LuxR, which can combine with AHL and become a complex. The complex can inhibit downstream gene tetR. The existence of TetR(expressed from tetR) block the oscillation device(wich will be introduced later). As the density of AHL rises, there will be more and more complexes. Then more and more tetR will be inhibited. The oscillation device is activated step by step. The function of this device is to ensure the oscillation device is opened only when the cell density is high enough, so that the oscillation will not block the normal proliferation of E.coli.</p>
-
-        <h1>PCD</h1>
+        <br>
+        <div id="PCD"></div>
+        <img src="./img/project/PCD.png" style="float:left;margin-right:30px;">
         <p>The C I expressed in oscillation device will activate PCD device. The main part of this device is MazEF system. MazEF system is a toxin-antitoxin system .MazF , which has RNA cleavage activity, is a kind of toxin. MazE, on the other hand, is the antidote of MazF. In nature, many bacteria will sacrifice themselves, and leave nutrition to the left ones With this systemwhen facing threats from dangerous environment, such as heat, lack of food and so on. Before the device is activate, both MazE and MazF are expressed. These substance will combine together to form a hexamer, which do no harm to cells. Once CI is expressed, the expression of MazE will be inhibited. No more hexamer will be formed, and MazF will show it’s power. Because of mazF, the density of cell will decrease. When the density is too low that cannot activate quorum sensing system to activate oscillation system, there will be no CI. After that, the MazE will be expressed again, which will save the cells from the hand of MazF.</p>
 
     </div>

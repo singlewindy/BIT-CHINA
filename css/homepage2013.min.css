@@ -1281,7 +1281,7 @@ body > section > .wrap h2 {
 #modeling {
     opacity: 0;
     z-index: -1;
-    background: #66cccc;
+    background: #66eecc;
     -webkit-transition:all 0.35s linear;
     -moz-transition:all 0.35s linear;
     -ms-transition:all 0.35s linear;
@@ -1290,7 +1290,7 @@ body > section > .wrap h2 {
 }
 
 #modeling h1 a {
-    color: #66CCCC;
+    color: #66eeCC;
 }
 
 #modeling i {

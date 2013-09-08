@@ -6,6 +6,7 @@
     var faq = $("#faq").offset().top - 110;
     var HR = $("#HR").offset().top - 110;
     var QC = $("#QC").offset().top - 110;
+    var QS = $("#QS").offset().top - 110;
     var parts = $("#parts").offset().top - 110;
     var safety = $('#safety').offset().top - 110;
 
@@ -24,6 +25,10 @@
                 temp.style.height = '125px';
             if($w.scrollTop() > QC)
                 temp.style.height = '200px';
+            if($w.scrollTop() > QS)
+                temp.style.height = '225px';
+            if($w.scrollTop() > PCD)
+                temp.style.height = '350px';
             if($w.scrollTop() > parts)
                 temp.style.height = '375px';
             if($w.scrollTop() > safety)

@@ -36,7 +36,7 @@ function flipup(){
             var AbouttheUniversity = $('#About_the_University').offset().top - 110;
 
             if($w.scrollTop() > AbouttheUniversity) {
-                scrollToElement('AbouttheUniversity', 'normal', 115);
+                scrollToElement('About_the_University', 'normal', 115);
                 return;
             }
             if($w.scrollTop() > students_members) {
@@ -90,7 +90,7 @@ function flipdown(){
                 return;
             }
             if($w.scrollTop() < AbouttheUniversity) {
-                scrollToElement('AbouttheUniversity', 'normal', 105);
+                scrollToElement('About_the_University', 'normal', 105);
                 return;
             }      
             else {
