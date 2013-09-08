@@ -1,82 +1,3 @@
-
-.purple_button {
-    cursor: pointer;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: proxima-nova,sans-serif;
-    color: #fff;
-    font-weight: 700;
-    text-shadow: 0 -1px #6f5ea1;
-    background-color: #a68cd6;
-    background-image: -moz-linear-gradient(top,#aa92d8,#a084d4);
-    background-image: -ms-linear-gradient(top,#aa92d8,#a084d4);
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(#aa92d8),to(#a084d4));
-    background-image: -webkit-linear-gradient(top,#aa92d8,#a084d4);
-    background-image: -o-linear-gradient(top,#aa92d8 0,#a084d4 0);
-    background-image: linear-gradient(top,#aa92d8 0,#a084d4 0);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa92d8',endColorstr='#a084d4',GradientType=0);
-    -webkit-box-shadow: inset 0 -1px #9479c9,0 1px 2px #e1e4e8;
-    -moz-box-shadow: inset 0 -1px #9479c9,0 1px 2px #e1e4e8;
-    box-shadow: inset 0 -1px #9479c9,0 1px 2px #e1e4e8;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-.purple_button:hover {
-    color: #fff;
-    background-color: #a98fda;
-    background-image: -moz-linear-gradient(top,#af97de,#a084d4);
-    background-image: -ms-linear-gradient(top,#af97de,#a084d4);
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(#af97de),to(#a084d4));
-    background-image: -webkit-linear-gradient(top,#af97de,#a084d4);
-    background-image: -o-linear-gradient(top,#af97de 0,#a084d4 0);
-    background-image: linear-gradient(top,#af97de 0,#a084d4 0);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#af97de',endColorstr='#a084d4',GradientType=0);
-}
-
-.purple_button:active {
-    background-color: #a185d4;
-    background-image: -moz-linear-gradient(top,#a084d4,#a286d5);
-    background-image: -ms-linear-gradient(top,#a084d4,#a286d5);
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(#a084d4),to(#a286d5));
-    background-image: -webkit-linear-gradient(top,#a084d4,#a286d5);
-    background-image: -o-linear-gradient(top,#a084d4 0,#a286d5 0);
-    background-image: linear-gradient(top,#a084d4 0,#a286d5 0);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a084d4',endColorstr='#a286d5',GradientType=0);
-}
-
-.video_button {
-    display: inline-block;
-    position: relative;
-    padding: 22px 28px 22px 72px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 15px;
-}
-
-.video_button .right_arrow {
-    position: absolute;
-    width: 30px;
-    height: 31px;
-    left: 24px;
-    top: 13px;
-    background: url('../img/right_arrow_circle.png');
-}
-
-
-#sidebar .hidemenu{
-    float: right;
-    color: #FFFFFF;
-    padding-top: 10px;
-}
-
-
-
-
 #sidebar {
     background: #231f20;
     position: absolute;
@@ -153,7 +74,7 @@
     height: 180px;
 }
 #sidebar .temper .project_height{
-    height: 350px;
+    height: 430px;
 }
 #sidebar .temper .notebook_height{
     height: 330px;
@@ -162,7 +83,7 @@
     height: 300px;
 }
 #sidebar .temper .sponser_height{
-    height: 400px;
+    height: 200px;
 }
 #sidebar .temper .humanpractice_height{
     height: 400px;
@@ -432,7 +353,14 @@
     letter-spacing: -1px;
     margin: 10px 0 22px -3px;
 }
-
+.section h6 {
+    color: #5b657c;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -1px;
+    text-align: left;
+}
 .section p {
     font-family: 'helvetica neue',helvetica,arial,sans-serif;
     font-size: 16px;
@@ -785,4 +713,40 @@
 
 #nav-arrow li a:hover{
     opacity: 1;
+}
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.table thead > tr > th,
+.table tbody > tr > th,
+.table tfoot > tr > th,
+.table thead > tr > td,
+.table tbody > tr > td,
+.table tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+
+.table thead:first-child tr:first-child th,
+.table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: #9999FF;
 }

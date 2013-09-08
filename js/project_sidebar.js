@@ -1,8 +1,13 @@
 (function() {
-        var $w = $(window);
+    var $w = $(window);
 	var project = $("#project").offset().top;
 	var overview = $("#overview").offset().top - 110;
-        var safety = $('#safety').offset().top - 110;
+    var mab = $("#mab").offset().top - 110;
+    var faq = $("#faq").offset().top - 110;
+    var HR = $("#HR").offset().top - 110;
+    var QC = $("#QC").offset().top - 110;
+    var parts = $("#parts").offset().top - 110;
+    var safety = $('#safety').offset().top - 110;
 
 	var temp = document.getElementById("mercury");
 
@@ -11,8 +16,18 @@
 		        temp.style.height = '0px';
         	if($w.scrollTop() > overview)
 		        temp.style.height = '25px';
+            if($w.scrollTop() > mab)
+                temp.style.height = '50px';
+            if($w.scrollTop() > faq)
+                temp.style.height = '100px';
+            if($w.scrollTop() > HR)
+                temp.style.height = '125px';
+            if($w.scrollTop() > QC)
+                temp.style.height = '200px';
+            if($w.scrollTop() > parts)
+                temp.style.height = '375px';
             if($w.scrollTop() > safety)
-                temp.style.height = '325px';
+                temp.style.height = '400px';
         });
 
 })();
@@ -21,6 +36,7 @@ function flipup(){
             var $w = $(window);
             var project = $("#project").offset().top;
             var overview = $("#overview").offset().top - 110;
+
             var safety = $('#safety').offset().top - 110;
 
             if($w.scrollTop() > safety) {
