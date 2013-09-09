@@ -795,3 +795,18 @@ table {
 th {
     font-weight: bold;
 }
+
+#feb_1,#mar_1,#apr_1,#may_1,#jun_1,#jul_1,#aug_1,#sep_1{
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -ms-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+}
+
+.fold {
+    height: 0px;
+}

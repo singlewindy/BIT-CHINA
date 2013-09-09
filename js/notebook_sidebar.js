@@ -124,3 +124,21 @@ function flipdown(){
                 return;
             }   
          }
+
+function day(idstr){
+    if ($(idstr).hasClass('fold')) {
+       $(idstr).removeClass('fold').animate({
+            opacity: 1,
+        }, {
+            duration: 500,
+            queue: false
+        });
+    } else {
+       $(idstr).addClass('fold').animate({
+            opacity: 0,
+        }, {
+            duration: 500,
+            queue: false
+        });
+    }
+}
