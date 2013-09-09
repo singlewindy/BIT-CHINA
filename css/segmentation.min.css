@@ -103,6 +103,45 @@
     -o-transition: height 0.4s ease-out;
     transition: height 0.4s ease-out
 }
+
+#sidebar .list .temper #mercury .temp {
+    position: absolute;
+    margin-left: 10px;
+}
+
+#sidebar .list .temper #mercury .temp.tem37 {
+    margin-top: 80px;
+}
+
+#sidebar .list .temper #mercury .temp.tem40 {
+    margin-top: 180px;
+}
+
+#sidebar .list .temper #mercury .temp.tem43 {
+    margin-top: 280px;
+}
+
+#sidebar .list .temper #mercury .line {
+    position: absolute;
+    border-bottom: 2px dashed #ffffff;
+    content: ' ';
+    display: block;
+    height: 0px;
+    width: 37px;
+}
+
+#sidebar .list .temper #mercury .line.line1{
+    margin-top: 100px;
+}
+
+#sidebar .list .temper #mercury .line.line2{
+    margin-top: 200px;
+}
+
+#sidebar .list .temper #mercury .line.line3{
+    margin-top: 300px;
+}
+
 #sidebar .list .temper .color-team #mercury{
     background: #99CCFF;
     background-image: -webkit-linear-gradient(top,#99CCFF,#66eeCC);
