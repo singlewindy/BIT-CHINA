@@ -18,6 +18,53 @@
                 temp.style.height = '75px';
             if($w.scrollTop() > ODEmodel)
                 temp.style.height = '100px';
+            if ($('#mercury').height() > 100) {
+                $('.temp.tem37').animate({
+                            opacity: 1,
+                        }, {
+                            duration: 100,
+                            queue: false
+                        });
+            } else {
+                $('.temp.tem37').animate({
+                            opacity: 0,
+                        }, {
+                            duration: 100,
+                            queue: false
+                        });
+            };
+
+            if ($('#mercury').height() > 200) {
+                $('.temp.tem40').animate({
+                            opacity: 1,
+                        }, {
+                            duration: 100,
+                            queue: false
+                        });
+            } else {
+                $('.temp.tem40').animate({
+                            opacity: 0,
+                        }, {
+                            duration: 100,
+                            queue: false
+                        });
+            };
+
+            if ($('#mercury').height() > 300) {
+                $('.temp.tem43').animate({
+                            opacity: 1,
+                        }, {
+                            duration: 100,
+                            queue: false
+                        });
+            } else {
+                $('.temp.tem43').animate({
+                            opacity: 0,
+                        }, {
+                            duration: 100,
+                            queue: false
+                        });
+            };
         });
 
 })();
