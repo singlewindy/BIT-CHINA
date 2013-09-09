@@ -762,6 +762,7 @@ table {
 .table {
   width: 100%;
   margin-bottom: 20px;
+  font-family: 'Port Lligat Slab',serif;
 }
 .table thead > tr > th,
 .table tbody > tr > th,
