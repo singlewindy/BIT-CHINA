@@ -8,6 +8,7 @@
             $nav[$w.scrollTop() > 106 ? "addClass" : "removeClass"]("fixed");
             $emp[$w.scrollTop() > 106 ? "addClass" : "removeClass"]("fixed");
             $sid[$w.scrollTop() > 106 ? "addClass" : "removeClass"]("fixed");
+            
         });
 
 })();

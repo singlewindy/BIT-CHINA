@@ -105,8 +105,10 @@
 }
 
 #sidebar .list .temper #mercury .temp {
+    color: #FFF;
+    opacity: 0;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 2px;
 }
 
 #sidebar .list .temper #mercury .temp.tem37 {
