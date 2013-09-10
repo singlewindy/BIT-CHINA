@@ -137,7 +137,7 @@ function day(idstr){
        $(idstr).addClass('fold').animate({
             opacity: 0,
         }, {
-            duration: 500,
+            duration: 10,
             queue: false
         });
     }
