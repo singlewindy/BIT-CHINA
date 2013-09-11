@@ -712,14 +712,9 @@
 }
 
 #nav-arrow {
-    position: absolute;
-    top: 375px;
-    right: -145px;
-    display: block;
-    width: 34px;
-    height: 76px;
-    padding: 0;
-    margin: 0;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
     z-index: 5;
 }
 

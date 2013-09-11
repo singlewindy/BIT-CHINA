@@ -24,15 +24,15 @@
             if($w.scrollTop() > HR)
                 temp.style.height = '125px';
             if($w.scrollTop() > QC)
-                temp.style.height = '200px';
+                temp.style.height = '210px';
             if($w.scrollTop() > QS)
-                temp.style.height = '225px';
+                temp.style.height = '235px';
             if($w.scrollTop() > PCD)
                 temp.style.height = '350px';
             if($w.scrollTop() > parts)
-                temp.style.height = '375px';
+                temp.style.height = '395px';
             if($w.scrollTop() > safety)
-                temp.style.height = '400px';
+                temp.style.height = '410px';
             if ($('#mercury').height() > 100) {
                 $('.temp.tem37').animate({
                             opacity: 1,
