@@ -174,7 +174,7 @@ body {
     background-size: 100% 100%;
     width: 100%;
     padding-top: 60px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     height: 790px;
     -webkit-user-select: none;
     -moz-user-select: none;
