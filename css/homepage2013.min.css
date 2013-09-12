@@ -4,17 +4,16 @@ body {
 }
 
 .page_content {
-    background: url(../img/homepage/bg.png);
-    background-position: center -50px;
-    background-size: 100%;
+    
 }
 
-
-.notdis{
+#header img {
+    margin-top: -30px;
 }
-.sun img {
+
+.sun {
     position: absolute;
-    top: 250px;
+    top: 100px;
     left: 100px;
 }
 .sprite {
@@ -171,9 +170,12 @@ body {
 }
 
 .home .top-section {
+    background: url(../img/homepage/bg.png);
+    background-size: 100% 100%;
+    width: 100%;
     padding-top: 60px;
     overflow: hidden;
-    height: 840px;
+    height: 790px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -o-user-select: none;

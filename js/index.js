@@ -62,12 +62,16 @@
 		});
 
 			
-		$('#sitemap section').each(function(index) {
+		$('#sitemap section, .sun').each(function(index) {
 			var section_top_start = $(this).offset().top - 300;
 			var section_top_end = $(this).offset().top - 400;
 
 			var element = $(this);
-			var animation = 'bounce';
+			var animation;
+			if ($(this).is('.sun'))
+				animation = 'sunentrance';
+			else
+				animation = 'bounce';
 
 			if ($w.scrollTop() >= section_top_start && !element.hasClass(animation)) {
 
