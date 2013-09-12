@@ -4,10 +4,19 @@ body {
 }
 
 .page_content {
-    background: url(../img/homepage/bg01.jpg);
-    background-position: center -500px;
+    background: url(../img/homepage/bg.png);
+    background-position: center -50px;
+    background-size: 100%;
 }
 
+
+.notdis{
+}
+.sun img {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
 .sprite {
     background: url(../img/misc_sprites.png) no-repeat;
 }
@@ -164,7 +173,7 @@ body {
 .home .top-section {
     padding-top: 60px;
     overflow: hidden;
-    height: 658px;
+    height: 840px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -o-user-select: none;
