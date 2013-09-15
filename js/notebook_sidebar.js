@@ -15,24 +15,56 @@
         $w.scroll(function() {
         	if($w.scrollTop() > notebook)
 		        temp.style.height = '0px';
-        	if($w.scrollTop() > journal)
-		        temp.style.height = '25px';
-        	if($w.scrollTop() > feb)
-				temp.style.height = '50px';
-            if($w.scrollTop() > mar)
+        	if($w.scrollTop() > journal) {
+                temp.style.height = '25px';
+                day('#feb_1', 'del');
+            }
+        	if($w.scrollTop() > feb) {
+                temp.style.height = '50px';
+                day('#feb_1', 'add');
+                day('#mar_1', 'del');
+            }
+            if($w.scrollTop() > mar) {
                 temp.style.height = '75px';
-            if($w.scrollTop() > apr)
+                day('#feb_1', 'del');
+                day('#mar_1', 'add');
+                day('#apr_1', 'del');
+            }
+            if($w.scrollTop() > apr) {
                 temp.style.height = '100px';
-            if($w.scrollTop() > may)
+                day('#mar_1', 'del');
+                day('#apr_1', 'add');
+                day('#may_1', 'del');
+            }
+            if($w.scrollTop() > may) {
                 temp.style.height = '125px';
-            if($w.scrollTop() > jun)
+                day('#apr_1', 'del');
+                day('#may_1', 'add');
+                day('#jun_1', 'del');
+            }
+            if($w.scrollTop() > jun) {
                 temp.style.height = '150px';
-            if($w.scrollTop() > jul)
+                day('#may_1', 'del');
+                day('#jun_1', 'add');
+                day('#jul_1', 'del');
+            }
+            if($w.scrollTop() > jul) {
                 temp.style.height = '175px';
-            if($w.scrollTop() > aug)
+                day('#jun_1', 'del');
+                day('#jul_1', 'add');
+                day('#aug_1', 'del');
+            }
+            if($w.scrollTop() > aug) {
                 temp.style.height = '205px';
-            if($w.scrollTop() > sep)
+                day('#jul_1', 'del');
+                day('#aug_1', 'add');
+                day('#sep_1', 'del');
+            }
+            if($w.scrollTop() > sep) {
                 temp.style.height = '235px';
+                day('#aug_1', 'del');
+                day('#sep_1', 'add');
+            }
             if ($('#mercury').height() > 100) {
                 $('.temp.tem37').animate({
                             opacity: 1,
@@ -125,15 +157,15 @@ function flipdown(){
             }   
          }
 
-function day(idstr){
-    if ($(idstr).hasClass('fold')) {
+function day(idstr, op){
+    if (op == 'add' && $(idstr).hasClass('fold')) {
        $(idstr).removeClass('fold').animate({
             opacity: 1,
         }, {
             duration: 500,
             queue: false
         });
-    } else {
+    } else if(op == 'del') {
        $(idstr).addClass('fold').animate({
             opacity: 0,
         }, {
