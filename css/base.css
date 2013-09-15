@@ -102,6 +102,7 @@ ul.topnav > li > a:hover {
 #navigation,.navigation {
     font-family: 'Lucida Sans Unicode',sans-serif;
     height: 35px;
+    width: 100%;
 }
 
 #navigation.fixed {
