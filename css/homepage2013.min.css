@@ -3,10 +3,6 @@ body {
     background-color: #fff;
 }
 
-.page_content {
-    
-}
-
 #header img {
     margin-top: -30px;
 }
@@ -16,158 +12,17 @@ body {
     top: 100px;
     left: 100px;
 }
-.sprite {
-    background: url(../img/misc_sprites.png) no-repeat;
-}
-
-.sprite.arrow-right {
-    background-position: -140px -337px;
-    width: 15px;
-    height: 24px;
-}
-
-.sprite.arrow-left {
-    background-position: -155px -337px;
-    width: 15px;
-    height: 24px;
-}
 
 #wrapper {
     background: #f3f6ff;
 }
 
-.color-bar {
-    background: url(../img/color_strips.png) repeat-x;
-    height: 8px;
-}
-
-.color-bar.orange {
-    background-position: 0 0;
-}
-
-.color-bar.cyan {
-    background-position: 0 -8px;
-}
-
-.color-bar.lavendar {
-    background-position: 0 -16px;
-}
-
-.color-bar.gray {
-    background-position: 0 -24px;
-}
-
-.project-logo {
-	background: url(../img/project.png);
-	margin-left: -109px;
-	top: 72px;
-}
-
-
-
-
-
-
-.home.ready {
-    background-attachment: fixed;
-}
 
 .home a {
     color: inherit;
     text-decoration: none;
 }
 
-.home .content {
-    width: 1066px;
-    margin: 0 auto;
-}
-
-.home.ready .top-section .arrows {
-    opacity: 1;
-}
-
-.home.ready .hero.current {
-    opacity: 1;
-    z-index: 2;
-    -webkit-transition: opacity .6s ease-in-out;
-    -moz-transition: opacity .6s ease-in-out;
-    -ms-transition: opacity .6s ease-in-out;
-    -o-transition: opacity .6s ease-in-out;
-    transition: opacity .6s ease-in-out;
-}
-
-.home.ready .hero.current .text {
-    opacity: 1;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-}
-
-.home.ready .hero.current.segmentation .subtle-animation .halo,.home.ready .hero.current.segmentation .subtle-animation .left,.home.ready .hero.current.segmentation .subtle-animation .right {
-    -webkit-transform: translate3d(0,0,0) scale3d(1,1,1);
-    -moz-transform: translate3d(0,0,0) scale3d(1,1,1);
-    -ms-transform: translate3d(0,0,0) scale3d(1,1,1);
-    -o-transform: translate3d(0,0,0) scale3d(1,1,1);
-    transform: translate3d(0,0,0) scale3d(1,1,1);
-}
-
-.home.ready .hero.current.retention .table {
-    -webkit-transform: translate3d(0,-10px,0);
-    -moz-transform: translate3d(0,-10px,0);
-    -ms-transform: translate3d(0,-10px,0);
-    -o-transform: translate3d(0,-10px,0);
-    transform: translate3d(0,-10px,0);
-}
-
-.home.ready .hero.current.retention .magnify {
-    -webkit-transform: scale3d(1,1,1) translate3d(0,-20px,0);
-    -moz-transform: scale3d(1,1,1) translate3d(0,-20px,0);
-    -ms-transform: scale3d(1,1,1) translate3d(0,-20px,0);
-    -o-transform: scale3d(1,1,1) translate3d(0,-20px,0);
-    transform: scale3d(1,1,1) translate3d(0,-20px,0);
-}
-
-.home.ready .hero.current.people .dude {
-    -webkit-transition: all .8s ease-in-out;
-    -moz-transition: all .8s ease-in-out;
-    -ms-transition: all .8s ease-in-out;
-    -o-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;
-}
-
-.home.ready .hero.current.people .front {
-    -webkit-transform: translate3d(-18px,0,0);
-    -moz-transform: translate3d(-18px,0,0);
-    -ms-transform: translate3d(-18px,0,0);
-    -o-transform: translate3d(-18px,0,0);
-    transform: translate3d(-18px,0,0);
-}
-
-.home.ready .hero.current.people .back {
-    -webkit-transform: translate3d(18px,0,0);
-    -moz-transform: translate3d(18px,0,0);
-    -ms-transform: translate3d(18px,0,0);
-    -o-transform: translate3d(18px,0,0);
-    transform: translate3d(18px,0,0);
-}
-
-.home.ready .hero.current.notifications .phone {
-    -webkit-transform: translate3d(2px,-10px,0);
-    -moz-transform: translate3d(2px,-10px,0);
-    -ms-transform: translate3d(2px,-10px,0);
-    -o-transform: translate3d(2px,-10px,0);
-    transform: translate3d(2px,-10px,0);
-}
-
-.home.ready .hero.current.funnels .bar {
-    -webkit-transform: translate3d(0,-30px,0);
-    -moz-transform: translate3d(0,-30px,0);
-    -ms-transform: translate3d(0,-30px,0);
-    -o-transform: translate3d(0,-30px,0);
-    transform: translate3d(0,-30px,0);
-}
 
 .home .top-section {
     background: url(../img/homepage/bg.png);
@@ -536,7 +391,7 @@ body {
 }
 
 .home .top-section .hero.retention .background {
-    background: url(../img/bg.png) center bottom no-repeat;
+    background: url(../img/bg.jpg) center bottom no-repeat;
     width: 100%;
     height: 100%;
     position: absolute;

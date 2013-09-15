@@ -105,7 +105,7 @@ function flipup(){
             
             else {
                 $("body,html").animate({
-                    scrollTop:0  //让body的scrollTop等于pos的top，就实现了滚动
+                    scrollTop:0
                  },1000);
             }         
          }

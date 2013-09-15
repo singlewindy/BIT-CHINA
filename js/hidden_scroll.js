@@ -3,15 +3,15 @@
          var height = 25 * n;
          temp.style.height = height + 'px';
 
-         var scroll_offset = $(des).offset();  //得到pos这个div层的offset，包含两个值，top和left
+         var scroll_offset = $(des).offset();
          scroll_offset.top = scroll_offset.top - 110;
          $("body,html").animate({
-            scrollTop:scroll_offset.top  //让body的scrollTop等于pos的top，就实现了滚动
+            scrollTop:scroll_offset.top
          },1000);
         }
 
         function getElementsByClassName(node,classname) {
-          if (node.getElementsByClassName) { // use native implementation if available
+          if (node.getElementsByClassName) {
             return node.getElementsByClassName(classname);
           } else {
             return (function getElementsByClass(searchClass,node) {
