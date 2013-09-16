@@ -16,8 +16,6 @@ body {
     height: 75px;
 }
 
-
-
 #footer_bg {
     margin-left: 300px;
     background: #fff;
@@ -31,6 +29,7 @@ body {
     -o-transition: margin 0.4s ease-out;
     transition: margin 0.4s ease-out;
 }
+
 #footer_bg #footer {
     text-align: center;
     text-transform: uppercase;
@@ -87,7 +86,6 @@ body {
 .section a:hover {
     color: #656e82;
 }
-
 
 .centering {
     margin: 0 auto;
@@ -202,9 +200,6 @@ ul.topnav li ul.subnav li a {
 ul.topnav li ul.subnav li a:last-child{
     border-radius: 0 0 5px 5px;
 }
-
-
-
 
 #top-section {
     border: none;
