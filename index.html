@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/base.css?action=raw&ctype=text/css" type="text/css">
     <link rel="stylesheet" href="css/homepage2013.min.css?action=raw&ctype=text/css" type="text/css">
     <link rel="stylesheet" href="css/animation.css?action=raw&ctype=text/css" type="text/css">
+    <link rel="stylesheet" href="css/style.css?action=raw&ctype=text/css" type="text/css">
     <title>HOME | BIT-CHINA IGEM2013</title>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
@@ -13,8 +14,10 @@
     <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
     <script type="text/javascript" src="js/nav.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=en-US"></script>
-    <script type="text/javascript" src="js/infobox_packed.js"></script>
+   
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+    <script type="text/javascript" src="js/jquery.scrollTo-min.js"></script> 
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 
     <script>
         $(function(){
@@ -24,6 +27,37 @@
             });
         });
         
+    </script>
+    
+    <script>
+        global_current_elem = 1;
+        global_elem_hovered = 0;
+        var interval_variable = setInterval("autoScroll()",5000);
+        function autoScroll() {
+            if (global_current_elem == 3) {elem = 1;}
+            else {elem = global_current_elem + 1;}
+            $('#myCarousel').carousel('next');
+            set_active_btn(elem);
+            global_current_elem = elem; 
+        }
+
+        function set_hover_on() {
+            global_elem_hovered = 1;
+        } 
+
+        function set_hover_off() {
+            global_elem_hovered = 0;
+            reset_interval();
+        }
+
+        function set_active_btn(elem) {
+    
+            jQuery("#aktuals1_btn").removeClass("active");
+            jQuery("#aktuals2_btn").removeClass("active");
+            jQuery("#aktuals3_btn").removeClass("active");
+            
+            jQuery("#aktuals"+elem+"_btn").addClass("active");
+        }
     </script>
 
     <script>
@@ -131,20 +165,20 @@
                     <li class="navitem2">
                         <a href="./project.html">PROJECT</a>
                         <ul class="subnav">
-                            <li><a href="#overview">Overview</a></li>
-                            <li><a href="#HR">Heat-resistant system</a></li>
-                            <li><a href="#QC">Quorum-control system</a></li>
-                            <li><a href="#parts">Parts</a></li>
-                            <li><a href="#safety">Safety</a></li>
+                            <li><a href="./project.html#overview">Overview</a></li>
+                            <li><a href="./project.html#HR">Heat-resistant system</a></li>
+                            <li><a href="./project.html#QC">Quorum-control system</a></li>
+                            <li><a href="./project.html#parts">Parts</a></li>
+                            <li><a href="./project.html#safety">Safety</a></li>
                         </ul>
                     </li>
                     <li class="navitem3">
                         <a href="./team.html">TEAM</a>
                         <ul class="subnav">
                             <ul>
-                                <li><a href="#team_members">Members</a></li>
-                                <li><a href="#">Official Profile</a></li>
-                                <li><a href="#About_the_University">About the University</a></li>
+                                <li><a href="./team.html#team_members">Members</a></li>
+                                <li><a href="./team.html#">Official Profile</a></li>
+                                <li><a href="./team.html#About_the_University">About the University</a></li>
                           
                             </ul>
                         </ul>
@@ -155,9 +189,9 @@
                         <a href="./modeling.html">MODELING</a>
                         <ul class="subnav">
                             <ul>
-                                <li><a href="#">Overview</a></li>
-                                <li><a href="#">Simulation Results</a></li>
-                                <li><a href="#">GRN Simulation</a></li>
+                                <li><a href="./modeling.html#">Overview</a></li>
+                                <li><a href="./modeling.html#">Simulation Results</a></li>
+                                <li><a href="./modeling.html#">GRN Simulation</a></li>
                             </ul>
                         </ul>
                     </li>
@@ -168,8 +202,8 @@
                         <a href="./notebook.html">NOTEBOOK</a>
                         <ul class="subnav">
                             <ul>
-                                <li><a href="#">Journal</a></li>
-                                <li><a href="#">Protocols</a></li>
+                                <li><a href="./notebook.html#">Journal</a></li>
+                                <li><a href="./notebook.html#">Protocols</a></li>
                             </ul>
                         </ul>
                     </li>
@@ -194,13 +228,21 @@
                 <div id="laptop-screen"></div>
 
                 <div id="laptop"></div>
+
+                <nav id="introduction">
+                    <div id="idea"></div>
+                    <div id="advantage"></div>
+                    <div id="description"></div>
+                    <div id="charactors"></div>
+                    <div id="extend"></div>
+                </nav>
             </div>
 
         </section>
 
         <section id="sitemap">
             <div class="header-icon">
-                <div class="tossing icon-sitemap visible" style="opacity: 1;"><img src="./img/sponsers/BIT.png" /></div>
+                <div class="tossing icon-sitemap visible" style="opacity: 1;"><img src="./img/homepage/wikimap.png" /></div>
             </div>
 
             <div class="wrap">
@@ -271,16 +313,67 @@
             </div>
         </section>
 
+        <section id="story">
+            <div id="myCarousel" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/homepage/story1.jpg" alt="" id=0>
+                  <div class="container">
+                    <div class="blackbar"></div>
+                    <div class="carousel-caption">
+                      <h1>Example headline.</h1>
+                      <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/homepage/story1.jpg" alt="" id=1>
+                  <div class="container">
+                    <div class="blackbar"></div>
+                    <div class="carousel-caption">
+                      <h1>Another example headline.</h1>
+                      <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/homepage/story1.jpg" alt="" id=2>
+                  <div class="container">
+                    <div class="blackbar"></div>
+                    <div class="carousel-caption">
+                      <h1>One more for good measure.</h1>
+                      <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+              <!-- BEGIN .navigation --> 
+                <div class="count"> 
+                    <a href="javascript:void(0);" id="aktuals1_btn" class="active"></a> 
+                    <a href="javascript:void(0);" id="aktuals2_btn"></a> 
+                    <a href="javascript:void(0);" id="aktuals3_btn"></a> 
+                <!-- END .navigation --> 
+                </div> 
+
+            </div><!-- /.carousel -->
+
+
+        </section>
+
         <section id="about">
             <div class="header-icon">
-                <div class="tossing icon-sitemap visible" style="opacity: 1;"><img src="./img/sponsers/BIT.png" /></div>
+                <div class="tossing icon-sitemap visible" style="opacity: 1;"><img src="./img/homepage/about.png" /></div>
             </div>
 
             <div class="wrap">
                 <h1>About Us</h1>
                 <h2>A brief introduction of Team BIT-China.</h2>
-
+                
                 <div id="point" class="radar"></div>
+
 
                 <div class="mapborder"><div id="googlemap"></div></div>
 
@@ -290,7 +383,7 @@
 
         <section id="contact">
             <div class="header-icon">
-                <div class="tossing icon-sitemap visible" style="opacity: 1;"><img src="./img/sponsers/BIT.png" /></div>
+                <div class="tossing icon-sitemap visible" style="opacity: 1;"><img src="./img/homepage/contact.png" /></div>
             </div>
 
             <div id="world">

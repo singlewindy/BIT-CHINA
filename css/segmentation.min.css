@@ -559,7 +559,7 @@
 .section .component .right {
     margin-top: 50px;
     padding: 0;
-    float: right
+    /*float: right;*/
 }
 .section .component .right img {
     margin: 0 auto;

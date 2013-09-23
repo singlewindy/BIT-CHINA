@@ -96,4 +96,38 @@
             
     });
 
+	$(document).ready(function(){
+		$("#idea").hover(function(){
+		  $("#laptop-screen").css("background", "rgba(58, 153, 211, 0.85)");
+		  $("#cover").css("background-color", "rgb(58, 153, 211)")
+		},function(){
+		});
+
+		$("#advantage").hover(function(){
+		  $("#laptop-screen").css("background", "rgba(133, 133, 197, 0.85)");
+		  $("#cover").css("background-color", "rgb(133, 133, 197)")
+		},function(){
+		});
+
+		$("#description").hover(function(){
+		  $("#laptop-screen").css("background", "rgba(234, 58, 58, 0.85)");
+		  $("#cover").css("background-color", "rgb(234, 58, 58)")
+		},function(){
+		});
+
+		$("#charactors").hover(function(){
+		  $("#laptop-screen").css("background", "rgba(255, 165, 0, 0.85)");
+		  $("#cover").css("background-color", "rgb(255, 165, 0)")
+		},function(){
+		});
+
+		$("#extend").hover(function(){
+		  $("#laptop-screen").css("background", "rgba(118, 181, 71, 0.85)");
+		  $("#cover").css("background-color", "rgb(118, 181, 71)")
+		},function(){
+		});
+
+		
+	})
+
 })();
