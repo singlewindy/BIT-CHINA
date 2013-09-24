@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="css/base.css" type="text/css">
     <link rel="stylesheet" href="css/segmentation.min.css" type="text/css">
     <link rel="stylesheet" href="css/animation.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Chela+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Port+Lligat+Slab' rel='stylesheet' type='text/css'> 
     <title>MODELING | BIT-CHINA IGEM2013</title>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/nav.js"></script>
@@ -129,21 +131,14 @@
 <ul>
     <li>
         <a href="javascript:void(0);" onclick="temper(1,'#overview')">Overview</a>
-        <ul>
-            <li><a href="javascript:void(0);" onclick="temper(2)">Applying mathematics to biology</a></li>
-            <li><a href="javascript:void(0);" onclick="temper(5,'#ODEmodel')">Gene Regulatory Network (GRN)</a></li>
-            <li><a href="javascript:void(0);" onclick="temper(6)">GRN of I’M HeRE</a></li>
-            <li><a href="javascript:void(0);" onclick="temper(6)">Why mathematical model was needed here?</a></li>
-            <li><a href="javascript:void(0);" onclick="temper(6)">Method description</a></li>
-        </ul>
     </li>
 
     <li>
-        <a href="javascript:void(0);" onclick="temper(3,'#GRNSimulation')">Noise in the cell</a>
+        <a href="javascript:void(0);" onclick="temper(2,'#Noise_in_the_cell')">Noise in the cell</a>
     </li>
     
     <li>
-        <a href="javascript:void(0);" onclick="temper(3,'#GRNSimulation')">Heat Resistant system</a>
+        <a href="javascript:void(0);" onclick="temper(3,'#Heat_Resistant_system')">Heat Resistant system</a>
         <ul>
             <li><a href="javascript:void(0);" onclick="temper(4)">Description</a></li>
             <li><a href="javascript:void(0);" onclick="temper(5,'#ODEmodel')">Simulation results</a></li>
@@ -151,15 +146,18 @@
         </ul>
     </li>
     <li>
-        <a href="javascript:void(0);" onclick="temper(3,'#GRNSimulation')">Quorum Control system</a>
+        <a href="javascript:void(0);" onclick="temper(7,'#Quorum_Control_system')">Quorum Control system</a>
         <ul>
-            <li><a href="javascript:void(0);" onclick="temper(4)">Quorum sensing device</a></li>
-            <li><a href="javascript:void(0);" onclick="temper(5,'#ODEmodel')">Simulation results</a></li>
-            <li><a href="javascript:void(0);" onclick="temper(6)">Further insight</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(9)">Quorum sensing device</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(11,'#ODEmodel')">Repressilator device</a></li>
+            <li><a href="javascript:void(0);" onclick="temper(13,)">Programmed cell death device</a></li>
         </ul>
     </li>
     <li>
-        <a href="javascript:void(0);" onclick="temper(3,'#GRNSimulation')">Noise in the cell</a>
+        <a href="javascript:void(0);" onclick="temper(16,'#Dynamic_model_evolution')">Dynamic model evolution</a>
+    </li>
+    <li>
+        <a href="javascript:void(0);" onclick="temper(18,'#Synchronization_control_device')">Synchronization control device</a>
     </li>
 </ul>
 
@@ -203,7 +201,7 @@
                 </div>
             </div>
 
-            <div id="SimulationResults"></div>
+            <div id="Noise_in_the_cell"></div>
             <div class="section pagetitle modeling">
                 <h1>Noise in the cell</h1>
             </div>
@@ -215,7 +213,7 @@
                 </div>
             </div>
 
-            <div id="GRNSimulation"></div>
+            <div id="Heat_Resistant_system"></div>
             <div class="section pagetitle modeling">
                 <h1>Heat Resistant system</h1>
             </div>
@@ -225,22 +223,15 @@
                     <h1>Description</h1>
                     <P>The heat resistant system was made up by a RNA thermometer and a heat shock protein expression device.That is just what we want, like picture B, E.coli get together to fight with fire, so that they can survive in a hotter </P>
                     <P>We need to know the shape of the growth curve under normal growth condition? And what the impact if the lethal effect is considered? What is the time to turn on the RNA temperature switch? What happened if the cooling system was removed? We want to give these predictions by the coupled quantity & heat curve model. </P>
+
                     
-                    <h1>Simulation results</h1>
-                    <h1>Actions speak louder than page views.</h1>
-                    <h1>Actions speak louder than page views.</h1>
-                    <h1>Actions speak louder than page views.</h1>
-                    <h1>Actions speak louder than page views.</h1>
-                    <h1>Actions speak louder than page views.</h1>
-                    <h1>Actions speak louder than page views.</h1>
-                    <h1>Actions speak louder than page views.</h1>
                   
                 </div>
             </div>
 
-            <div id="ODEmodel"></div>
+            <div id="Quorum_Control_system"></div>
             <div class="section pagetitle modeling">
-                <h1>ODE model</h1>
+                <h1>Quorum Control system</h1>
             </div>
 
             <div class="section hero">
@@ -248,15 +239,39 @@
                     <h1>Actions speak louder than page views.</h1>
                     <h1>Actions speak louder than page views.</h1>
                     <h1>Actions speak louder than page views.</h1>
-                    <h1>Actions speak louder than page views.</h1>
-                    <h1>Actions speak louder than page views.</h1>
-                    <h1>Actions speak louder than page views.</h1>
+                  
+                </div>
+            </div>
+
+            <div id="Dynamic_model_evolution"></div>
+            <div class="section pagetitle modeling">
+                <h1>Dynamic model evolution</h1>
+            </div>
+
+            <div class="section hero">
+                <div class="content">
                     <h1>Actions speak louder than page views.</h1>
                     <h1>Actions speak louder than page views.</h1>
                     <h1>Actions speak louder than page views.</h1>
                   
                 </div>
             </div>
+
+            <div id="Synchronization_control_device"></div>
+            <div class="section pagetitle modeling">
+                <h1>Synchronization control device</h1>
+            </div>
+
+            <div class="section hero">
+                <div class="content">
+                    <h1>Actions speak louder than page views.</h1>
+                    <h1>Actions speak louder than page views.</h1>
+                    <h1>Actions speak louder than page views.</h1>
+                  
+                </div>
+            </div>
+
+
             <div id="footer_bg">
                 <div class="foot-1"><img src="./img/IGEM/foot-1.png"></div>
                 <div class="foot-2"><img src="./img/IGEM/foot-2.png"></div>
@@ -265,7 +280,7 @@
                 <div class="foot-3"><img src="./img/IGEM/foot-3.png"></div>
                 
                 <div id="footer" >
-                    漏 Copyright BIT iGEM Team 2013, All Rights Reserved.
+                    © Copyright BIT iGEM Team 2013, All Rights Reserved.
                 </div>
             </div>  
 

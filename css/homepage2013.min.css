@@ -1274,3 +1274,19 @@ section p {
 #story {
     background: url(../img/homepage/blackbar.png);
 }
+
+#laptop-screen .display-img{
+    width: 38%;
+    background: url(../img/sponsers/BIT.png);
+    height: 100%;
+    background-size: 100% 100%;
+    float: left;
+}
+#laptop-screen .display-content{
+    height: 100%;
+    width: 60%;
+    float: left;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    white-space: pre-wrap;
+}
