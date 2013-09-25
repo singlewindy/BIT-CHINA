@@ -113,18 +113,18 @@
 		  $("#display-img-description").css("visibility", "hidden");
 		  $("#display-img-charactors").css("display", "none");
 		  $("#display-img-charactors").css("visibility", "hidden");
-		  $("#display-img-extent").css("display", "none");
-		  $("#display-img-extent").css("visibility", "hidden");
-		  $("#display-content-idea").css("display", "block");
-		  $("#display-content-idea").css("visibility", "visible");
-		  $("#display-content-advantage").css("display", "none");
-		  $("#display-content-advantage").css("visibility", "hidden");
-		  $("#display-content-description").css("display", "none");
-		  $("#display-content-description").css("visibility", "hidden");
-		  $("#display-content-charactors").css("display", "none");
-		  $("#display-content-charactors").css("visibility", "hidden");
-		  $("#display-content-extent").css("display", "none");
-		  $("#display-content-extent").css("visibility", "hidden");
+		  $("#display-img-extend").css("display", "none");
+		  $("#display-img-extend").css("visibility", "hidden");
+		  // $("#display-content-idea").css("display", "block");
+		  // $("#display-content-idea").css("visibility", "visible");
+		  // $("#display-content-advantage").css("display", "none");
+		  // $("#display-content-advantage").css("visibility", "hidden");
+		  // $("#display-content-description").css("display", "none");
+		  // $("#display-content-description").css("visibility", "hidden");
+		  // $("#display-content-charactors").css("display", "none");
+		  // $("#display-content-charactors").css("visibility", "hidden");
+		  // $("#display-content-extend").css("display", "none");
+		  // $("#display-content-extend").css("visibility", "hidden");
 		},function(){
 		});
 
@@ -144,18 +144,18 @@
 		  $("#display-img-description").css("visibility", "hidden");
 		  $("#display-img-charactors").css("display", "none");
 		  $("#display-img-charactors").css("visibility", "hidden");
-		  $("#display-img-extent").css("display", "none");
-		  $("#display-img-extent").css("visibility", "hidden");
-		  $("#display-content-advantage").css("display", "block");
-		  $("#display-content-advantage").css("visibility", "visible");
-		  $("#display-content-idea").css("display", "none");
-		  $("#display-content-idea").css("visibility", "hidden");
-		  $("#display-content-description").css("display", "none");
-		  $("#display-content-description").css("visibility", "hidden");
-		  $("#display-content-charactors").css("display", "none");
-		  $("#display-content-charactors").css("visibility", "hidden");
-		  $("#display-content-extent").css("display", "none");
-		  $("#display-content-extent").css("visibility", "hidden");
+		  $("#display-img-extend").css("display", "none");
+		  $("#display-img-extend").css("visibility", "hidden");
+		  // $("#display-content-advantage").css("display", "block");
+		  // $("#display-content-advantage").css("visibility", "visible");
+		  // $("#display-content-idea").css("display", "none");
+		  // $("#display-content-idea").css("visibility", "hidden");
+		  // $("#display-content-description").css("display", "none");
+		  // $("#display-content-description").css("visibility", "hidden");
+		  // $("#display-content-charactors").css("display", "none");
+		  // $("#display-content-charactors").css("visibility", "hidden");
+		  // $("#display-content-extend").css("display", "none");
+		  // $("#display-content-extend").css("visibility", "hidden");
 		},function(){
 		});
 
@@ -175,18 +175,18 @@
 		  $("#display-img-idea").css("visibility", "hidden");
 		  $("#display-img-charactors").css("display", "none");
 		  $("#display-img-charactors").css("visibility", "hidden");
-		  $("#display-img-extent").css("display", "none");
-		  $("#display-img-extent").css("visibility", "hidden");
-		  $("#display-content-description").css("display", "block");
-		  $("#display-content-description").css("visibility", "visible");
-		  $("#display-content-advantage").css("display", "none");
-		  $("#display-content-advantage").css("visibility", "hidden");
-		  $("#display-content-idea").css("display", "none");
-		  $("#display-content-idea").css("visibility", "hidden");
-		  $("#display-content-charactors").css("display", "none");
-		  $("#display-content-charactors").css("visibility", "hidden");
-		  $("#display-content-extent").css("display", "none");
-		  $("#display-content-extent").css("visibility", "hidden");
+		  $("#display-img-extend").css("display", "none");
+		  $("#display-img-extend").css("visibility", "hidden");
+		  // $("#display-content-description").css("display", "block");
+		  // $("#display-content-description").css("visibility", "visible");
+		  // $("#display-content-advantage").css("display", "none");
+		  // $("#display-content-advantage").css("visibility", "hidden");
+		  // $("#display-content-idea").css("display", "none");
+		  // $("#display-content-idea").css("visibility", "hidden");
+		  // $("#display-content-charactors").css("display", "none");
+		  // $("#display-content-charactors").css("visibility", "hidden");
+		  // $("#display-content-extend").css("display", "none");
+		  // $("#display-content-extend").css("visibility", "hidden");
 		},function(){
 		});
 
@@ -206,18 +206,18 @@
 		  $("#display-img-description").css("visibility", "hidden");
 		  $("#display-img-idea").css("display", "none");
 		  $("#display-img-idea").css("visibility", "hidden");
-		  $("#display-img-extent").css("display", "none");
-		  $("#display-img-extent").css("visibility", "hidden");
-		  $("#display-content-charactors").css("display", "block");
-		  $("#display-content-charactors").css("visibility", "visible");
-		  $("#display-content-advantage").css("display", "none");
-		  $("#display-content-advantage").css("visibility", "hidden");
-		  $("#display-content-description").css("display", "none");
-		  $("#display-content-description").css("visibility", "hidden");
-		  $("#display-content-idea").css("display", "none");
-		  $("#display-content-idea").css("visibility", "hidden");
-		  $("#display-content-extent").css("display", "none");
-		  $("#display-content-extent").css("visibility", "hidden");
+		  $("#display-img-extend").css("display", "none");
+		  $("#display-img-extend").css("visibility", "hidden");
+		  // $("#display-content-charactors").css("display", "block");
+		  // $("#display-content-charactors").css("visibility", "visible");
+		  // $("#display-content-advantage").css("display", "none");
+		  // $("#display-content-advantage").css("visibility", "hidden");
+		  // $("#display-content-description").css("display", "none");
+		  // $("#display-content-description").css("visibility", "hidden");
+		  // $("#display-content-idea").css("display", "none");
+		  // $("#display-content-idea").css("visibility", "hidden");
+		  // $("#display-content-extent").css("display", "none");
+		  // $("#display-content-extent").css("visibility", "hidden");
 		},function(){
 		});
 
@@ -239,16 +239,16 @@
 		  $("#display-img-charactors").css("visibility", "hidden");
 		  $("#display-img-idea").css("display", "none");
 		  $("#display-img-idea").css("visibility", "hidden");
-		  $("#display-content-extend").css("display", "block");
-		  $("#display-content-extend").css("visibility", "visible");
-		  $("#display-content-advantage").css("display", "none");
-		  $("#display-content-advantage").css("visibility", "hidden");
-		  $("#display-content-description").css("display", "none");
-		  $("#display-content-description").css("visibility", "hidden");
-		  $("#display-content-charactors").css("display", "none");
-		  $("#display-content-charactors").css("visibility", "hidden");
-		  $("#display-content-idea").css("display", "none");
-		  $("#display-content-idea").css("visibility", "hidden");
+		  // $("#display-content-extend").css("display", "block");
+		  // $("#display-content-extend").css("visibility", "visible");
+		  // $("#display-content-advantage").css("display", "none");
+		  // $("#display-content-advantage").css("visibility", "hidden");
+		  // $("#display-content-description").css("display", "none");
+		  // $("#display-content-description").css("visibility", "hidden");
+		  // $("#display-content-charactors").css("display", "none");
+		  // $("#display-content-charactors").css("visibility", "hidden");
+		  // $("#display-content-idea").css("display", "none");
+		  // $("#display-content-idea").css("visibility", "hidden");
 		},function(){
 		});
 
