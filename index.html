@@ -27,13 +27,13 @@
     <script>
         global_current_elem = 1;
         global_elem_hovered = 0;
-        var interval_variable = setInterval("autoScroll()",5000);
+        var interval_variable = setInterval("autoScroll()",10000);
         function autoScroll() {
             scrollRight();
         }
 
         function scrollRight() {
-            if (global_current_elem == 3) {elem = 1;}
+            if (global_current_elem == 4) {elem = 1;}
             else {elem = global_current_elem + 1;}
             $('#myCarousel').carousel('next');
             set_active_btn(elem);
@@ -41,7 +41,7 @@
         }
 
         function scrollLefty() {
-            if (global_current_elem == 1) {elem = 3;}
+            if (global_current_elem == 1) {elem = 4;}
             else {elem = global_current_elem - 1;}
             $('#myCarousel').carousel('prev');
             set_active_btn(elem);
@@ -62,6 +62,7 @@
             jQuery("#aktuals1_btn").removeClass("active");
             jQuery("#aktuals2_btn").removeClass("active");
             jQuery("#aktuals3_btn").removeClass("active");
+            jQuery("#aktuals4_btn").removeClass("active");
             
             jQuery("#aktuals"+elem+"_btn").addClass("active");
         }
@@ -233,20 +234,43 @@
             <div class="wrap">
 
                 <div id="laptop-screen">
-                    <div class="display-img"></div>
-                    <div class="display-content">
+                    <div id="display-img-idea"></div>
+                    <div id="display-content-idea">
 
-                        <p>test test test test test test test test test testtest test test test test</p> 
-                        <p>test test test test testtest test test test test test test test test testtest test test test testtest test test test test test test test test testtest test test test testtest test test test test test test test test testtest test test test testtest test test test test test test test test testtest test test test test</p>
-                        <p>test test test test test</p>
-                        <p>test test test test test</p>
+                        <p>Before our team is founded, we heard that a lot of energy and money have been consumed in fermentation to cool down the fermenter. There are almost 100,000,000 Yuan wasted every year all around China. So, we planned to design a chassis host which can work in higher temperature with the production of heat controlled.</p> 
                         
                     </div>
 
+                    <div id="display-img-advantage"></div>
+                    <div id="display-content-advantage">
 
+                        <p>We have extracted new heat shock proteins (HSPs) from thermophilic bacteria. Then we combine it with RNA thermometer, letting HSPs to be translated at suitable temperature to release the burden of cell in its logarithmic phase.</p> 
+                        
+                    </div>
 
+                    <div id="display-img-description"></div>
+                    <div id="display-content-description">
 
+                        <p>BIT-China is founded in 28th Feb and our slogan is ‘for one green earth’. To settle the problem of energy consumption of cooling system in fermentation, we set up two artificial systems with the method of synthetic biology.</p> 
+                        
+                    </div>
 
+                    <div id="display-img-charactors"></div>
+                    <div id="display-content-charactors">
+
+                        <p>Before our team is founded, we heard that a lot of energy and money have been consumed in fermentation to cool down the fermenter. There are almost 100,000,000 Yuan wasted every year all around China. So, we planned to design a chassis host which can work in higher temperature with the production of heat controlled.</p> 
+                        
+                    </div>
+
+                    <div id="display-img-extend"></div>
+                    <div id="display-content-extend">
+
+                        <p>We designed many souvenirs for our team. There will be surprise waiting for you during the poster jamboree. <p>
+                        <p>Here is our team uniform:</p>
+                        <p>Scan this QR code and visit our wechat-public account:
+                        </p> 
+                        
+                    </div>
 
                 </div>
                 <div id="laptop"></div>
@@ -339,33 +363,43 @@
             <div id="myCarousel" class="carousel slide">
               <div class="carousel-inner">
                 <div class="item active">
-                  <img src="img/homepage/story1.jpg" alt="" id=0>
+                  <img src="img/homepage/1.jpg" alt="" id=0>
                   <div class="container">
                     <div class="blackbar"></div>
                     <div class="carousel-caption">
-                      <h1>Example headline.</h1>
-                      <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                      <h1>Another example headline.</h1>
+                      <p class="lead">Once upon a time, there was a hard working guy called Coco. He was always busy working in his office. As time went by, He got more and more colleague. The workplace become crowd, everyone in the office could not work well.</p>
                     </div>
                     
                   </div>
                 </div>
                 <div class="item">
-                  <img src="img/homepage/story1.jpg" alt="" id=1>
+                  <img src="img/homepage/2.jpg" alt="" id=1>
                   <div class="container">
                     <div class="blackbar"></div>
                     <div class="carousel-caption">
                       <h1>Another example headline.</h1>
-                      <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                      <p class="lead">So he set an air-conditioner. That stuff cost him a lot of money for electricity. But that was not ended, the electricity consumed by air-conditioner came from the fossil fuel. As a result, the burning of fossil fuel not only damaged the earth but also made everyone outside the house suffer in hot.</p>
                     </div>
                   </div>
                 </div>
                 <div class="item">
-                  <img src="img/homepage/story1.jpg" alt="" id=2>
+                  <img src="img/homepage/3.jpg" alt="" id=2>
                   <div class="container">
                     <div class="blackbar"></div>
                     <div class="carousel-caption">
                       <h1>One more for good measure.</h1>
-                      <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                      <p class="lead">To find a way, Coco found the Doctor for help. The doctor, who has knowledge of synthetic biology, performed an operation on Coco. With the help of the Doctor, Coco did not feel hot at all in the office where he had used to feel scorched. And he found that there were not so many colleagues, but he didn’t lack any, either.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                    <img src="img/homepage/4.jpg" alt="" id=3>
+                    <div class="container">
+                    <div class="blackbar"></div>
+                    <div class="carousel-caption">
+                      <h1>One more for good measure.</h1>
+                      <p class="lead">According to this, Coco could work without the air-conditioner. There was no sweat from heat, nor conflicts from crowd. Coco and his colleague work happily day by day, and produce a lot of happiness to the world. </p>
                     </div>
                   </div>
                 </div>
@@ -377,6 +411,7 @@
                     <a href="javascript:void(0);" id="aktuals1_btn" class="active"></a> 
                     <a href="javascript:void(0);" id="aktuals2_btn"></a> 
                     <a href="javascript:void(0);" id="aktuals3_btn"></a> 
+                    <a href="javascript:void(0);" id="aktuals4_btn"></a> 
                 <!-- END .navigation --> 
                 </div> 
 
