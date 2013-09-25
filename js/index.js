@@ -194,10 +194,10 @@
 		  $("#idea").css("background-color", "rgba(0, 0, 0, 0)");
 		  $("#advantage").css("background-color", "rgba(0, 0, 0, 0)");
 		  $("#description").css("background-color", "rgba(0, 0, 0, 0)");
-		  $("#charactors").css("background-color", "rgba(255, 165, 0, 0.85098)");
+		  $("#charactors").css("background-color", "rgba(133, 133, 197, 0.85098)");
 		  $("#extend").css("background-color", "rgba(0, 0, 0, 0)");
-		  $("#laptop-screen").css("background", "rgba(255, 165, 0, 0.85)");
-		  $("#cover").css("background-color", "rgb(255, 165, 0)");
+		  $("#laptop-screen").css("background", "rgba(133, 133, 197, 0.85098)");
+		  $("#cover").css("background-color", "rgb(133, 133, 197)");
 		  $("#display-img-charactors").css("display", "block");
 		  $("#display-img-charactors").css("visibility", "visible");
 		  $("#display-img-advantage").css("display", "none");
@@ -226,9 +226,9 @@
 		  $("#advantage").css("background-color", "rgba(0, 0, 0, 0)");
 		  $("#description").css("background-color", "rgba(0, 0, 0, 0)");
 		  $("#charactors").css("background-color", "rgba(0, 0, 0, 0)");
-		  $("#extend").css("background-color", "rgba(133, 133, 197, 0.85098)");
-		  $("#laptop-screen").css("background", "rgba(133, 133, 197, 0.85098)");
-		  $("#cover").css("background-color", "rgb(133, 133, 197)");
+		  $("#extend").css("background-color", "rgba(255, 165, 0, 0.85098)");
+		  $("#laptop-screen").css("background", "rgba(255, 165, 0, 0.85098)");
+		  $("#cover").css("background-color", "rgb(255, 165, 0)");
 		  $("#display-img-extend").css("display", "block");
 		  $("#display-img-extend").css("visibility", "visible");
 		  $("#display-img-advantage").css("display", "none");
