@@ -15,6 +15,103 @@ body section {
     /*text-align: center;*/
 }
 
+#story1_sun {
+    background: url(../img/homepage/sun1.png);
+    background-size: 100%;
+    margin-top: -800px;
+    z-index: 10;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 60px;
+}
+
+#story2_sun {
+    background: url(../img/homepage/sun2.png);
+    background-size: 100%;
+    margin-top: -800px;
+    z-index: 10;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 60px;
+}
+
+#story4_sun {
+    background: url(../img/homepage/sun3.png);
+    background-size: 100%;
+    margin-top: -800px;
+    z-index: 10;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 60px;
+}
+
+#story1_gem {
+    background: url(../img/homepage/storygem1.png);
+    background-size: 100%;
+    z-index: -1;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 290px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+#story2_gem {
+    background: url(../img/homepage/storygem2.png);
+    background-size: 100%;
+    z-index: -1;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 50px;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+
+#story4_gem {
+    background: url(../img/homepage/storygem3.png);
+    background-size: 100%;
+    z-index: -1;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 290px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+#story1_tem {
+    background: url(../img/homepage/tem.png);
+    background-size: 100%;
+    z-index: -1;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: 250px;
+    margin-top: -320px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+
 #pointer {
     background: url(../img/homepage/hand.png);
     background-size: 100%;
