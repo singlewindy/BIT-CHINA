@@ -2,9 +2,15 @@
         var $w = $(window);
 		var modeling = $("#modeling").offset().top;
         var overview = $('#overview').offset().top - 110;
-		var SimulationResults = $("#SimulationResults").offset().top - 110;
-        var GRNSimulation = $('#GRNSimulation').offset().top - 110;
-        var ODEmodel = $('#ODEmodel').offset().top - 110;
+		var Noise_in_the_cell = $("#Noise_in_the_cell").offset().top - 110;
+        var Heat_Resistant_system = $('#Heat_Resistant_system').offset().top - 110;
+        var des = $('#des').offset().top - 110;
+        var si = $('#si').offset().top - 110;
+        var fi = $('#fi').offset().top - 110;
+        var Quorum_Control_system = $('#Quorum_Control_system').offset().top - 110;
+        var qsd = $('#qsd').offset().top - 110;
+        var rd = $('#rd').offset().top - 110;
+        var pc = $('#pc').offset().top - 110;
 		var temp = document.getElementById("mercury");
 
         $w.scroll(function() {
@@ -12,12 +18,25 @@
 		        temp.style.height = '0px';
         	if($w.scrollTop() > overview)
 		        temp.style.height = '25px';
-        	if($w.scrollTop() > SimulationResults)
+        	if($w.scrollTop() > Noise_in_the_cell)
 				temp.style.height = '50px';
-            if($w.scrollTop() > GRNSimulation)
+            if($w.scrollTop() > Heat_Resistant_system)
                 temp.style.height = '75px';
-            if($w.scrollTop() > ODEmodel)
+            if($w.scrollTop() > des)
                 temp.style.height = '100px';
+             if($w.scrollTop() > si)
+                temp.style.height = '125px';
+             if($w.scrollTop() > fi)
+                temp.style.height = '150px';
+             if($w.scrollTop() > Quorum_Control_system)
+                temp.style.height = '175px';
+             if($w.scrollTop() > qsd)
+                temp.style.height = '200px';
+             if($w.scrollTop() > rd)
+                temp.style.height = '225px';
+             if($w.scrollTop() > pc)
+                temp.style.height = '250px';
+
             if ($('#mercury').height() > 100) {
                 $('.temp.tem37').animate({
                             opacity: 1,
@@ -73,20 +92,28 @@ function flipup(){
             var $w = $(window);
             var modeling = $("#modeling").offset().top;
             var overview = $('#overview').offset().top - 110;
-            var SimulationResults = $("#SimulationResults").offset().top - 110;
-            var GRNSimulation = $('#GRNSimulation').offset().top - 110;
+            var Noise_in_the_cell = $("#Noise_in_the_cell").offset().top - 110;
+            var Heat_Resistant_system = $('#Heat_Resistant_system').offset().top - 110;
+            var Quorum_Control_system = $('#Quorum_Control_system').offset().top - 110;
 
-
-            if($w.scrollTop() > GRNSimulation) {
-                scrollToElement('GRNSimulation', 'normal', 115);
+            if($w.scrollTop() > Quorum_Control_system) {
+                scrollToElement('Quorum_Control_system', 'normal', 115);
                 return;
             }
-            if($w.scrollTop() > SimulationResults) {
-                scrollToElement('SimulationResults', 'normal', 115);
+            if($w.scrollTop() > Heat_Resistant_system) {
+                scrollToElement('Heat_Resistant_system', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > Noise_in_the_cell) {
+                scrollToElement('Noise_in_the_cell', 'normal', 115);
                 return;
             }
             if($w.scrollTop() > overview) {
                 scrollToElement('overview', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > modeling) {
+                scrollToElement('modeling', 'normal', 115);
                 return;
             }
             else {
@@ -99,25 +126,29 @@ function flipup(){
 function flipdown(){
             var $w = $(window);
             var modeling = $("#modeling").offset().top;
-            var overview = $("#overview").offset().top - 110;
-            var SimulationResults = $('#SimulationResults').offset().top - 110;
-            var GRNSimulation = $('#GRNSimulation').offset().top - 110;
-            var ODEmodel = $('#ODEmodel').offset().top - 110;
+            var overview = $('#overview').offset().top - 110;
+            var Noise_in_the_cell = $("#Noise_in_the_cell").offset().top - 110;
+            var Heat_Resistant_system = $('#Heat_Resistant_system').offset().top - 110;
+            var Quorum_Control_system = $('#Quorum_Control_system').offset().top - 110;
 
+            if($w.scrollTop() < modeling) {
+                scrollToElement('modeling', 'normal', 105);
+                return;
+            }
             if($w.scrollTop() < overview) {
                 scrollToElement('overview', 'normal', 105);
                 return;
             }
-            if($w.scrollTop() < SimulationResults) {
-                scrollToElement('SimulationResults', 'normal', 105);
+            if($w.scrollTop() < Noise_in_the_cell) {
+                scrollToElement('Noise_in_the_cell', 'normal', 105);
                 return;
             }
-            if($w.scrollTop() < GRNSimulation) {
-                scrollToElement('GRNSimulation', 'normal', 105);
+            if($w.scrollTop() < Heat_Resistant_system) {
+                scrollToElement('Heat_Resistant_system', 'normal', 105);
                 return;
             }
-            if($w.scrollTop() < ODEmodel) {
-                scrollToElement('ODEmodel', 'normal', 105);
+            if($w.scrollTop() < Quorum_Control_system) {
+                scrollToElement('Quorum_Control_system', 'normal', 105);
                 return;
             }       
             else {

@@ -118,16 +118,56 @@
 
 function flipup(){
             var $w = $(window);
-            var project = $("#project").offset().top;
-            var overview = $("#overview").offset().top - 110;
-            var safety = $('#safety').offset().top - 110;
+            var project = $("#notebook").offset().top;
+            var overview = $("#journal").offset().top - 110;
+            var feb = $('#feb').offset().top - 110;
+            var mar = $('#mar').offset().top - 110;
+            var apr = $('#apr').offset().top - 110;
+            var may = $('#may').offset().top - 110;
+            var jun = $('#jun').offset().top - 110;
+            var jul = $('#jul').offset().top - 110;
+            var aug = $('#aug').offset().top - 110;
+            var sep = $('#sep').offset().top - 110;
 
-            if($w.scrollTop() > safety) {
-                scrollToElement('safety', 'normal', 115);
+
+            if($w.scrollTop() > sep) {
+                scrollToElement('sep', 'normal', 115);
                 return;
             }
-            if($w.scrollTop() > overview) {
-                scrollToElement('overview', 'normal', 115);
+            if($w.scrollTop() > aug) {
+                scrollToElement('aug', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > jul) {
+                scrollToElement('jul', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > jun) {
+                scrollToElement('jun', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > may) {
+                scrollToElement('may', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > apr) {
+                scrollToElement('apr', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > mar) {
+                scrollToElement('mar', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > feb) {
+                scrollToElement('feb', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > journal) {
+                scrollToElement('journal', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > notebook) {
+                scrollToElement('notebook', 'normal', 115);
                 return;
             }
             else {
@@ -139,18 +179,58 @@ function flipup(){
 
 function flipdown(){
             var $w = $(window);
-            var project = $("#project").offset().top;
-            var overview = $("#overview").offset().top - 110;
-            var safety = $('#safety').offset().top - 110;
+            var project = $("#notebook").offset().top;
+            var overview = $("#journal").offset().top - 110;
+            var feb = $('#feb').offset().top - 110;
+            var mar = $('#mar').offset().top - 110;
+            var apr = $('#apr').offset().top - 110;
+            var may = $('#may').offset().top - 110;
+            var jun = $('#jun').offset().top - 110;
+            var jul = $('#jul').offset().top - 110;
+            var aug = $('#aug').offset().top - 110;
+            var sep = $('#sep').offset().top - 110;
 
-            if($w.scrollTop() < overview) {
-                scrollToElement('overview', 'normal', 105);
+            if($w.scrollTop() < notebook) {
+                scrollToElement('notebook', 'normal', 105);
                 return;
             }
-            if($w.scrollTop() < safety) {
-                scrollToElement('safety', 'normal', 105);
+            if($w.scrollTop() < journal) {
+                scrollToElement('journal', 'normal', 105);
                 return;
-            }      
+            }  
+            if($w.scrollTop() < feb) {
+                scrollToElement('feb', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < mar) {
+                scrollToElement('mar', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < apr) {
+                scrollToElement('apr', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < may) {
+                scrollToElement('may', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < jun) {
+                scrollToElement('jun', 'normal', 105);
+                return;
+            }    
+            if($w.scrollTop() < jul) {
+                scrollToElement('jul', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < aug) {
+                scrollToElement('aug', 'normal', 105);
+                return;
+            }
+            if($w.scrollTop() < sep) {
+                scrollToElement('sep', 'normal', 105);
+                return;
+            }
+
             else {
                 scrollToElement('footer', 'normal', 110);
                 return;
