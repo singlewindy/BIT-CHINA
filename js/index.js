@@ -256,3 +256,37 @@
 	})
 
 })();
+
+function scrollToElement(id, speed, num){
+    $('html,body').animate({scrollTop: $("#"+id).offset().top + num}, speed, function() {
+  });
+}
+
+function flipdown(){
+    var $w = $(window);
+    var sitemap = $("#sitemap").offset().top - 110;
+    var story = $('#story').offset().top - 110;
+    var about = $('#about').offset().top - 110;
+    var contact = $('#contact').offset().top - 110;
+
+    if($w.scrollTop() < sitemap) {
+        scrollToElement('sitemap', 'slow', 425);
+        return;
+    }
+    if($w.scrollTop() < story) {
+        scrollToElement('story', 'slow', 75);
+        return;
+    }
+    if($w.scrollTop() < about) {
+        scrollToElement('about', 'slow', 105);
+        return;
+    }
+    if($w.scrollTop() < contact) {
+        scrollToElement('contact', 'slow', 0);
+        return;
+    }  
+    else {
+    	scrollToElement('contact', 'slow', 200);
+        return;
+    }      
+ }
