@@ -80,13 +80,13 @@
     height: 380px;
 }
 #sidebar .temper .model_height{
-    height: 480px;
+    height: 400px;
 }
 #sidebar .temper .sponser_height{
     height: 150px;
 }
 #sidebar .temper .humanpractice_height{
-    height: 370px;
+    height: 390px;
 }
 
 #sidebar .list {
@@ -474,9 +474,26 @@
     font-family: 'Port Lligat Slab', serif;
 }
 
-.section .title {
-    float: left;
-    margin: 0px 20px 20px 0px;
+.section.hero .title {
+    margin-bottom: 30px;
+}
+
+.section.text .title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section.text .content img{
+    text-align: center;
+    width: 100%;
+}
+.section.hero .content img{
+    text-align: center;
+    width: 100%;
+}
+
+.section.hero .content code img{
+    height: 20px;
 }
 
 .image .com{
@@ -542,14 +559,12 @@
     color: #4f4f4f;
     font-size: 24px;
     line-height: 30px;
-    font-family: "museo-slab-1","museo-slab-2",arial,sans
+    font-family: "museo-slab-1","museo-slab-2",arial,sans;
 }
 .section .component .left p {
     margin: 0;
-    padding-bottom: 10px;
-    color: #4f4f4f;
     font-size: 16px;
-    line-height: 24px
+    line-height: 24px;
 }
 .section .component .left img {
     margin: 0 auto;
@@ -800,4 +815,11 @@ th {
 .fold {
     height: 0px;
     visibility: hidden;
+}
+
+.word-title{
+    font-family: 'Chela One', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: left;
 }
