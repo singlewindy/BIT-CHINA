@@ -4,10 +4,15 @@
 	var overview = $("#overview").offset().top - 110;
     var mab = $("#mab").offset().top - 110;
     var faq = $("#faq").offset().top - 110;
-    var HR = $("#HR").offset().top - 110;
+    var CT = $("#CT").offset().top - 110;
+    var rt = $("#rt").offset().top - 110;
+    var hsps = $("#hsps").offset().top - 110;
     var QC = $("#QC").offset().top - 110;
     var QS = $("#QS").offset().top - 110;
+    var Iv = $("#Iv").offset().top - 110;
+    var PCD = $("#PCD").offset().top - 110;
     var parts = $("#parts").offset().top - 110;
+    var co = $("#co").offset().top - 110;
     var safety = $('#safety').offset().top - 110;
 
 	var temp = document.getElementById("mercury");
@@ -21,18 +26,24 @@
                 temp.style.height = '50px';
             if($w.scrollTop() > faq)
                 temp.style.height = '100px';
-            if($w.scrollTop() > HR)
+            if($w.scrollTop() > CT)
                 temp.style.height = '125px';
+            if($w.scrollTop() > rt)
+                temp.style.height = '150px';
+            if($w.scrollTop() > hsps)
+                temp.style.height = '175px';
             if($w.scrollTop() > QC)
                 temp.style.height = '210px';
             if($w.scrollTop() > QS)
                 temp.style.height = '235px';
+            if($w.scrollTop() > Iv)
+                temp.style.height = '285px';
             if($w.scrollTop() > PCD)
                 temp.style.height = '350px';
             if($w.scrollTop() > parts)
-                temp.style.height = '395px';
+                temp.style.height = '415px';
             if($w.scrollTop() > safety)
-                temp.style.height = '410px';
+                temp.style.height = '430px';
             if ($('#mercury').height() > 100) {
                 $('.temp.tem37').animate({
                             opacity: 1,
@@ -88,15 +99,18 @@ function flipup(){
             var $w = $(window);
             var project = $("#project").offset().top;
             var overview = $("#overview").offset().top - 110;
-            var mab = $("#mab").offset().top - 110;
-            var faq = $("#faq").offset().top - 110;
-            var HR = $("#HR").offset().top - 110;
+            var CT = $("#CT").offset().top - 110;
             var QC = $("#QC").offset().top - 110;
             var parts = $("#parts").offset().top - 110;
+            var co = $("#co").offset().top - 110;
             var safety = $('#safety').offset().top - 110;
 
             if($w.scrollTop() > safety) {
                 scrollToElement('safety', 'normal', 115);
+                return;
+            }
+            if($w.scrollTop() > co) {
+                scrollToElement('co', 'normal', 115);
                 return;
             }
             if($w.scrollTop() > parts) {
@@ -107,16 +121,8 @@ function flipup(){
                 scrollToElement('QC', 'normal', 115);
                 return;
             }
-            if($w.scrollTop() > HR) {
-                scrollToElement('HR', 'normal', 115);
-                return;
-            }
-            if($w.scrollTop() > faq) {
-                scrollToElement('faq', 'normal', 115);
-                return;
-            }
-            if($w.scrollTop() > mab) {
-                scrollToElement('mab', 'normal', 115);
+            if($w.scrollTop() > CT) {
+                scrollToElement('CT', 'normal', 115);
                 return;
             }
             if($w.scrollTop() > overview) {
@@ -135,27 +141,18 @@ function flipdown(){
             var $w = $(window);
             var project = $("#project").offset().top;
             var overview = $("#overview").offset().top - 110;
-            var mab = $("#mab").offset().top - 110;
-            var faq = $("#faq").offset().top - 110;
-            var HR = $("#HR").offset().top - 110;
+            var CT = $("#CT").offset().top - 110;
             var QC = $("#QC").offset().top - 110;
             var parts = $("#parts").offset().top - 110;
+            var co = $("#co").offset().top - 110;
             var safety = $('#safety').offset().top - 110;
 
             if($w.scrollTop() < overview) {
                 scrollToElement('overview', 'normal', 105);
                 return;
             }
-            if($w.scrollTop() < mab) {
-                scrollToElement('mab', 'normal', 105);
-                return;
-            }
-            if($w.scrollTop() < faq) {
-                scrollToElement('faq', 'normal', 105);
-                return;
-            }
-            if($w.scrollTop() < HR) {
-                scrollToElement('HR', 'normal', 105);
+            if($w.scrollTop() < CT) {
+                scrollToElement('CT', 'normal', 105);
                 return;
             }
             if($w.scrollTop() < QC) {
@@ -166,10 +163,10 @@ function flipdown(){
                 scrollToElement('parts', 'normal', 105);
                 return;
             }
-            
-            
-            
-            
+            if($w.scrollTop() < co) {
+                scrollToElement('co', 'normal', 105);
+                return;
+            }           
             if($w.scrollTop() < safety) {
                 scrollToElement('safety', 'normal', 105);
                 return;
