@@ -1341,11 +1341,10 @@ section p {
     transition: all .5s;
 }
 
-#display-img-description{
+#display-img-description img{
     margin-top: 20px;
     margin-left: 20px;
     width: 38%;
-    background: url(../img/homepage/IMHere.png);
     height: 45%;
     background-size: 100% 100%;
     float: left;
@@ -1354,6 +1353,8 @@ section p {
     -ms-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 #display-content-description{
@@ -1434,4 +1435,15 @@ section p {
     -ms-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
+}
+
+
+
+#display-img-description p{
+    white-space: pre-wrap;
+    font-size: 30px;
+    font-family: 'Capriola', sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+    line-height: 42px;
 }
