@@ -1385,10 +1385,8 @@ section p {
     visibility: hidden;
 }
 #display-img-charactors img{
-    margin-top: 20px;
     margin-left: 20px;
-    width: 38%;
-    height: 45%;
+    height: 130px;
     background-size: 100% 100%;
     float: left;
     -webkit-transition: all .5s;
@@ -1397,6 +1395,16 @@ section p {
     -o-transition: all .5s;
     transition: all .5s;
 }
+#display-img-charactors p{
+    white-space: pre-wrap;
+    font-size: 20px;
+    font-family: 'Capriola', sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+    line-height: 30px;
+}
+
+
 
 #display-img-extend{
     display: none;
