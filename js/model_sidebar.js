@@ -131,7 +131,6 @@ function flipdown(){
             var Heat_Resistant_system = $('#Heat_Resistant_system').offset().top - 110;
             var Quorum_Control_system = $('#Quorum_Control_system').offset().top - 110;
 
-           
             if($w.scrollTop() < overview) {
                 scrollToElement('overview', 'normal', 105);
                 return;

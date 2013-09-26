@@ -38,6 +38,9 @@
             else {global_current_elem = global_current_elem + 1;}
             $('#myCarousel').carousel(global_current_elem);
             set_active_btn(global_current_elem + 1);
+            if (global_current_elem == 0) {
+                $('#story1_gem').css('opacity', '1');
+            };
         }
 
         function scrollLefty() {
@@ -384,7 +387,8 @@
                       <h1>Hardworking Coco</h1>
                       <p class="lead">Once upon a time, there was a hard working guy called Coco. He was always busy working in his office. As time went by, He got more and more colleague. The workplace become crowd, everyone in the office could not work well.</p>
                     </div>
-                    
+                    <div id="story1_sun" class="floating"></div>
+                    <div id="story1_gem"></div>
                   </div>
                 </div>
                 <div class="item" data-slide-to="1">
@@ -395,6 +399,8 @@
                       <h1>The bothering of warming</h1>
                       <p class="lead">So he set an air-conditioner. That stuff cost him a lot of money for electricity. But that was not ended, the electricity consumed by air-conditioner came from the fossil fuel. As a result, the burning of fossil fuel not only damaged the earth but also made everyone outside the house suffer in hot.</p>
                     </div>
+                    <div id="story2_sun" class="floating"></div>
+                    <div id="story2_gem"></div>
                   </div>
                 </div>
                 <div class="item" data-slide-to="2">
@@ -415,6 +421,8 @@
                       <h1>The arrival of happiness</h1>
                       <p class="lead">According to this, Coco could work without the air-conditioner. There was no sweat from heat, nor conflicts from crowd. Coco and his colleague work happily day by day, and produce a lot of happiness to the world. </p>
                     </div>
+                    <div id="story4_sun" class="floating"></div>
+                    <div id="story4_gem"></div>
                   </div>
                 </div>
               </div>
