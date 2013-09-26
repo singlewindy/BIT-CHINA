@@ -459,6 +459,14 @@
     overflow: hidden;
     text-align: center;
 }
+.section.text {
+    padding-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.section.text p{
+    text-align: left;
+}
 
 
 .section.hero h1 {
