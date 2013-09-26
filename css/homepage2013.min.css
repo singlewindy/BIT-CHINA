@@ -1531,11 +1531,11 @@ section p {
 
 .info-sch{
     opacity: 0.6;
-    width: 300px;
-    height: 460px;
+    width: 350px;
+    height: 430px;
     background-color: black;
-    margin-left: -120px;
-    margin-top: -440px;
+    margin-left: -150px;
+    margin-top: -460px;
     border-radius: 10px;
     padding: 10px;
     white-space: pre-wrap;
