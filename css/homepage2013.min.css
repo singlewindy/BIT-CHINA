@@ -1107,14 +1107,14 @@ section p {
 }
 
 .parallax2 {
-    background: transparent url('../img/homepage/contact2.png') repeat-x 0px bottom;
-    background-size: 2500px;
+    background: transparent url('../img/homepage/city2.png') repeat-x 0px bottom;
+    background-size: 1500px;
     bottom: 80px;
     height: 100%;
     opacity: 0.5;
     position: absolute;
     width: 200%;
-    z-index: -2
+    z-index: -2;
 }
 
 #road {

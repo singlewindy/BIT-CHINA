@@ -50,7 +50,7 @@
 	}
 
 	100% {
-		transform: translateX(-2500px)
+		transform: translateX(-1500px)
 	}
 }
 
@@ -60,7 +60,7 @@
 	}
 
 	100% {
-		-webkit-transform: translateX(-2500px) translate3d(0, 0, 0)
+		-webkit-transform: translateX(-1500px) translate3d(0, 0, 0)
 	}
 }
 
