@@ -1097,8 +1097,8 @@ section p {
 }
 
 .parallax {
-    background: transparent url('../img/homepage/contact2.png') repeat-x 0px bottom;
-    background-size: 3000px;
+    background: transparent url('../img/homepage/city.png') repeat-x 0px bottom;
+    background-size: 1500px;
     bottom: 80px;
     height: 100%;
     position: absolute;
