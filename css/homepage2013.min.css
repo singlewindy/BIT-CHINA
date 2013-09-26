@@ -1529,3 +1529,24 @@ section p {
 }
 
 
+.info-sch{
+    opacity: 0.6;
+    width: 300px;
+    height: 460px;
+    background-color: black;
+    margin-left: -120px;
+    margin-top: -440px;
+    border-radius: 10px;
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+#point .info-sch {
+    white-space: pre-wrap;
+    font-size: 23px;
+    font-family: 'Capriola', sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+    line-height: 32px;
+
+}
