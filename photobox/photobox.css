@@ -2,7 +2,7 @@
     
 	margin-left:20%;
 	padding-top:140px;
-	width:800px;
+	width:1200px;
 	height:600px;
 
 }
@@ -10,7 +10,7 @@
 .hktext p{font-size:1.2em;}
 #gallery{ float:right; width:60%; z-index:9999;margin-right:20px;margin-top:10px;}
 	#gallery li{ list-style:none; perspective:100px; -webkit-perspective:100px; margin:1px; float:right; position:relative; transition:.1s; -webkit-transition:0.1s; }
-		#gallery a{ display:block; width:130px; height:110px; vertical-align:bottom; overflow:hidden; background:rgba(0,0,0,0.1);
+		#gallery a{ display:block; width:260px; height:220px; vertical-align:bottom; overflow:hidden; background:rgba(0,0,0,0.1);
 					transition:.4s ease-out; -webkit-transition:0.4s ease-out; -webkit-transform:rotateX(90deg) translate(-50px,-50%); transform:rotateX(90deg) translate(-50px,-50%); }
 		#gallery a:active, #gallery a:focus{ outline:none; }
 		#gallery a img{ min-height:100%; width:100%; transition:.3s ease-out; -webkit-transition:0.3s ease-out; }
