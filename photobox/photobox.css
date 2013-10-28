@@ -4,6 +4,8 @@
 	padding-top:80px;
 	width:95%;
 	height:600px;
+	opacity: 0;
+	visibility: hidden;
 
 }
 .hktext{ float:left; font-size:1.2em; width:36%; color:#FFF; text-shadow:2px 2px 4px rgba(0,0,0,.5);padding-top:90px;}

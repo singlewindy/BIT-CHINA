@@ -252,7 +252,40 @@
 		},function(){
 		});
 
-		
+		$("#award").hover(function(){
+			$("#laptop-screen").animate({
+							opacity: 0
+
+						}, {
+							duration: 500
+						});
+			$("#laptop").animate({
+							opacity: 0
+						}, {
+							duration: 500
+						});
+			$("#introduction").animate({
+							opacity: 0
+						}, {
+							duration: 500
+						});
+			$("#hkphoto").animate({
+							opacity: 1
+						}, {
+							duration: 500
+						});
+			$("#award").animate({
+							width: 200
+						}, {
+							duration: 500
+						});
+			$("#hkphoto").css("visibility", "visible");
+			
+		},function(){
+			$("#laptop-screen").css("display", "none");
+			$("#laptop").css("display", "none");
+			$("#introduction").css("display", "none");
+		});
 	})
 
 })();
