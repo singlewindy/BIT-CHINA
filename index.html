@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <link rel="stylesheet" href="css/base.css?action=raw&ctype=text/css" type="text/css">
+	<link rel="stylesheet" href="photobox/photobox.css" type="text/css">
     <link rel="stylesheet" href="css/homepage2013.min.css?action=raw&ctype=text/css" type="text/css">
     <link rel="stylesheet" href="css/animation.css?action=raw&ctype=text/css" type="text/css">
     <link rel="stylesheet" href="css/style.css?action=raw&ctype=text/css" type="text/css">
@@ -15,8 +16,8 @@
     <script type="text/javascript" src="js/raphael-min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=en-US"></script>
     <script type="text/javascript" src="js/infobox_packed.js"></script>
+	<script type="text/javascript" src="photobox/photobox.js"></script>
 
     <script>
         $(function(){
@@ -73,88 +74,7 @@
         }
     </script>
 
-    <script>
-        var map;
-        var marker;
-        var n = 0;
-
-        function isInfoBoxOpen(infoBox){
-            var map = infoBox.getMap();
-            return (map === null || typeof map === "undefined");
-        }
-
-        function initialize() {
-          var myLatlng = new google.maps.LatLng(39.959758,116.31615);
-
-          var mapOptions = {
-            zoom: 11,
-            center: myLatlng,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-          };
-
-          map = new google.maps.Map(document.getElementById('googlemap'),
-              mapOptions);
-
-        var boxText = document.createElement("div");
-        boxText.innerHTML = "<aside class='hatch'>" +
-                            "<div class='icon-BIT'><img src='./img/sponsers/BIT.png' width='100'/></div>" +
-                            "<dl>" + 
-                            "<dt>School</dt>" + "<dd>Beijing Institute Of Technology</dd>" + 
-                            "<dt>Postcode</dt>" + "<dd>100081</dd>" + 
-                            "<dt>Address</dt>" + "<dd>5 South Zhongguancun Street, Haidian District, Beijing</dd>" + 
-                            "<dt>Email</dt>" + "<dd>singlewindy@gmail.com</dd>" + 
-                            "</dl>" + "</aside>";
-
-        var myOptions = {
-                 content: boxText
-                ,disableAutoPan: false
-                ,maxWidth: 0
-                ,pixelOffset: new google.maps.Size(-140, 0)
-                ,zIndex: null
-                ,boxStyle: { 
-                 }
-                ,infoBoxClearance: new google.maps.Size(1, 1)
-                ,closeBoxURL:""
-                ,isHidden: false
-                ,pane: "floatPane"
-                ,enableEventPropagation: false
-        };
-
-        var ib = new InfoBox(myOptions);
-
-        marker = new google.maps.Marker({
-          position: myLatlng,
-          map: map,
-          draggable:true,
-          animation: google.maps.Animation.DROP
-        });
-
-        ib.open(map, marker);
-        google.maps.event.addListener(marker, 'click', toggleBounce);
-        google.maps.event.addListener(marker, 'click', function() {
-            if (!isInfoBoxOpen(ib)) {
-                ib.close(map, marker);
-            } else {
-                ib.open(map, marker);
-            }
-            n = n + 1;
-        });
-    }
-
-        function toggleBounce() {
-
-          if (marker.getAnimation() != null) {
-            marker.setAnimation(null);
-          } else {
-            marker.setAnimation(google.maps.Animation.BOUNCE);
-            for (var i = 0; i <= 1000; i++);
-            marker.setAnimation(null);
-          }
-        }
-
-        google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
+   
     
 </head>
 
@@ -248,6 +168,54 @@
 <div class="page_content" style="position:relative; z-index:1;">
     <div class="home ready">
         <section id="cover">
+		
+		
+		
+		
+		<div id='hkphoto'>
+		<div class='hktext'>
+		<p>Having been through a happy period in Hong Kong, we get our certification to MIT. Every team worked so hard, and everybody are all so friendly. Of course it is important that we get a gold medal and the certification to go to American, but what really matters is what we saw, who we met, and what we had been through. The whole competition had become a great celebration for every member of iGEM and synthetic biology.</p>
+		</div>
+		<ul id='gallery'>
+		<li class='loaded'><a href="HK/HK_1.JPG">
+			<img src="HK/HK_1.JPG" alt="gold medal">
+		</a></li>
+		<li class='loaded'><a href="HK/HK_2.JPG">
+			<img src="HK/HK_2.JPG" alt="gold medal">
+		</a></li>
+		<li class='loaded'><a href="HK/HK_3.JPG">
+			<img src="HK/HK_3.JPG" alt="gold medal">
+		</a></li>
+		<li class='loaded'><a href="HK/HK_4.JPG">
+			<img src="HK/HK_4.JPG" alt="gold medal">
+		</a></li>
+        
+        <li class='loaded'><a href="HK/HK_9.JPG">
+            <img src="HK/HK_9.JPG" alt="gold medal">
+        </a></li>
+        <li class='loaded'><a href="HK/HK_8.JPG">
+            <img src="HK/HK_8.JPG" alt="gold medal">
+        </a></li>
+        <li class='loaded'><a href="HK/HK_7.JPG">
+            <img src="HK/HK_7.JPG" alt="gold medal">
+        </a></li>
+        <li class='loaded'><a href="HK/HK_6.JPG">
+            <img src="HK/HK_6.JPG" alt="gold medal">
+        </a></li>
+        <li class='loaded'><a href="HK/HK_5.JPG">
+            <img src="HK/HK_5.JPG" alt="gold medal">
+        </a></li>
+        <li class='loaded'><a href="HK/HK_10.JPG">
+            <img src="HK/HK_10.JPG" alt="gold medal">
+        </a></li>
+        <li class='loaded'><a href="HK/HK_11.JPG">
+            <img src="HK/HK_11.JPG" alt="gold medal">
+        </a></li>
+
+	    </ul>
+		</div>
+		
+		
             <div class="wrap">
 
                 <div id="laptop-screen">
@@ -500,7 +468,16 @@
             </div>
         </div>
 
+	<script>
+        $('#gallery').photobox('a');
+        // or with a fancier selector and some settings, and a callback:
+        $('#gallery').photobox('a:first', { thumbs:false, time:0 }, imageLoaded);
+        function imageLoaded(){
+            console.log('image has been loaded...');
+        }
+    </script>
     <script type="text/javascript" src="js/empty.js"></script>
+	
  
 
 </body>
